@@ -20,6 +20,14 @@ Vamos dividi-las:
 
 Padrões por categorias
 
+PADRÕES CRIACIONAIS
+  - Factory
+    - Factory method
+    - Abstract factory
+  - Builder
+  - Prototype
+  - Singleton
+
 PADRÕES COMPORTAMENTAIS
   - Chain of responsability
   - Command
@@ -30,14 +38,6 @@ PADRÕES COMPORTAMENTAIS
   - State
   - Strategy
   - Visitor
-
-PADRÕES CRIACIONAIS
-  - Factory
-    - Factory method
-    - Abstract factory
-  - Builder
-  - Prototype
-  - Singleton
 
 PADRÕES ESTRUTURAIS
   - Adapter
