@@ -1,3 +1,9 @@
+/**
+ * O padrão Abstract Factory permite que uma determinada família de objetos
+ * possa ser gerada por meio de uma factory especializada e que retorne somente
+ * objetos do tipo daquela família especificada.
+ * */
+
 class AbstractFactory {
   createCat () {
     throw new Error('Should be implemented')

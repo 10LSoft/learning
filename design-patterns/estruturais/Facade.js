@@ -1,3 +1,10 @@
+/**
+ * O padrão Facade tem como proposta principal fornecer uma interface cujo
+ * objetivo é a simplificação com relação a um ambiente mais hostil, de modo a
+ * parecer que trata-se de um ambiente mais simples e com um acesso bem mais
+ * amigável.
+ * */
+
 class Complicated1 {
   methodA () { return 'Complicated 1 - methodA' }
   methodB () { return 'Complicated 1 - methodB' }

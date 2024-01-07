@@ -1,3 +1,9 @@
+/**
+ * O padrão Observer consistem em termos classes que acionam outras classes
+ * quando determinado evento ocorre. Este padrão é excelente para implementar
+ * chamadas a event runners e triggers que devem ocorrer mediante algum evento.
+ * */
+
 class Subject {
   constructor () {
     this.observers = []

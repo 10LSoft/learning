@@ -1,3 +1,9 @@
+/**
+ * O padrão Adapter tem como proposta fornecer uma maneira de conectar sistemas
+ * incompatíveis, de modo que a chamada original tenha outro escopo, mas que
+ * isso seja o mais transparente possível.
+ * */
+
 class OldSystem {
   legacyRequest () {
     console.log('call inside the old system')
