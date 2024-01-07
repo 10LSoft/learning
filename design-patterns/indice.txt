@@ -21,12 +21,12 @@ Vamos dividi-las:
 Padrões por categorias
 
 PADRÕES CRIACIONAIS
-  - Factory
-    - Factory method
-    - Abstract factory
-  - Builder
-  - Prototype
-  - Singleton
+  - Factory: ✔
+    - Factory method: ✔
+    - Abstract factory: ✔
+  - Builder: ✔
+  - Prototype: ✔
+  - Singleton: ✔
 
 PADRÕES COMPORTAMENTAIS
   - Chain of responsability
@@ -34,16 +34,16 @@ PADRÕES COMPORTAMENTAIS
   - Iterator
   - Mediator
   - Memento
-  - Observer
+  - Observer: ✔
   - State
-  - Strategy
+  - Strategy; ✔
   - Visitor
 
 PADRÕES ESTRUTURAIS
-  - Adapter
+  - Adapter ✔
   - Bridge
   - Composite
   - Decorator
-  - Facade
+  - Facade: ✔
   - Flyweight
   - Proxy
