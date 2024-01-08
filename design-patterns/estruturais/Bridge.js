@@ -50,7 +50,7 @@ class Shape {
 
 class Circle extends Shape {
   constructor (x, y, radius, DrawingAPI) {
-    // here I call the upper bridge sething up
+    // here I call the upper bridge setting up
     super(DrawingAPI)
     this.x = x
     this.y = y
