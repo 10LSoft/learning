@@ -1,5 +1,5 @@
 /* 
- * O padrão command consite em abstrair um pedido ou ação, por meio
+ * O padrão command consiste em abstrair um pedido ou ação, por meio
  * de uma interface que aciona outra classe que contém um método para
  * realizar uma ação em um objeto.
 */
@@ -16,7 +16,6 @@ class Target {
 }
 
 // Command Interface
-
 class CommandInterface {
   execute () {}
 }
