@@ -36,8 +36,8 @@ PADRÕES COMPORTAMENTAIS
   - Memento: ✔️
   - Observer: ✔
   - State: ✔️
-  - Strategy; ✔
-  - Visitor
+  - Strategy: ✔
+  - Visitor: ✔
 
 PADRÕES ESTRUTURAIS
   - Adapter ✔
