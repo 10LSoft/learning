@@ -1,23 +1,70 @@
 /**
- * O padrão Composite permite que objetos sejam tratados de forma individual e
- * que eles sejam compostos por composição de outros pré-definidos, ou seja, os
- * compostos (objeto do composite) são criados a partir da junção de outros
- * objetos.
+ * O padrão composite segue para tratar objetos e composição de objetos de forma
+ * uniforme, de modo que cada objeto dentro do composite possa ser processado da
+ * mesma maneira, inclusive uma instância de composite, pode ser passada para
+ * outra.
  *
- * Um detalhe é que os objetos da composição devem ser homogêneos, pois um
- * processamento ocorrerá nestes objetos, por*/
+ * Observe o exemplo abaixo:
+ * */
 
-class Human {
-  say () {
-    throw new Error('should be implemented')
+class Graphic {
+  draw () {
+    throw new Error('Should be implemented')
   }
 }
 
-class NoiadaDeAfogados extends Human {
+class Square extends Graphic {
   constructor (name) {
-    this.name = name
     super()
+    this.name = name
+  }
+
+  draw () {
+    console.log(`drawing a square: ${this.name}`)
   }
 }
 
-const teste = new NoiadaDeAfogados('embosa')
+class Circle extends Graphic {
+  constructor (name) {
+    super()
+    this.name = name
+  }
+
+  draw () {
+    console.log(`drawing a circle: ${this.name}`)
+  }
+}
+
+// composite em si
+class CompositeGraphic extends Graphic {
+  constructor () {
+    super()
+    this.graphics = []
+  }
+
+  add (graphic) {
+    this.graphics.push(graphic)
+  }
+
+  draw () {
+    console.log('Drawing composition:')
+    this.graphics.forEach(graphic => graphic.draw())
+  }
+}
+
+// usando o composite
+const circle1 = new Circle('Circle 1')
+const circle2 = new Circle('Circle 2')
+const square1 = new Square('Square 1')
+const square2 = new Square('Square 2')
+
+const composite1 = new CompositeGraphic()
+composite1.add(circle1)
+composite1.add(circle2)
+composite1.add(square1)
+
+const composite2 = new CompositeGraphic()
+composite2.add(square2)
+composite2.add(composite1)
+
+composite2.draw()
