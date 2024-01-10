@@ -12,32 +12,32 @@
 // Component
 class Coffee {
   cost() {
-    return 2.00;
+    return 2.00
   }
 
   description() {
-    return 'Coffee';
+    return 'Coffee'
   }
 }
 
 // Decorator
 class CoffeeWithMilk extends Coffee {
   constructor(coffee) {
-    super();
-    this._coffee = coffee;
+    super()
+    this._coffee = coffee
   }
 
   cost() {
-    return this._coffee.cost() + 1.50;
+    return this._coffee.cost() + 1.50
   }
 
   description() {
-    return `${this._coffee.description()} with milk`;
+    return `${this._coffee.description()} with milk`
   }
 }
 
-const coffee = new Coffee();
-console.log(coffee.description()); // Coffee
+const coffee = new Coffee()
+console.log(coffee.description()) // Coffee
 
-const coffeeWithMilk = new CoffeeWithMilk(coffee);
-console.log(coffeeWithMilk.description()); // Coffee with milk
+const coffeeWithMilk = new CoffeeWithMilk(coffee)
+console.log(coffeeWithMilk.description()) // Coffee with milk
