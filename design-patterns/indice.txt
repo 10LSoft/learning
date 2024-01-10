@@ -30,10 +30,10 @@ PADRÕES CRIACIONAIS
 
 PADRÕES COMPORTAMENTAIS
   - Chain of responsability
-  - Command
+  - Command: ✔
   - Iterator
-  - Mediator
-  - Memento
+  - Mediator: ✔
+  - Memento: ✔
   - Observer: ✔
   - State
   - Strategy; ✔
@@ -41,7 +41,7 @@ PADRÕES COMPORTAMENTAIS
 
 PADRÕES ESTRUTURAIS
   - Adapter ✔
-  - Bridge
+  - Bridge ✔
   - Composite
   - Decorator
   - Facade: ✔
