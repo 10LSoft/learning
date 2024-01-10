@@ -31,7 +31,7 @@ PADRÕES CRIACIONAIS
 PADRÕES COMPORTAMENTAIS
   - Chain of responsability: ✔
   - Command: ✔
-  - Iterator
+  - Iterator: ✔️
   - Mediator: ✔
   - Memento: ✔️
   - Observer: ✔
