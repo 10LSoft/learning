@@ -22,28 +22,28 @@
 // Abstract Middleware
 class AbstractMiddleware {
   constructor(request) {
-    this.nextMiddleware = null;
-    this.request = request;
+    this.nextMiddleware = null
+    this.request = request
   }
 
   setNextMiddleware(middleware) {
-    this.nextMiddleware = middleware;
-    return this.nextMiddleware;
+    this.nextMiddleware = middleware
+    return this.nextMiddleware
   }
 
   processRequest() {
     if (this.shouldProcess()) {
-      console.log(this.successMessage);
+      console.log(this.successMessage)
       if (this.nextMiddleware) {
-        this.nextMiddleware.processRequest();
+        this.nextMiddleware.processRequest()
       }
     } else {
-      console.log(this.failureMessage);
+      console.log(this.failureMessage)
     }
   }
 
   shouldProcess() {
-    throw new Error('shouldProcess method should be implemented in concrete middleware');
+    throw new Error('shouldProcess method should be implemented in concrete middleware')
   }
 }
 
@@ -51,53 +51,53 @@ class AbstractMiddleware {
 
 class CheckLoginMiddleware extends AbstractMiddleware {
   constructor(request) {
-    super(request);
-    this.successMessage = 'Usuário autenticado.';
-    this.failureMessage = 'Usuário não está autenticado.';
+    super(request)
+    this.successMessage = 'Usuário autenticado.'
+    this.failureMessage = 'Usuário não está autenticado.'
   }
 
   shouldProcess() {
-    return this.request.user.authenticated;
+    return this.request.user.authenticated
   }
 }
 
 // Concrete Middleware
 class CheckUserAgeMiddleware extends AbstractMiddleware {
   constructor(request) {
-    super(request);
-    this.successMessage = 'Tudo processado! Você está autorizado a entrar no sistema';
-    this.failureMessage = 'Você não está autorizado a entrar neste site';
+    super(request)
+    this.successMessage = 'Tudo processado! Você está autorizado a entrar no sistema'
+    this.failureMessage = 'Você não está autorizado a entrar neste site'
   }
 
   shouldProcess() {
-    return this.request.user.cnh || this.request.user.age > 10;
+    return this.request.user.cnh || this.request.user.age > 10
   }
 }
 
 class Client {
   constructor() {
-    this.middlewares = [];
+    this.middlewares = []
   }
 
   use(middleware) {
     if (this.middlewares.length > 0) {
-      this.middlewares[this.middlewares.length - 1].setNextMiddleware(middleware);
+      this.middlewares[this.middlewares.length - 1].setNextMiddleware(middleware)
     }
-    this.middlewares.push(middleware);
-    return this;
+    this.middlewares.push(middleware)
+    return this
   }
 
   makeRequest(request) {
     if (this.middlewares.length > 0) {
-      this.middlewares[0].processRequest();
+      this.middlewares[0].processRequest()
     } else {
-      console.log('Nenhum middleware configurado.');
+      console.log('Nenhum middleware configurado.')
     }
   }
 }
 
 // Exemplo de uso
-const client = new Client();
+const client = new Client()
 
 client
   .use(new CheckLoginMiddleware({
@@ -108,4 +108,4 @@ client
     },
   }))
   .use(new CheckUserAgeMiddleware())
-  .makeRequest();
+  .makeRequest()
