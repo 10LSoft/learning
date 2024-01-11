@@ -16,47 +16,47 @@
 */
 
 class Tree {
-  constructor(coordX, coordY, type) {
-    this.coordX = coordX;
-    this.coordY = coordY;
-    this.type = type;
+  constructor (coordX, coordY, type) {
+    this.coordX = coordX
+    this.coordY = coordY
+    this.type = type
   }
 }
 
 class TreeType {
-  constructor(name, color, texture) {
-    this.name = name;
-    this.color = color;
-    this.texture = texture;
+  constructor (name, color, texture) {
+    this.name = name
+    this.color = color
+    this.texture = texture
   }
 }
 
 class TreeFactory {
-  constructor() {
-    this.treeTypes = [];
+  constructor () {
+    this.treeTypes = []
   }
 
-  getTreeType(treeName, treeColor = null, treeTexture = null) {
-    let existingType = this.treeTypes.find(type => type.name === treeName);
+  getTreeType (treeName, treeColor = null, treeTexture = null) {
+    let existingType = this.treeTypes.find(type => type.name === treeName)
 
     if (!existingType) {
       try {
-        const newTreeType = new TreeType(treeName, treeColor, treeTexture);
-        this.treeTypes.push(newTreeType);
-        return newTreeType;
+        const newTreeType = new TreeType(treeName, treeColor, treeTexture)
+        this.treeTypes.push(newTreeType)
+        return newTreeType
       } catch (error) {
-        throw error;
+        throw error
       }
     }
 
-    return existingType;
+    return existingType
   }
 }
 
-const factory = new TreeFactory();
+const factory = new TreeFactory()
 
-const taigaType = factory.getTreeType('Taiga', 'grey', 'textura taiga');
+const taigaType = factory.getTreeType('Taiga', 'grey', 'textura taiga')
 
-const tree = new Tree(1, 1, taigaType);
+const tree = new Tree(1, 1, taigaType)
 
-console.log(tree);
+console.log(tree)
