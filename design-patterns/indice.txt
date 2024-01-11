@@ -46,4 +46,4 @@ PADRÕES ESTRUTURAIS
   - Decorator: ✔
   - Facade: ✔
   - Flyweight: ✔️
-  - Proxy
+  - Proxy: ✓
