@@ -1,7 +1,7 @@
 /*
-  * O padrão chain of responsability é um conjunto de passos para processar
+  * O padrão chain of responsibility é um conjunto de passos para processar
   * uma requisição. Podemos fazer uma analogia aos middlewares usados
-  * geralmente na WEB. Para um chain of responsability ser implementado temos
+  * geralmente na WEB. Para um chain of responsibility ser implementado temos
   * que ter: uma sequencia de handlers(os passos), e uma forma de organizarmos
   * eles para serem executados em sequência. Algo muito interessante, é que
   * um handler pode passar a requesição/operação para o próximo sem nem ao

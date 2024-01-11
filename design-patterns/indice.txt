@@ -29,7 +29,7 @@ PADRÕES CRIACIONAIS
   - Singleton: ✔
 
 PADRÕES COMPORTAMENTAIS
-  - Chain of responsability: ✔
+  - Chain of responsibility: ✔
   - Command: ✔
   - Iterator: ✔
   - Mediator: ✔
