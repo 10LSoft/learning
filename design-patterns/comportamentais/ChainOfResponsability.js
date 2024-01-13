@@ -1,8 +1,42 @@
+/**
+ * Explicação de Gênese
+ * ====================
+ *
+ * O padrão Chain of responsibility é responsável por decidir se processa uma
+ * determinada requisição ou se passa para o próximo elo da corrente processar.
+ *
+ * Basicamente funciona como métodos (ou atributos) em sistemas orientados a
+ * protótipos como o javascript, por exemplo.
+ *
+ * Ele tem a estrutura de uma lista encadeada e pode passar a requisição pra
+ * cima de modo que um determinado nó da lista possa processa-lo, mas não
+ * significa que a requisição deva ser passada sempre para o primeiro elo da
+ * corrente. A emissão da requisição deve poder ser randômica.
+ *
+ * Uma informação que deve ser considerada quando falamos sobre chain of
+ * responsibility é que os handlers (ou elos da corrente) podem ou não ser
+ * especializados, de modo que cada um destes elos podem servir iguais
+ * propósitos ou fornecer funcionalidades específicas em cada ponto da corrente.
+ *
+ * Uma estrutura dessas poderá ter um base handle com implementações
+ * padronizadas para ser utilizado como base, mas isto não é obrigatório! Os
+ * handlers poderão implementar a interface sem maiores problemas.
+ *
+ * O padrão também poderá ser visto como uma esteira de ações a serem tomadas
+ * sobre um determinado processamento. Algo como as esteiras de CI/CD para
+ * desenvolvimento e deploy continuos.
+ *
+ * Vamos considerar como exemplo essa questão do CI/CD:
+ * */
+
 /*
-  * O padrão chain of responsability é um conjunto de passos para processar
+ * Explicação de Ryan
+ * ==================
+ *
+  * O padrão chain of responsibility é um conjunto de passos para processar
   * uma requisição. Podemos fazer uma analogia aos middlewares usados
-  * geralmente na WEB. Para um chain of responsability ser implementado temos
-  * que ter: uma sequencia de handlers(os passos), e uma forma de organizarmos
+  * geralmente na WEB. Para um chain of responsibility ser implementado temos
+  * que ter: uma sequência de handlers (os passos), e uma forma de organizarmos
   * eles para serem executados em sequência. Algo muito interessante, é que
   * um handler pode passar a requesição/operação para o próximo sem nem ao
   * menos ter executado uma lógica em cima da mesma.
@@ -67,6 +101,7 @@ class CheckUserAgeMiddleware extends AbstractMiddleware {
     super(request)
     this.successMessage = 'Tudo processado! Você está autorizado a entrar no sistema'
     this.failureMessage = 'Você não está autorizado a entrar neste site'
+    this.request = request
   }
 
   shouldProcess() {
@@ -88,6 +123,7 @@ class Client {
   }
 
   makeRequest(request) {
+    this.request = request
     if (this.middlewares.length > 0) {
       this.middlewares[0].processRequest()
     } else {

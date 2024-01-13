@@ -20,7 +20,7 @@
 
 // ElementInterface
 class ProductInterface {
-  acceptVisitor (visitor) {
+  acceptVisitor () {
     throw new Error('It should be implemented')
   }
 }

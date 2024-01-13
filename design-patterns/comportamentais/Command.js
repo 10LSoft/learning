@@ -17,7 +17,9 @@ class Target {
 
 // Command Interface
 class CommandInterface {
-  execute () {}
+  execute () {
+    throw new Error('Should be implemented')
+  }
 }
 
 // Concret command
