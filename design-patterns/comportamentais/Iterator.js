@@ -1,6 +1,6 @@
 /*
   * O iterator é um padrão que nos permite percorrer um conjunto de elementos
-  * sem expor as representações dele(lista, pilha, árvore, entre outros),e
+  * sem expor as representações dele (lista, pilha, árvore, entre outros), e
   * apenas uma vez, ele retorna o próximo item, cada vez que um método chamado
   * next(ou outro nome que você prefira atribuir) é chamado.
   * 
