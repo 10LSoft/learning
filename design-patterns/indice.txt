@@ -29,21 +29,21 @@ PADRÕES CRIACIONAIS
   - Singleton: ✔
 
 PADRÕES COMPORTAMENTAIS
-  - Chain of responsability
+  - Chain of responsibility: ✔
   - Command: ✔
-  - Iterator
+  - Iterator: ✔
   - Mediator: ✔
   - Memento: ✔
   - Observer: ✔
-  - State
-  - Strategy; ✔
-  - Visitor
+  - State: ✔
+  - Strategy: ✔
+  - Visitor: ✔
 
 PADRÕES ESTRUTURAIS
   - Adapter ✔
   - Bridge ✔
-  - Composite
-  - Decorator
+  - Composite ✔
+  - Decorator: ✔
   - Facade: ✔
-  - Flyweight
-  - Proxy
+  - Flyweight: ✔
+  - Proxy: ✔

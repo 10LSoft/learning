@@ -20,12 +20,14 @@ class AbstractDrawingAPI {
 
 class DrawingAPI1 extends AbstractDrawingAPI {
   drawCircle(x, y, radius) {
+    console.log('This is the API 1')
     console.log(`Creating a circle with ${x}, ${y} and Radius: ${radius}`)
   }
 }
 
 class DrawingAPI2 extends AbstractDrawingAPI {
   drawCircle(x, y, radius) {
+    console.log('This is the API 2')
     console.log(`Creating a circle with ${x}, ${y} and Radius: ${radius}`)
   }
 }

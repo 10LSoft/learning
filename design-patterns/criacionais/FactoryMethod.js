@@ -5,7 +5,7 @@
  * */
 
 class AbstractAnimalFactory {
-  createAnimal () {
+  create () {
     throw new Error('Should be implemented')
   }
 }
@@ -23,19 +23,21 @@ class Dog {
 }
 
 class CatFactory extends AbstractAnimalFactory {
-  createAnimal () {
+  create () {
+    console.log('Creating a cat')
     return new Cat()
   }
 }
 
 class DogFactory extends AbstractAnimalFactory {
-  createAnimal () {
+  create () {
+    console.log('Creating a dog')
     return new Dog()
   }
 }
 
-const cat = new CatFactory().createAnimal()
-const dog = new DogFactory().createAnimal()
+const cat = new CatFactory().create()
+const dog = new DogFactory().create()
 
 console.log(cat.say())
 console.log(dog.say())

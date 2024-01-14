@@ -23,7 +23,7 @@ class Cat extends AbstractAnimal {
 }
 
 class AnimalFactory {
-  createAnimal (animal) {
+  create (animal) {
     switch (animal) {
       case "Dog":
         return new Dog()
@@ -35,5 +35,5 @@ class AnimalFactory {
 
 const factory = new AnimalFactory()
 
-console.log(factory.createAnimal('Dog').say())
-console.log(factory.createAnimal('Cat').say())
+console.log(factory.create('Dog').say())
+console.log(factory.create('Cat').say())
