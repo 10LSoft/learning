@@ -1,6 +1,6 @@
 /**
  * O padrão Singleton tem como objetivo fornecer uma classe que promova apenas
- * uma instância de determinado objeto, de modo que haja somente um ponte de uso
+ * uma instância de determinado objeto, de modo que haja somente um ponto de uso
  * para tal instância em todo o sistema.
  * */
 

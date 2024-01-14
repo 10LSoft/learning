@@ -1,6 +1,6 @@
 /*
   * O padrão mediator permite a notificação de vários objetos por meio de um,
-  * através de uma interface(O mediator). Servindo como meio de comunicação
+  * através de uma interface (O mediator). Servindo como meio de comunicação
   * entre os objetos.
 */
 
