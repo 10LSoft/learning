@@ -25,3 +25,64 @@
  *
  * Vamos considerar como exemplo essa questão do CI/CD:
  * */
+
+class Handler {
+  constructor () {
+    this.nextHandler = null
+  }
+
+  setNextHandler (handler) {
+    this.nextHandler = handler
+  }
+
+  handleRequest (request) {
+    if (this.nextHandler) {
+      this.nextHandler.handleRequest(request)
+    }
+  }
+}
+
+class CompileHandler extends Handler {
+  handleRequest (request) {
+    console.log('Compiling code...')
+    // logic for this handler
+    super.handleRequest(request)
+  }
+}
+
+class TestHandler extends Handler {
+  handleRequest (request) {
+    console.log('Running tests...')
+    // logic for this handler
+    super.handleRequest(request)
+  }
+}
+
+class DeployHandler extends Handler {
+  handleRequest (request) {
+    console.log('Setting up production environment...')
+    // logic for this handler
+    super.handleRequest(request)
+  }
+}
+
+class CICDPipeline {
+  constructor () {
+    this.pipeline = new CompileHandler()
+    const testHandler = new TestHandler()
+    const deployHandler = new DeployHandler()
+
+    this.pipeline.setNextHandler(testHandler)
+    testHandler.setNextHandler(deployHandler)
+  }
+
+  run () {
+    console.log('Starting CI/CD Pipeline')
+    this.pipeline.handleRequest()
+
+    console.log('Work done!')
+  }
+}
+
+const pipeline = new CICDPipeline()
+pipeline.run()
