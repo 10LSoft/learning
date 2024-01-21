@@ -27,6 +27,7 @@ PADRÕES CRIACIONAIS
   - Builder: ✔
   - Prototype: ✔
   - Singleton: ✔
+  - Monostate: ✔
 
 PADRÕES COMPORTAMENTAIS
   - Chain of responsibility: ✔
