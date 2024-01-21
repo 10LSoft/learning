@@ -32,3 +32,6 @@ No caso acima temos um modeline com as seguintes definições:
    unidade de identação. Note que para este caso, estamos falando exclusivamente
    da identação automática ou aos momentos em que você pressiona a tecla tab no
    editor.
+ - ft (filetype): temos aí basicamente o tipo de arquivo sendo informado ao
+   editor para que as instuções de syntaxe highlight estejam corretamente
+   presentes.
