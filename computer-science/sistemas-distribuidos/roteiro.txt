@@ -1,0 +1,86 @@
+Nível Básico:
+
+Introdução aos Sistemas Distribuídos:
+
+Compreensão dos conceitos básicos de sistemas distribuídos, incluindo definição,
+características e benefícios. Exploração de exemplos de sistemas distribuídos
+comuns, como a World Wide Web e sistemas de computação em nuvem.
+
+Arquiteturas de Sistemas Distribuídos:
+
+Aprendizado sobre diferentes arquiteturas de sistemas distribuídos, como
+cliente-servidor, arquitetura em camadas e sistemas peer-to-peer (P2P). Estudo
+de casos de uso e trade-offs associados a cada arquitetura.
+
+Comunicação em Sistemas Distribuídos:
+
+Introdução aos protocolos de comunicação em sistemas distribuídos, incluindo
+TCP/IP, HTTP, RPC e REST. Exploração de técnicas de comunicação síncrona e
+assíncrona entre componentes distribuídos.
+
+Coordenação e Consistência:
+
+Aprendizado sobre técnicas de coordenação e consistência em sistemas
+distribuídos, incluindo algoritmos de consenso, como o algoritmo Paxos. Estudo
+de casos de uso e problemas comuns relacionados à coordenação e consistência.
+
+Nível Intermediário:
+
+Tolerância a Falhas em Sistemas Distribuídos:
+
+Exploração de técnicas para tolerância a falhas em sistemas distribuídos,
+incluindo replicação de dados, detecção e recuperação de falhas. Aprendizado
+sobre algoritmos de consenso tolerantes a falhas, como o algoritmo Raft.
+
+Escalabilidade e Desempenho:
+
+Introdução aos princípios de escalabilidade e desempenho em sistemas
+distribuídos. Estudo de técnicas para dimensionamento horizontal e vertical,
+distribuição de carga e otimização de desempenho.
+
+Segurança em Sistemas Distribuídos:
+
+Aprendizado sobre os desafios de segurança em sistemas distribuídos, incluindo
+autenticação, autorização e criptografia. Exploração de técnicas de segurança
+específicas para sistemas distribuídos, como firewalls distribuídos e detecção
+de intrusões distribuída.
+
+Gerenciamento de Dados Distribuídos:
+
+Introdução aos conceitos de gerenciamento de dados distribuídos, incluindo
+modelos de consistência e técnicas de distribuição de dados. Estudo de bancos de
+dados distribuídos, sistemas de arquivos distribuídos e técnicas de replicação
+de dados.
+
+Nível Avançado:
+
+Computação em Nuvem e Infraestrutura como Serviço (IaaS): Aprofundamento em
+computação em nuvem e serviços de infraestrutura distribuída. Estudo de
+provedores de nuvem, como AWS, Azure e Google Cloud, e seus serviços de IaaS.
+
+Microsserviços e Arquiteturas Distribuídas Modernas:
+
+Exploração de arquiteturas baseadas em microsserviços e contêineres, como Docker
+e Kubernetes. Aprendizado sobre práticas de design, implantação e operação de
+sistemas distribuídos modernos.
+
+Processamento de Big Data e Análise Distribuída:
+
+Introdução ao processamento de big data e análise distribuída. Estudo de
+frameworks e tecnologias, como Hadoop, Spark e Kafka, para processamento e
+análise de grandes volumes de dados distribuídos.
+
+Blockchain e Tecnologias Distribuídas Descentralizadas:
+
+Aprendizado sobre blockchain e tecnologias distribuídas descentralizadas.
+Exploração de casos de uso, protocolos e frameworks, como Ethereum e Hyperledger
+Fabric, para desenvolvimento de aplicações distribuídas.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+desenvolvendo projetos práticos e implementando conceitos aprendidos em sistemas
+distribuídos. Participe de projetos de código aberto relacionados a sistemas
+distribuídos e contribua para comunidades de desenvolvedores. Desenvolva
+projetos pessoais ou acadêmicos que explorem diferentes aspectos de sistemas
+distribuídos, como escalabilidade, tolerância a falhas e segurança.

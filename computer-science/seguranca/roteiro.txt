@@ -1,0 +1,91 @@
+Nível Básico:
+
+Introdução à Segurança da Informação:
+
+Compreensão dos princípios básicos de segurança da informação, incluindo
+confidencialidade, integridade e disponibilidade (CIA). Aprendizado sobre as
+ameaças comuns à segurança da informação, como malware, phishing e ataques de
+negação de serviço (DDoS).
+
+Criptografia Básica:
+
+Introdução aos conceitos de criptografia, incluindo cifras simétricas e
+assimétricas. Aprendizado sobre algoritmos de criptografia populares, como AES,
+RSA e Diffie-Hellman.
+
+Gerenciamento de Senhas e Autenticação:
+
+Exploração de boas práticas para gerenciamento de senhas, incluindo uso de
+senhas fortes e autenticação de dois fatores (2FA). Aprendizado sobre técnicas
+de autenticação, como autenticação baseada em token e autenticação biométrica.
+
+Segurança de Rede Básica:
+
+Introdução aos conceitos de segurança de rede, incluindo firewalls, VPNs e
+detecção de intrusão. Exploração de boas práticas para proteger redes locais e
+comunicações na Internet.
+
+Nível Intermediário:
+
+Gestão de Identidade e Acesso (IAM):
+
+Aprofundamento em conceitos de gestão de identidade, incluindo controle de
+acesso, gerenciamento de privilégios e diretivas de segurança. Estudo de
+frameworks e padrões de IAM, como OAuth e OpenID Connect.
+
+Testes de Segurança e Avaliação de Riscos:
+
+Introdução a técnicas de teste de segurança, incluindo varreduras de
+vulnerabilidade, testes de penetração e análise de segurança. Aprendizado sobre
+métodos de avaliação de riscos, como análise de impacto e probabilidade, e
+cálculo de risco residual.
+
+Compliance e Regulamentações:
+
+Exploração de regulamentações e padrões de conformidade, como GDPR, HIPAA e PCI
+DSS. Aprendizado sobre os requisitos de conformidade e as melhores práticas para
+garantir conformidade regulatória.
+
+Segurança de Aplicações Web:
+
+Introdução aos princípios de segurança de aplicações web, incluindo OWASP Top 10
+e vulnerabilidades comuns. Exploração de técnicas de codificação segura,
+validação de entrada e mitigação de ataques web.
+
+Nível Avançado:
+
+Segurança em Nuvem e Virtualização:
+
+Aprofundamento em conceitos de segurança em ambientes de nuvem, incluindo
+controle de acesso, criptografia de dados e monitoramento de atividades. Estudo
+de técnicas de segurança para ambientes virtualizados, como contêineres e
+máquinas virtuais.
+
+Análise de Incidentes e Resposta a Incidentes:
+
+Introdução a processos de análise de incidentes de segurança, incluindo
+detecção, análise forense e resposta a incidentes. Aprendizado sobre a
+importância de planos de resposta a incidentes e simulações de incidentes.
+
+Segurança em Dispositivos Móveis e IoT:
+
+Exploração de desafios de segurança em dispositivos móveis e Internet das Coisas
+(IoT). Aprendizado sobre técnicas de segurança para proteger dispositivos móveis
+e IoT contra ataques e violações de privacidade.
+
+Desenvolvimento Seguro e DevSecOps:
+
+Introdução a práticas de desenvolvimento seguro, incluindo revisões de código,
+análise estática de código e testes de segurança automatizados. Exploração de
+metodologias DevSecOps para integrar segurança ao longo do ciclo de vida de
+desenvolvimento de software.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando medidas de segurança em projetos práticos e simulando cenários de
+ameaças. Participe de exercícios de captura da bandeira (CTF) e desafios de
+segurança em plataformas online para testar suas habilidades em um ambiente
+controlado. Desenvolva projetos pessoais ou contribua para projetos de código
+aberto relacionados à segurança da informação para ganhar experiência prática e
+construir um portfólio sólido.

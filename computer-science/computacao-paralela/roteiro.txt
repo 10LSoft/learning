@@ -1,0 +1,85 @@
+Nível Básico:
+
+Introdução à Computação Paralela e Distribuída:
+
+Compreensão dos conceitos básicos de computação paralela e distribuída.
+Diferença entre computação sequencial, paralela e distribuída.
+
+Arquiteturas Paralelas:
+
+Estudo sobre diferentes arquiteturas de computadores paralelos, como
+multiprocessadores e multicomputadores. Compreensão de conceitos como memória
+compartilhada e memória distribuída.
+
+Programação Paralela:
+
+Introdução às técnicas de programação paralela, incluindo threads, processos e
+comunicação entre processos. Prática de programação paralela em linguagens como
+Python (com multiprocessing) ou Java (com threads).
+
+Computação Distribuída:
+
+Entendimento dos princípios da computação distribuída, incluindo comunicação
+entre sistemas distribuídos e coordenação de recursos.
+
+Nível Intermediário:
+
+Modelos de Programação Paralela:
+
+Estudo sobre modelos de programação paralela, como MPI (Message Passing
+Interface) e OpenMP. Prática de implementação de algoritmos paralelos usando
+esses modelos.
+
+Sincronização e Concorrência:
+
+Aprofundamento em técnicas de sincronização e controle de concorrência em
+sistemas paralelos e distribuídos. Estudo de problemas comuns, como condições de
+corrida e deadlocks, e técnicas para evitá-los.
+
+Algoritmos Paralelos:
+
+Exploração de algoritmos paralelos eficientes para problemas comuns, como
+ordenação, busca e processamento de grafos. Estudo de técnicas de paralelização,
+como divisão e conquista e decomposição de tarefas.
+
+Middleware de Computação Distribuída:
+
+Introdução a middleware de computação distribuída, como RPC (Remote Procedure
+Call), CORBA (Common Object Request Broker Architecture) e frameworks de
+mensageria como Kafka e RabbitMQ.
+
+Nível Avançado:
+
+Computação de Alto Desempenho (HPC):
+
+Estudo de sistemas e tecnologias avançadas para computação de alto desempenho,
+como clusters de computadores de alto desempenho (HPC) e computação em grade.
+Exploração de tecnologias como GPU (Graphics Processing Unit) para aceleração de
+cálculos paralelos.
+
+Big Data e Computação em Nuvem:
+
+Entendimento dos princípios de computação em nuvem e sistemas distribuídos para
+processamento de grandes conjuntos de dados. Estudo de tecnologias como Hadoop,
+Spark e sistemas de armazenamento distribuído como HDFS.
+
+Computação de Malha (Mesh Computing):
+
+Exploração de técnicas de computação de malha para lidar com sistemas
+distribuídos dinâmicos e heterogêneos. Estudo de protocolos de comunicação e
+algoritmos de roteamento em sistemas de malha.
+
+Pesquisa em Computação Paralela e Distribuída:
+
+Participação em projetos de pesquisa ou estudo de artigos acadêmicos recentes
+sobre tópicos avançados em computação paralela e distribuída. Exploração de
+áreas emergentes, como computação quântica e computação neuromórfica.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando programas paralelos e distribuídos. Participe de projetos de
+código aberto relacionados a computação paralela e distribuída para ganhar
+experiência prática e colaborar com a comunidade. Desenvolva projetos pessoais
+que envolvam a implementação de sistemas distribuídos escaláveis e eficientes
+para problemas do mundo real.

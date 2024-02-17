@@ -1,0 +1,81 @@
+Nível Básico:
+
+Introdução à Teoria da Computabilidade:
+
+Compreensão dos conceitos básicos, como máquinas de Turing, funções computáveis
+e problemas decidíveis. Aprendizado sobre a história e os fundamentos da teoria
+da computabilidade.
+
+Máquinas de Turing:
+
+Introdução às máquinas de Turing e sua importância na teoria da computabilidade.
+Exploração dos componentes de uma máquina de Turing, como fita, cabeça de
+leitura/escrita e estados.
+
+Linguagens Formais e Autômatos:
+
+Aprendizado sobre linguagens formais, gramáticas formais e autômatos finitos.
+Estudo de casos de uso de autômatos finitos na descrição de linguagens
+regulares.
+
+Problemas Decidíveis e Indecidíveis:
+
+Introdução aos conceitos de problemas decidíveis e indécidiveis. Exploração de
+exemplos de problemas em cada categoria, como o problema da parada.
+
+Nível Intermediário:
+
+Teorema de Church-Turing:
+
+Aprofundamento no teorema de Church-Turing e sua relação com a computabilidade.
+Estudo das diferentes formulações do teorema e suas implicações.
+
+Reduções e Problemas NP-Completo:
+
+Introdução às reduções e sua aplicação na teoria da computabilidade. Aprendizado
+sobre problemas NP-completos e sua importância na classificação da complexidade
+computacional.
+
+Teoria dos Conjuntos e Lógica Matemática:
+
+Exploração dos fundamentos da teoria dos conjuntos e lógica matemática. Estudo
+de técnicas de prova, como prova por contradição e prova por indução.
+
+Máquinas de Turing Não Determinísticas (NTM):
+
+Aprendizado sobre máquinas de Turing não determinísticas e sua relação com a
+classe NP. Estudo de casos de uso de NTMs na descrição de problemas de decisão.
+
+Nível Avançado:
+
+Complexidade Computacional:
+
+Aprofundamento na teoria da complexidade computacional e suas relações com a
+computabilidade. Exploração das classes de complexidade, como P, NP, PSPACE e
+EXP.
+
+Teoria da Recursão:
+
+Introdução à teoria da recursão e funções recursivas. Estudo de técnicas para
+análise de recursão primitiva e recursão geral.
+
+Linguagens Recursivamente Enumeráveis:
+
+Aprendizado sobre linguagens recursivamente enumeráveis e sua relação com a
+computabilidade. Estudo de casos de uso de máquinas de Turing na descrição de
+linguagens recursivamente enumeráveis.
+
+Modelos de Computação Alternativos:
+
+Exploração de modelos de computação alternativos, como máquinas de registro,
+sistemas de cálculo lambda e máquinas de Post. Estudo das relações entre esses
+modelos e as máquinas de Turing.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de teoria da computabilidade e implementando modelos de
+computação. Participe de grupos de estudo ou seminários dedicados à teoria da
+computabilidade para discutir conceitos avançados e trabalhos de pesquisa.
+Desenvolva projetos de pesquisa ou acadêmicos que explorem tópicos avançados em
+teoria da computabilidade e contribua para o avanço do campo.

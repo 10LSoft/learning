@@ -1,0 +1,88 @@
+Nível Básico:
+
+Introdução aos Métodos Numéricos:
+
+Compreensão dos conceitos básicos de métodos numéricos e sua importância na
+solução de problemas computacionais. Exploração de técnicas de aproximação
+numérica e erros de truncamento e arredondamento.
+
+Solução de Equações Lineares:
+
+Aprendizado sobre métodos para resolver sistemas lineares, como eliminação
+gaussiana e decomposição LU. Estudo de técnicas de pivotação e análise de
+estabilidade dos métodos.
+
+Interpolação e Ajuste de Curvas:
+
+Introdução a métodos de interpolação, como interpolação polinomial e
+interpolação de Lagrange. Aprendizado sobre ajuste de curvas por mínimos
+quadrados e suas aplicações.
+
+Integração Numérica:
+
+Exploração de métodos numéricos para integração de funções, incluindo regra do
+trapézio, regra de Simpson e quadratura gaussiana. Estudo de erros de integração
+e escolha de métodos adequados para diferentes tipos de funções.
+
+Nível Intermediário:
+
+Solução de Equações Não Lineares:
+
+Aprofundamento em métodos para encontrar raízes de equações não lineares,
+incluindo método da bisseção, método de Newton-Raphson e método da secante.
+Estudo de convergência e critérios de parada dos métodos.
+
+Solução de Equações Diferenciais Ordinárias (EDOs):
+
+Introdução a métodos numéricos para resolver EDOs, como método de Euler, método
+de Runge-Kutta e métodos de passo múltiplo. Exploração de estabilidade, precisão
+e eficiência desses métodos.
+
+Diferenciação Numérica:
+
+Aprendizado sobre métodos numéricos para cálculo de derivadas, incluindo
+diferenciação progressiva, regressiva e centrada. Estudo de erros de
+diferenciação e técnicas para minimizá-los.
+
+Métodos de Otimização Numérica:
+
+Exploração de técnicas de otimização numérica, incluindo otimização
+unidimensional e multidimensional. Aprendizado sobre algoritmos de busca, como
+busca linear e busca binária, e métodos de gradiente descendente.
+
+Nível Avançado:
+
+Solução de Equações Diferenciais Parciais (EDPs):
+
+Aprofundamento em métodos numéricos para resolver EDPs, incluindo métodos de
+diferenças finitas, elementos finitos e volumes finitos. Estudo de estabilidade,
+convergência e análise de erros.
+
+Métodos Iterativos:
+
+Introdução a métodos iterativos para resolver sistemas lineares, como método de
+Jacobi, método de Gauss-Seidel e método de sobre-relaxamento. Exploração de
+convergência, critérios de parada e aceleração de métodos iterativos.
+
+Computação de Alta Performance:
+
+Aprendizado sobre técnicas para otimizar o desempenho de algoritmos numéricos em
+computadores de alta performance. Estudo de paralelismo, vetorização,
+distribuição de carga e uso de GPU.
+
+Aplicações Avançadas de Métodos Numéricos:
+
+Exploração de aplicações avançadas em áreas como mecânica computacional,
+simulação física, engenharia de sistemas e ciência dos materiais. Estudo de
+casos e projetos práticos para aplicar os métodos aprendidos em problemas do
+mundo real.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando algoritmos de métodos numéricos e resolvendo problemas
+computacionais. Participe de competições de programação científica, como o
+MATLAB Central, para ganhar experiência prática em aplicar métodos numéricos em
+problemas do mundo real. Desenvolva projetos pessoais que envolvam a aplicação
+de métodos numéricos em áreas como modelagem computacional, simulação de
+sistemas físicos ou análise de dados.

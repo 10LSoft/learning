@@ -1,0 +1,89 @@
+Nível Básico:
+
+Introdução à Estatística:
+
+Compreensão dos conceitos básicos de estatística, como população, amostra,
+variável e dados. Exploração das principais medidas estatísticas, como média,
+mediana, moda, variância e desvio padrão.
+
+Distribuições de Probabilidade:
+
+Aprendizado sobre distribuições de probabilidade, incluindo distribuição normal,
+distribuição binomial e distribuição de Poisson. Estudo sobre propriedades,
+características e aplicações dessas distribuições.
+
+Inferência Estatística:
+
+Introdução à inferência estatística, incluindo estimativa de parâmetros e teste
+de hipóteses. Estudo sobre intervalos de confiança, erros tipo I e tipo II, e
+significância estatística.
+
+Análise Exploratória de Dados:
+
+Exploração de técnicas de análise exploratória de dados, como histogramas,
+gráficos de dispersão, boxplots e matriz de correlação. Prática na interpretação
+e visualização de dados usando ferramentas estatísticas.
+
+Nível Intermediário:
+
+Regressão Linear e Modelos Lineares:
+
+Aprofundamento em regressão linear simples e múltipla, incluindo interpretação
+de coeficientes, diagnóstico de ajuste e seleção de variáveis. Estudo de modelos
+lineares generalizados para análise de dados com distribuições diferentes da
+normal.
+
+Amostragem e Planejamento de Experimentos:
+
+Exploração de técnicas de amostragem probabilística e não probabilística.
+Aprendizado sobre planejamento de experimentos, incluindo delineamentos
+fatoriais, blocagem e randomização.
+
+Análise de Variância (ANOVA):
+
+Introdução à análise de variância e seus diferentes tipos: unifatorial,
+bifatorial e multifatorial. Estudo sobre pressupostos, interpretação de
+resultados e comparação de médias.
+
+Análise de Regressão Avançada:
+
+Aprofundamento em técnicas de análise de regressão avançadas, como regressão
+logística, regressão não linear e regressão robusta. Estudo de diagnósticos e
+validação de modelos de regressão.
+
+Nível Avançado:
+
+Análise Multivariada:
+
+Exploração de técnicas de análise multivariada, como análise de componentes
+principais (PCA), análise de clusters (clusterização) e análise fatorial. Estudo
+de aplicações em redução de dimensionalidade, segmentação de mercado e análise
+de dados de alta dimensão.
+
+Modelagem Estatística:
+
+Aprofundamento em modelagem estatística, incluindo modelos lineares
+generalizados (GLMs), modelos de séries temporais e modelos de mistura. Estudo
+de métodos de estimação, diagnóstico de ajuste e seleção de modelos.
+
+Estatística Bayesiana:
+
+Introdução à abordagem bayesiana em estatística, incluindo teoria de Bayes,
+distribuições a priori, e inferência bayesiana. Estudo de técnicas de estimação
+bayesiana e comparação com métodos frequentistas.
+
+Aplicações Avançadas em Estatística:
+
+Exploração de aplicações avançadas em áreas como aprendizado de máquina,
+bioestatística, análise de grandes volumes de dados (big data) e inteligência
+artificial. Estudo de casos e projetos práticos para aplicar os conceitos
+aprendidos em problemas do mundo real.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas estatísticos e interpretando resultados. Participe de
+competições de ciência de dados, como o Kaggle, para ganhar experiência prática
+em aplicar técnicas estatísticas em problemas do mundo real. Desenvolva projetos
+pessoais que envolvam a análise e interpretação de dados em sua área de
+interesse, aplicando métodos estatísticos adequados.

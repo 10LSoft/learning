@@ -1,0 +1,84 @@
+Nível Básico:
+
+Introdução à Álgebra Linear:
+
+Compreensão dos conceitos básicos de álgebra linear, como vetores, matrizes e
+operações fundamentais. Estudo sobre sistemas lineares e representação
+geométrica de vetores.
+
+Operações com Vetores e Matrizes:
+
+Aprendizado sobre adição, subtração, multiplicação escalar e produto interno de
+vetores. Exploração das operações básicas de matrizes, incluindo adição,
+subtração e multiplicação por escalar.
+
+Sistemas Lineares:
+
+Estudo sobre sistemas de equações lineares e métodos de solução, como eliminação
+gaussiana e matriz inversa. Prática na resolução de sistemas lineares usando
+diferentes técnicas.
+
+Espaços Vetoriais e Transformações Lineares:
+
+Introdução aos espaços vetoriais, subespaços e transformações lineares.
+Exploração de propriedades de transformações lineares e exemplos de aplicações.
+
+Nível Intermediário:
+
+Autovalores e Autovetores:
+
+Aprofundamento em autovalores e autovetores e suas propriedades. Estudo sobre
+diagonalização de matrizes e sua aplicação em transformações lineares.
+
+Espaços Vetoriais com Produto Interno:
+
+Exploração de espaços vetoriais com produto interno, incluindo normas,
+ortogonalidade e projeção. Estudo sobre bases ortogonais e decomposição de
+espaço vetorial.
+
+Decomposição Espectral e Singular:
+
+Aprendizado sobre decomposição espectral de matrizes simétricas e decomposição
+singular de matrizes. Estudo de suas aplicações em álgebra linear e em problemas
+de engenharia e ciência.
+
+Formas Quadráticas e Diagonalização:
+
+Estudo de formas quadráticas e suas representações matriciais. Exploração de
+técnicas de diagonalização de formas quadráticas.
+
+Nível Avançado:
+
+Espaços Vetoriais e Geometria Analítica:
+
+Aprofundamento na relação entre espaços vetoriais e geometria analítica. Estudo
+de tópicos avançados, como distâncias e ângulos entre vetores, e curvas
+paramétricas.
+
+Álgebra Linear Numérica:
+
+Introdução aos métodos numéricos em álgebra linear, incluindo decomposição LU,
+decomposição de Cholesky e métodos iterativos. Estudo de técnicas para resolver
+problemas de grandes dimensões de forma eficiente.
+
+Aplicações de Álgebra Linear:
+
+Exploração de aplicações avançadas de álgebra linear em campos como
+processamento de sinais, processamento de imagens, aprendizado de máquina e
+ciência dos dados. Estudo de casos de uso e implementações práticas.
+
+Pesquisa em Álgebra Linear:
+
+Participação em projetos de pesquisa ou estudo de artigos acadêmicos recentes
+sobre tópicos avançados em álgebra linear. Exploração de áreas emergentes, como
+álgebra linear computacional e suas aplicações.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de álgebra linear e implementando algoritmos relacionados.
+Participe de competições de ciência de dados, como o Kaggle, para ganhar
+experiência prática em aplicar técnicas de álgebra linear em problemas do mundo
+real. Desenvolva projetos pessoais que envolvam a aplicação de conceitos de
+álgebra linear em áreas como processamento de imagens, reconhecimento de padrões
+ou aprendizado de máquina.

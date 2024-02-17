@@ -1,0 +1,78 @@
+Nível Básico:
+
+Introdução às Estruturas de Dados:
+
+Compreensão dos conceitos básicos de estruturas de dados, como arrays, listas,
+filas e pilhas. Importância das estruturas de dados na organização e manipulação
+de dados em algoritmos.
+
+Listas Lineares:
+
+Estudo sobre listas ligadas, listas duplamente ligadas e listas circulares.
+Compreensão das operações de inserção, remoção e busca em listas lineares.
+
+Filas e Pilhas:
+
+Aprendizado sobre o funcionamento de filas e pilhas e suas aplicações. Prática
+na implementação de filas e pilhas usando arrays e listas ligadas.
+
+Árvores:
+
+Introdução às árvores binárias, árvores de busca binária e árvores balanceadas.
+Estudo das operações de inserção, remoção e busca em árvores binárias.
+
+Nível Intermediário:
+
+Árvores Balanceadas:
+
+Aprofundamento em árvores balanceadas como árvores AVL e árvores rubro-negras.
+Estudo de técnicas de balanceamento e suas operações.
+
+Grafos:
+
+Exploração dos conceitos de grafos e suas representações. Estudo de algoritmos
+de busca em grafos, como busca em largura (BFS) e busca em profundidade (DFS).
+
+Tabelas de Hash:
+
+Introdução às tabelas de hash e funções de hash. Compreensão das operações de
+inserção, remoção e busca em tabelas de hash.
+
+Filas de Prioridade e Heaps:
+
+Estudo sobre filas de prioridade e heaps como uma forma de estrutura de dados
+especializada. Prática na implementação de filas de prioridade usando heaps.
+
+Nível Avançado:
+
+Árvores B e Árvores B+ :
+
+Aprofundamento em árvores B e árvores B+ como estruturas de dados para
+armazenamento em disco. Estudo das operações de inserção, remoção e busca nessas
+estruturas.
+
+Grafos Ponderados e Algoritmos de Caminho Mínimo:
+
+Exploração de grafos ponderados e algoritmos como Dijkstra e Bellman-Ford para
+encontrar o caminho mínimo em um grafo.
+
+Estruturas de Dados Persistentes:
+
+Estudo sobre estruturas de dados persistentes que mantêm versões anteriores de
+si mesmas. Compreensão dos conceitos de compartilhamento de estrutura e cópia de
+estrutura.
+
+Estruturas de Dados Probabilísticas:
+
+Introdução às estruturas de dados probabilísticas, como Bloom filters e skip
+lists. Estudo de suas propriedades probabilísticas e aplicações.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando estruturas de dados e resolvendo problemas de algoritmos que as
+utilizem. Participe de competições de programação, como o Codeforces, TopCoder
+ou LeetCode, para ganhar experiência prática em resolver problemas usando
+estruturas de dados. Desenvolva projetos pessoais que envolvam a implementação e
+uso de estruturas de dados em situações do mundo real, como sistemas de
+gerenciamento de banco de dados ou processamento de grandes volumes de dados.

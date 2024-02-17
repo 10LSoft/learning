@@ -1,0 +1,82 @@
+Nível Básico:
+
+Introdução à Programação em Python:
+
+Compreensão dos fundamentos da linguagem Python, incluindo sintaxe básica, tipos
+de dados e operadores. Aprendizado sobre a instalação do Python e configuração
+do ambiente de desenvolvimento.
+
+Estruturas de Controle e Funções:
+
+Exploração de estruturas de controle, como condicionais (if/else) e loops
+(for/while). Aprendizado sobre a definição e chamada de funções em Python.
+
+Coleções de Dados:
+
+Introdução às coleções de dados em Python, incluindo listas, tuplas, conjuntos e
+dicionários. Exploração de métodos de manipulação de coleções, como adição,
+remoção e iteração.
+
+Manipulação de Arquivos e Exceções:
+
+Aprendizado sobre como ler e escrever arquivos em Python. Estudo sobre
+tratamento de exceções e boas práticas de programação defensiva.
+
+Nível Intermediário:
+
+Programação Orientada a Objetos em Python:
+
+Aprofundamento nos conceitos de programação orientada a objetos (POO) em Python,
+incluindo classes, objetos, herança e polimorfismo. Estudo de encapsulamento e
+métodos especiais em classes.
+
+Módulos e Pacotes:
+
+Exploração de módulos e pacotes em Python para organizar e reutilizar código.
+Aprendizado sobre importação de módulos, pacotes e manipulação de namespaces.
+
+Trabalhando com Bibliotecas Padrão:
+
+Introdução às bibliotecas padrão de Python, como os módulos os, sys, math e
+datetime. Exploração de funcionalidades úteis oferecidas por essas bibliotecas
+para tarefas comuns de programação.
+
+Manipulação Avançada de Strings:
+
+Aprendizado sobre técnicas avançadas de manipulação de strings em Python,
+incluindo formatação de strings, expressões regulares e operações avançadas de
+slicing.
+
+Nível Avançado:
+
+Programação Funcional em Python:
+
+Aprofundamento nos conceitos de programação funcional em Python, incluindo
+funções lambda, map(), filter() e reduce(). Estudo de técnicas para escrever
+código mais conciso e expressivo usando programação funcional.
+
+Concorrência e Paralelismo:
+
+Introdução a concorrência e paralelismo em Python, incluindo threading,
+multiprocessing e asyncio. Exploração de técnicas para escrever código
+assíncrono e lidar com concorrência de forma eficiente.
+
+Desenvolvimento Web com Python:
+
+Aprendizado sobre frameworks web em Python, como Flask, Django e FastAPI. Estudo
+de conceitos como roteamento, templates, ORM e desenvolvimento de APIs RESTful.
+
+Ciência de Dados e Aprendizado de Máquina em Python:
+
+Introdução à biblioteca NumPy para computação numérica e manipulação de arrays.
+Exploração das bibliotecas Pandas para manipulação e análise de dados e
+Scikit-learn para aprendizado de máquina.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+desenvolvendo projetos e resolvendo desafios de programação em Python. Participe
+de comunidades de desenvolvedores online, como fóruns, grupos no GitHub e
+comunidades no Discord, para compartilhar conhecimento e colaborar em projetos.
+Desenvolva projetos pessoais ou contribua para projetos de código aberto para
+ganhar experiência prática e construir um portfólio sólido.

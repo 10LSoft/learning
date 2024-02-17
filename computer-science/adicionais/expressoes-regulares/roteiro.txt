@@ -1,0 +1,85 @@
+Nível Básico:
+
+Introdução às Expressões Regulares:
+
+Compreensão dos conceitos básicos de expressões regulares e sua utilidade na
+busca e manipulação de padrões de texto. Aprendizado sobre os metacaracteres
+básicos, como "." (ponto), "*" (asterisco) e "|" (pipe).
+
+Metacaracteres e Quantificadores:
+
+Estudo aprofundado sobre os metacaracteres e quantificadores em expressões
+regulares. Aprendizado sobre metacaracteres como "^" (circunflexo), "$"
+(cifrão), "+" (mais) e "{}" (chaves).
+
+Classes de Caracteres e Grupos de Captura:
+
+Introdução às classes de caracteres, como "\d" (dígitos) e "\w" (palavras).
+Exploração de grupos de captura e referências posteriores, como "()"
+(parênteses).
+
+Mapeamento de Padrões e Substituições:
+
+Aprendizado sobre como mapear padrões de texto usando expressões regulares.
+Estudo de substituições de texto usando expressões regulares para realizar
+transformações específicas.
+
+Nível Intermediário:
+
+Operadores Avançados:
+
+Aprofundamento em operadores avançados em expressões regulares. Estudo de
+operadores de lookahead e lookbehind, como "(?=)" e "(?<=)".
+
+Expressões Regulares Multilinha:
+
+Introdução ao uso de expressões regulares multilinha. Aprendizado sobre como
+combinar padrões em várias linhas de texto.
+
+Otimização e Desempenho:
+
+Exploração de técnicas para otimização de expressões regulares e melhoria de
+desempenho. Estudo de casos de uso e boas práticas para garantir que as
+expressões regulares sejam eficientes.
+
+Ferramentas e Bibliotecas:
+
+Aprendizado sobre o uso de ferramentas e bibliotecas para trabalhar com
+expressões regulares em diferentes linguagens de programação. Exploração de
+recursos avançados oferecidos por bibliotecas populares, como PCRE
+(Perl-Compatible Regular Expressions) e regex do Python.
+
+Nível Avançado:
+
+Expressões Regulares Recursivas:
+
+Aprofundamento em expressões regulares recursivas. Estudo de casos de uso e
+técnicas para lidar com situações em que os padrões de texto têm uma estrutura
+recursiva.
+
+Expressões Regulares e Linguagens Formais:
+
+Introdução à relação entre expressões regulares e linguagens formais.
+Aprendizado sobre expressões regulares como uma forma de representar linguagens
+regulares.
+
+Expressões Regulares em Aplicações Web:
+
+Exploração do uso de expressões regulares em aplicações web. Estudo de casos de
+uso em validação de entrada de usuário, roteamento de URLs e extração de dados
+de HTML/XML.
+
+Desenvolvimento de Ferramentas:
+
+Aprendizado sobre como desenvolver ferramentas e utilitários que utilizam
+expressões regulares. Exploração de casos de uso em desenvolvimento de editores
+de texto, IDEs e processadores de texto.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+escrevendo e testando expressões regulares em diferentes contextos. Participe de
+desafios de codificação online que envolvam o uso de expressões regulares para
+resolver problemas específicos. Desenvolva projetos práticos que exijam o uso
+extensivo de expressões regulares, como um validador de formulários ou um
+analisador de log.

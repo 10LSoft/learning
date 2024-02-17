@@ -1,0 +1,87 @@
+Nível Básico:
+
+Introdução à Computação Quântica:
+
+Compreensão dos princípios básicos da física quântica e como ela difere da
+física clássica. Conceitos fundamentais, como superposição, emaranhamento e
+interferência quântica.
+
+Qubits e Estados Quânticos:
+
+Estudo sobre qubits, a unidade básica de informação quântica, e como eles são
+representados. Entendimento dos estados quânticos, incluindo a notação de Dirac
+e a representação de qubits em esfera de Bloch.
+
+Portas Quânticas e Circuitos Quânticos:
+
+Introdução às portas quânticas, que são os blocos de construção dos circuitos
+quânticos. Aprendizado sobre portas comuns, como a porta de Hadamard, a porta
+CNOT e a porta de fase.
+
+Algoritmos Quânticos Simples:
+
+Exploração de algoritmos quânticos simples, como o algoritmo de Deutsch-Jozsa e
+o algoritmo de Grover. Compreensão dos princípios por trás desses algoritmos e
+como eles aproveitam os poderes da computação quântica.
+
+Nível Intermediário:
+
+Modelos de Computação Quântica:
+
+Estudo de modelos de computação quântica, como o modelo de circuito quântico e o
+modelo de computação quântica adiabática. Compreensão das vantagens e limitações
+de cada modelo.
+
+Códigos de Correção de Erros Quânticos:
+
+Aprofundamento em códigos de correção de erros quânticos, que são essenciais
+para lidar com os erros introduzidos pelo ambiente quântico. Estudo de códigos
+comuns, como os códigos de Shor e os códigos de Steane.
+
+Simulação Quântica:
+
+Introdução à simulação quântica e suas aplicações na validação de algoritmos e
+na exploração de sistemas quânticos. Estudo de técnicas de simulação, como a
+simulação de estado completo e a simulação de circuito.
+
+Criptografia Quântica:
+
+Exploração de princípios de criptografia quântica, incluindo comunicação segura
+e distribuição de chaves quânticas. Estudo de protocolos como o BB84 e o
+protocolo de teleportação quântica.
+
+Nível Avançado:
+
+Algoritmos Quânticos Avançados:
+
+Estudo de algoritmos quânticos avançados, como o algoritmo de Shor para
+fatoração de inteiros e o algoritmo de Grover para busca quantica. Compreensão
+das aplicações desses algoritmos e de sua eficiência em comparação com os
+algoritmos clássicos.
+
+Arquiteturas de Computadores Quânticos:
+
+Aprofundamento em arquiteturas de computadores quânticos, incluindo sistemas
+baseados em qubits supercondutores, íons presos e fotões. Estudo de plataformas
+de hardware quântico, como IBM Quantum, Google Quantum e IonQ.
+
+Desenvolvimento de Software Quântico:
+
+Introdução ao desenvolvimento de software quântico, incluindo linguagens de
+programação quântica, ferramentas de simulação e ambientes de desenvolvimento.
+Prática de programação quântica usando linguagens como Qiskit, Q# e Quipper.
+
+Pesquisa em Computação Quântica:
+
+Participação em projetos de pesquisa ou estudo de artigos acadêmicos recentes
+sobre tópicos avançados em computação quântica. Exploração de áreas emergentes,
+como redes quânticas e computação quântica distribuída.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando algoritmos quânticos e explorando simulações. Participe de
+desafios de programação quântica, como os oferecidos pelo IBM Quantum Experience
+ou Quantum Open Source Foundation. Desenvolva projetos pessoais que envolvam a
+implementação de algoritmos quânticos ou a exploração de conceitos avançados em
+computação quântica.

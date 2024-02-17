@@ -1,0 +1,95 @@
+Nível Básico:
+
+Introdução ao Sequelize:
+
+Entenda o que é Sequelize e por que é usado. Familiarize-se com os conceitos
+básicos de ORM (Object-Relational Mapping).
+
+Configuração do Ambiente:
+
+Instale o Sequelize utilizando npm ou yarn. Configure o Sequelize em seu
+projeto.
+
+Modelagem de Dados:
+
+Aprenda a definir modelos Sequelize para representar suas tabelas de banco de
+dados. Explore os tipos de dados suportados pelo Sequelize.
+
+Criação e Migração de Tabelas:
+
+Saiba como criar e migrar tabelas usando Sequelize. Entenda como definir
+relacionamentos entre modelos.
+
+Operações CRUD:
+
+Aprenda a realizar operações CRUD (Create, Read, Update, Delete) usando
+Sequelize. Pratique a criação, leitura, atualização e exclusão de registros no
+banco de dados.
+
+Nível Intermediário:
+
+Consultas Avançadas:
+
+Explore consultas avançadas usando Sequelize, incluindo filtros, ordenação e
+junção de tabelas. Aprofunde-se em consultas com Sequelize Query Interface.
+
+Validação de Dados:
+
+Saiba como validar dados antes de inseri-los no banco de dados. Utilize as
+opções de validação fornecidas pelo Sequelize.
+
+Hooks e Callbacks:
+
+Entenda os conceitos de hooks e callbacks no Sequelize. Explore como usar hooks
+para executar ações antes ou depois de operações no banco de dados.
+
+Relacionamentos Avançados:
+
+Aprenda a definir e trabalhar com relacionamentos avançados, como "hasMany",
+"belongsTo" e "belongsToMany". Explore as opções de associação oferecidas pelo
+Sequelize.
+
+Nível Avançado:
+
+Transações:
+
+Aprofunde-se em transações no Sequelize. Entenda como garantir a integridade dos
+dados usando transações.
+
+Consultas Raw:
+
+Saiba como executar consultas SQL brutas usando Sequelize. Explore os casos de
+uso em que as consultas brutas podem ser necessárias.
+
+Migrações e Seeders:
+
+Aprenda a usar migrações para gerenciar alterações no esquema do banco de dados.
+Saiba como usar seeders para popular seu banco de dados com dados iniciais.
+
+Segurança:
+
+Explore técnicas de segurança ao trabalhar com Sequelize, como prevenção de
+injeção de SQL e proteção contra ataques de CSRF.
+
+Projeto Prático:
+
+Desenvolvimento de Aplicativo:
+
+Desenvolva um projeto prático utilizando Sequelize para interagir com um banco
+de dados. Implemente todos os conceitos aprendidos até agora em um aplicativo
+real.
+
+Refatoração e Otimização:
+
+Pratique refatorar e otimizar seu código, aplicando melhores práticas e padrões
+de design.
+
+Testes e Debugging:
+
+Aprenda a escrever testes para seu código Sequelize. Saiba como depurar
+problemas comuns ao trabalhar com Sequelize.
+
+Deploy e Manutenção:
+
+Entenda como implantar e manter um aplicativo que usa Sequelize em produção.
+Explore estratégias de escalabilidade e monitoramento.

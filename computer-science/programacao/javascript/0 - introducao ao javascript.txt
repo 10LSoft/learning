@@ -1,0 +1,75 @@
+Esta parte do documento cobre os seguintes tópicos
+
+01. Variáveis e tipos de dados
+02. Operadores
+03. Estruturas de controle
+04. Funções
+05. Escopo
+06. Arrays e objetos
+07. Eventos
+08. DOM (Document Object Model)
+09. Assincronismo e callbacks
+10. Manipulação de strings e data/tempo
+11. Módulos e importações/exportações
+12. Tratamento de exceções
+
+01. Variáveis e tipos de dados
+
+Javascript (ou JS) é uma linguagem com relativamente poucos tipos de dados e formas de
+declarar variáveis. Basicamente temos três maneiras de declarar: const, let e
+var. Cada uma delas tem as suas particularidades e escopos.
+
+Nativamente o JS possui alguns poucos tipos de dados, sendo eles: Number,
+String, Boolean, Null, Undefined, Object, Array, Function, Symbol e BigInt. Eis
+um pouco de informação sobre cada um deles:
+
+Number: são tipos numéricos e podem ser inteiros ou de ponto flutuante.
+
+Strings: são sequências de caracteres e são usadas para representar textos.
+Geralmente estão entre aspas, podendo ser simples, duplas ou um par de crases.
+
+Booleans: são usados para representação de verdadeiro ou falso (true e false).
+
+Null: em JS o tipo null representa uma variáveis propositalmente sem um
+conteúdo, mas que tenha sido declarada.
+
+Undefined: servem para descrever variáveis ou métodos de funções que não foram
+declarados. Não é o mesmo que null.
+
+Object: tipo complexo de dados que permite o armazenamento de valores por meio
+de chave/valor ou um hash map.
+
+Array: é uma estrutura de dados capaz de armazenar uma coleção de valores
+ordenados (organizado por meio de índices numéricos). Um detalhe interessante e
+que vale ser dito aqui é que os índices começam com zero, o que representa
+internamento que a estrutura é um ponteiro cuja soma de passos parte de um local
+comum, sendo o primeiro índice o valor do ponteiro + 0.
+
+Funções: as functions em JS são basicamente blocos de código reutilizáveis e que
+podem ser armazenadas em variáveis, nomeadas, passadas como parâmetro ou
+retornadas por outras funções. Isto torna o JS uma linguagem potencialmente
+funcional, mas que na verdade é multiparadigma. Por falar em paradigma, iremos
+abordar este assunto com mais profundidade em breve.
+
+Symbols: os symbols servem para gerar chaves únicas no Javascript, de modo a
+assegurar que tais propriedades não sejam sobrescritas. São estruturas muito
+úteis quando o assunto é construção de módulos, hashmaps e objetos
+reutilizáveis.
+
+Bigint: é basicamente um tipo de dados numérico que poderá possuir precisão
+arbitrária. Este recurso foi introduzido ao JS pelo ES2020 e serve para que você
+possa trabalhar com números realmente grandes. Funciona como uma luva para casos
+de criptografia e para ids únicos realmente grandes. O uso desse tipo se dá por
+meio da adição do sufixo n ao final do número.
+
+Operações entre bigints poderão ser feitas por meio de operadores próprios para
+números (+, -, *, /, etc) e por meio de operados embutidos no tipo, como por
+exemplo BigInt.add(). O mesmo acontece para comparações por meio dos operadores
+>, <, <=, >=, !=, !==, ==, ===.
+
+Um ponto importante a notar é que os BigInts são tipos diferentes dos Numbers em
+JS, de modo que, considerando que não haverá parse automático na maioria dos
+casos, deva-se tomar cuidado com os momentos em que um tipo não seja igual ao
+outro.
+
+Uma maneira de verificar o tipo de um dado em JS é por meio da expressão typeof. 

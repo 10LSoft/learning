@@ -1,0 +1,56 @@
+SQL Básico
+
+O que é SQL?
+
+SQL ou Structured Query Language é o nome dado a interface entre o usuário e o
+banco de dados em si. Basicamente é uma linguagem usada para a manipulação e
+controle dos dados dentro de um SGBD relacional. É importante mencionar que os
+bancos relacionais são os afetados pela existência do SQL, pois bancos não
+relacionais não possuem seu fundamento baseado nesta linguagem. Por hora vamos
+manter o nosso foco voltado para os bancos relacionais e uso do SQL neste curso.
+Ao final, iremos abordar mais os bancos não relacionais.
+
+Vamos ver agora as cláusulas básicas da linguagem:
+
+SELECT: uma das cláusulas SQL mais usadas no mundo! O select permite que você
+selecione campos e dados em uma ou mais tabelas (fonte de dados) para a consulta
+que deseja fazer. Por exemplo, abaixo o uso básico de select:
+
+SELECT
+  id, date_when, status
+FROM attendances a
+WHERE EXISTS(
+  SELECT 1 FROM guides g WHERE g.attendance_id = a.id
+);
+
+Explicando as partes da cláusula: SELECT é o próprio comando. FROM é o local de
+onde a query buscará as informações. WHERE indica um filtro para que a busca
+possa se concentrar apenas em valores dentro das especificações desta parte.
+
+No caso acima, EXISTS funciona como uma condicional que só permitirá a execução
+do SELECT externo caso a subquery retorne algum valor, de modo que exists
+retorna verdadeiro ou falso, indicando quando a query de fora irá ser skipada ou
+não. O valor prático desta query é como dizer: "me traga os campos id, date_when
+e status de todo atendimento que possua uma guia relacionada".
+
+INSERT: esta é a cláusula responsável por inserir novos dados em uma tabela
+existente no banco de dados. Sua sintaxe é:
+
+INSERT INTO table_name (column1, column2, ..., columnN)
+VALUES (value1, value2, ..., valueN);
+
+É possível mesclar os valores relacionados com dados vindos de uma subquery
+dentro dos valores da query. Seria algo mais ou menos assim:
+
+INSERT INTO table_name (column1, column2, ..., columnN)
+SELECT column1, column2, ..., columnN FROM target_table WHERE conditions;
+
+Note que no exemplo acima não há a presença da palavra chave VALUES, pois o
+valor já está sendo explicitado pela query no SELECT.
+
+UPDATE: esta cláusula atualiza uma ou mais linhas em uma tabela baseado em
+condições específicas. A sintaxe básica é:
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ..., columnN = valueN
+WHERE conditions;

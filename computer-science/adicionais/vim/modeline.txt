@@ -1,0 +1,37 @@
+Identação
+
+Antes de falar em modelines, precisamos falar sobre como proceder para identar
+arquivos no VIM. O processo é basicamente selecionar o arquivo inteiro (não
+identado) e pressionar = duas vezes. Isto irá colocar os valores de identação
+padrão no arquivo e formatar o mesmo dentro dos princípios configurados.
+
+Modeline
+
+O modeline é a forma como você deseja que as suas linhas sejam formatadas. Isto
+é interessante por exemplo para uso em formatação de código, permitindo
+responder questões como: identar com tabs ou spaces? Se spaces, quantos espações
+por unidade de identação? entre outras...
+
+O uso do modeline é por meio de coments dentro do arquivo de código mesmo. Pode
+ser que esta se torne uma maneira suja de forçar os arquivos individualmente a
+seguir um padrão de formatação de linha, mas o fato é que funciona bem. Um
+exemplo:
+
+<!--
+vim: et ts=2 sw=2 ft=html
+-->
+
+No caso acima temos um modeline com as seguintes definições:
+ - et (expandtab): isto instrui o VIM a usar espaços em vez de tabs. Trata-se de
+   uma configuração booleana, ou seja, ela é aplicada assim que o VIM a lê.
+   Seguindo o padrão do VIM, caso você precisasse negar et, usaria noet.
+ - ts (tabstop): conforme o próprio nome diz, informa o tamanho do tab em
+   espaços, visto que as tabulações ocorrerão, neste caso, por meio da adição de
+   espaços.
+ - sw (shiftwidth): indica a quantidade de espaços que irá existir em cada
+   unidade de identação. Note que para este caso, estamos falando exclusivamente
+   da identação automática ou aos momentos em que você pressiona a tecla tab no
+   editor.
+ - ft (filetype): temos aí basicamente o tipo de arquivo sendo informado ao
+   editor para que as instuções de syntaxe highlight estejam corretamente
+   presentes.

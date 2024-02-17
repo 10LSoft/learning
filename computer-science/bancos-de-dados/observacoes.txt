@@ -1,0 +1,11 @@
+ESTE ARQUIVO ARMAZENA ALGUMAS OBSERVAÇÕES IMPORTANTES
+
+FATOS MULTIVALORADOS E CAMPOS MULTIVALORADOS
+
+Fatos multivalorados ocorrem quando uma determinada verdade no banco ocorre mais
+de uma vez, de modo que um fato possa ser expressado por meio de campos
+multivalorados ou por meio de vários registros já normalizados.
+
+Já campos multivalorados sempre se refere a campos não atômicos contendo mais de
+um valor nele. Não é uma boa prática em nenhum cenário. Ideal é manter a
+atomicidade dos dados.

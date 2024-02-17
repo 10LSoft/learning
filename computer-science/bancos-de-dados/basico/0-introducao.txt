@@ -1,0 +1,53 @@
+O que é um banco de dados?
+
+É uma coleção organizada de dados de forma que os mesmos possam ser resgatados
+ou manipulados de forma eficiente. O ambiente de banco de dados também se
+preocupa em fornecer acesso e garantir a integridade a estes dados. Eles
+desempenham papel fundamental em muitos sistemas de software, mas o entendimento
+pleno sobre eles é relativamente complexo. Vamos à algumas definições
+importantes:
+
+1. Dados: são fatos gravados e que têm um significado implícito, o que significa
+que os mesmos vão significar fatos diferentes quando empregados em contextos
+diferentes. Por exemplo, o número 37 pode significar muitas coisas, embora
+isolado não tenha peso conceitual em termos de informação, mas ao submetê-lo a
+um contexto (como a idade de alguém, por exemplo), há um significado informativo
+nisso. Os dados possuem tipos. O que significa que podem ser números, textos,
+imagens, etc. Algumas literaturas definem dados como a menor porção que compõe
+conhecimento sobre algo, ou seja, seriam as entidades mais fundamentais da
+informação.
+
+2. Informação: é a junção de dados em determinado contexto, compondo informação
+útil, ou seja, que permite que se gere conhecimento a partir disto. Um exemplo
+de informação é Angélica possui 37 anos.
+
+3. Conhecimento: é a junção de uma porção de informações que geram ou definem um
+ambiente inteiro. O conhecimento é o que deve ser usado para descrever situações
+complexas, de modo a assegurar a comunicação de forma inteira. Um exemplo:
+Angélica tem 37 anos, e somente por isso, ela poderá acessar o ambiente. Perceba
+que ainda sim é possível abstrair determinados prismas de um trecho de
+conhecimento.
+
+4. Sistema de gerenciamento de bancos de dados (SGBD): é o software que permite
+que se crie e opere bancos de dados. Alguns exemplos deste tipo de software são
+MySQL, sqlite, PostgreSQL, MariaDB, MongoDB, etc.
+
+5. Esquema de bancos de dados: é uma estrutura lógica que define a organização
+dos dados dentro de um banco de dados. O esquema é responsável por definir o
+relacionamento entre tabelas, restrições de integridade, a própria definição das
+tabelas (sua forma com relação a detalhes dos dados e como estes dados se
+relacionam com outros dados dentro do sistema).
+
+6. Relacionamento: é a maneira como as informações se relacionam umas com as
+outras. Em bancos de dados relacionais isto é essencial, mas em bancos não
+relacionais este conceito não faz tanto sentido, visto que muitos dos bancos
+conhecidos como NoSQL não dependem de relacionamentos e por isso são chamados
+não relacionais. O relacionamento se dá entre campos estratégicos nas tabelas
+conhecidos como chaves. Há vários tipos de chaves e estes serão explorados um
+pouco mais à frente.
+
+A instalação e configuração do SGBD depende de alguns fatores relevantes e em
+geral não apresenta dificuldades significativas, mas pode mudar segundo o
+sistema operacional e ambiente em que se deseja rodar o SGBD. Não vou abordar
+este tema diretamente mas incito aqui a leitura do fabricante do SGBD que você
+pretenda usar.

@@ -1,0 +1,91 @@
+Nível Básico:
+
+Introdução à Inteligência Artificial:
+
+Compreensão dos conceitos básicos de inteligência artificial e sua aplicação em
+diversos domínios. Exploração de diferentes abordagens em IA, como sistemas
+especialistas, redes neurais e aprendizado de máquina.
+
+Aprendizado de Máquina (ML) Básico:
+
+Introdução ao aprendizado de máquina e seus tipos, incluindo aprendizado
+supervisionado, não supervisionado e por reforço. Estudo sobre conceitos
+fundamentais, como conjuntos de dados, características (features), e como os
+algoritmos de ML aprendem com os dados.
+
+Algoritmos de Aprendizado de Máquina:
+
+Estudo de algoritmos básicos de ML, como regressão linear, regressão logística,
+k-vizinhos mais próximos (k-NN) e árvores de decisão. Compreensão dos princípios
+por trás de cada algoritmo e suas aplicações.
+
+Avaliação de Modelos de Aprendizado de Máquina:
+
+Aprendizado sobre técnicas de avaliação de modelos, como validação cruzada,
+divisão de dados de treinamento/teste e métricas de desempenho (precisão,
+recall, F1-score).
+
+Nível Intermediário:
+
+Aprendizado de Máquina Avançado:
+
+Aprofundamento em técnicas avançadas de aprendizado de máquina, como máquinas de
+vetores de suporte (SVM), redes neurais artificiais (ANN) e algoritmos de
+agrupamento (clustering). Estudo de como e quando aplicar essas técnicas em
+problemas do mundo real.
+
+Pré-processamento de Dados:
+
+Exploração de técnicas de pré-processamento de dados, incluindo normalização,
+codificação de variáveis categóricas, tratamento de dados ausentes e redução de
+dimensionalidade. Compreensão da importância do pré-processamento na qualidade
+dos modelos de ML.
+
+Otimização de Modelos de Aprendizado de Máquina:
+
+Estudo sobre técnicas de otimização de modelos, como ajuste de hiperparâmetros,
+seleção de características e validação de modelos. Prática na otimização de
+modelos de ML para melhor desempenho e generalização.
+
+Interpretabilidade e Explicabilidade de Modelos:
+
+Aprendizado sobre técnicas para tornar os modelos de ML mais interpretáveis e
+explicáveis, como visualização de dados, interpretação de árvores de decisão e
+mapas de calor. Compreensão da importância da interpretabilidade dos modelos em
+aplicações críticas.
+
+Nível Avançado:
+
+Aprendizado Profundo (Deep Learning):
+
+Aprofundamento em redes neurais profundas e aprendizado profundo. Estudo sobre
+arquiteturas populares, como redes neurais convolucionais (CNN), redes neurais
+recorrentes (RNN) e redes geradoras adversariais (GAN).
+
+Processamento de Linguagem Natural (PLN) e Reconhecimento de Voz:
+
+Exploração de técnicas avançadas em PLN, como word embeddings, modelos de
+linguagem, e modelos de tradução automática. Estudo de sistemas de
+reconhecimento de voz baseados em aprendizado profundo.
+
+Aprendizado por Reforço (RL):
+
+Aprofundamento em aprendizado por reforço e suas aplicações em agentes autônomos
+e jogos. Estudo de algoritmos de RL, como Q-Learning, e implementação de agentes
+de RL em ambientes de simulação.
+
+Aplicações de Inteligência Artificial:
+
+Exploração de aplicações avançadas de inteligência artificial em áreas como
+medicina, finanças, robótica, e cidades inteligentes. Estudo de casos de uso e
+desafios em implementar sistemas de IA em contextos do mundo real.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando algoritmos de ML, explorando conjuntos de dados e ajustando
+modelos para problemas específicos. Participe de competições de ciência de
+dados, como o Kaggle, para ganhar experiência prática e colaborar com a
+comunidade de ML. Desenvolva projetos pessoais que envolvam a aplicação de
+técnicas de ML em problemas do mundo real, como reconhecimento de imagens,
+análise de sentimentos ou previsão de séries temporais.

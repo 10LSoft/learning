@@ -1,0 +1,22 @@
+SARGABLE
+
+O termo sargable (Search ARGuments ABLE), diz respeito a possibilidade de
+expressões predicadas (buscas em bancos de dados relacionais) poderem ser
+rescritas de modo que o banco possa usar eficientemente um índica associado a
+determinada coluna.
+
+Um exemplo de pesquisas sargable:
+
+WHERE column = value: está é uma expressão sargable, pois a coluna column poderá
+se beneficiar de um índice associado a ela para que as buscas sejam otimizadas.
+
+WHERE column > 10 AND column < 50: esta também seria uma consulta otimizada,
+pelo mesmo motivo.
+
+Exemplos de pesquisas não sargable:
+
+WHERE SQRT(column) > value: devido a função SQRT estar presente, um possível índice
+associado a column não seria diretamente acessado.
+
+WHERE LOWER(column) = value: pelo mesmo motivo, um possível índice associado a
+column não seria diretamente acessado, de modo a não otimizar a consulta.

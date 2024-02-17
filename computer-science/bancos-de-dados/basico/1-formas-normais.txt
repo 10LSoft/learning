@@ -1,0 +1,90 @@
+FORMAS NORMAIS DOS BANCOS RELACIONAIS
+
+As formas normais (abreviadas como FN) são o conjunto de regras que visam tornar
+um sistema de banco de dados organizado e sem redundâncias dos dados,
+assegurando eficiência, escalabilidade e um melhor desempenho por consequência.
+Elas foram propostas como um padrão para organizar esquemas de bancos de dados
+relacionais para assegurar que tais sistemas possuam dados armazenados de
+maneira lógica e coerente. Veremos abaixo cada uma das normas:
+
+É normal considerar um banco de dados normalizado quando este atinge a 3FN, mas
+é importante saber que existem ainda a 4FN e 5FN. Vamos ve-las abaixo:
+
+PRIMEIRA FORMA NORMAL (1FN):
+
+Esta regra estabelece que os dados dentro de uma tabela devem ser atômicos,
+indivisíveis e não decomponíveis. O que significa que cada célula da tabela deva
+possuir apenas um valor e não múltiplos valores e estruturas complexas. Mas isto
+não significa que os dados não possam ser apresentados (via busca) de forma mais
+complexas. A regra menciona como os dados devem ser armazenados e não
+resgatados. Por exemplo, se temos uma tabela clients, os campos dela deverão
+significar um dados relacionado a clients como name, address, phone entre
+outros, desde que não tenham estruturas complexas por célula (campos
+multivalorados).
+
+SEGUNDA FORMA NORMAL (2FN):
+
+Esta regra é atendida quando a tabela encontra-se na 1FN  e quando os seus dados
+não-chave dependem totalmente da chave primária (iremos ver o conceito disso
+mais à frente). Em outras palavras, não deve haver dependência parciais dos
+atributos da chave primária.
+
+Por exemplo, se tivermos a tabela orders contendo dados sobre pedidos de um
+cliente e nela tivermos os campos id, client_id, client_name, client_address
+esta tabela não estaria atendendo a 2FN, pois para que isto ocorresse, os dados
+precisariam estar em tabelas diferentes, sendo uma delas clients, contendo os
+campos id, name e address e a outra orders contendo os campos id, client_id.
+Perceba que agora os dados de nome do cliente e endereço estão numa tabela
+responsável por abrigar dados dos clientes. Agora a estrutura atende a 1FN e
+também mantém nas estruturas apenas dados dependêntes da chave primária das
+tabelas, ou seja, 2FN.
+
+TERCEIRA FORMA NORMAL (3FN):
+
+Aqui temos uma regra que precisa da definição de um termo antes de ser exposta.
+O termo em questão é "dependência transitiva". Dependência transitiva é quando
+um campo da tabela depende exclusivamente de outro campo e não da chave
+primária (como deveria ser).
+
+Por exemplo, se temos uma tabela workers com os campos id, name, department e
+department_location, podemos ter aí uma ocorrência do famigerado termo
+dependência transitiva. E esta dependência ocorre em department_location, visto
+que a localização do departamento nada tem a ver com os dados do funcionário,
+mas está conceitualmente ligado ao departamento.
+
+Em definições mais modernas e em algumas literaturas, a terceira forma normal
+ainda permite que dependências transitivas ocorram, mas desde que o campo de
+dependência não seja uma chave candidata na tabela. Uma chava candidata é aquela
+que possui valor único dentro da tabela, mas que não é uma chave primária (mas
+poderia ser). No caso do exemplo dos workers acima, a tabela pode ser
+considerada 3FN, pois department não é uma chave candidata. No entando, existe
+um conceito chamado Forma Normal de Boyce Codd (BCNF), que é um pouco mais
+rigoroso nesse sentido. Ele expressa que para que haja uma dependência
+transitiva, o campo dependente deve apontar para uma chave candidata, o que não
+ocorre no exemplo acima, já que department não é chave candidata e portanto
+também não é uma superchave.
+
+Mas, de forma resumida, uma tabela pode ser considerada normalizada para a 3FN
+se não houverem dependências transitivas, ou seja, se a entidade quando
+referenciar algo que não tenha ligação direta com a chave primária na tabela
+seja alocada em uma tabela externa com os dados normalizados em 1FN e 2FN e
+referenciada por chave estrangeira.
+
+QUARTA FORMA NORMAL (4FN):
+
+A quarta forma normal tem como objetivo impedir complexidade extra, removendo
+dos atributos de determinada tabela dados multivalorados e que façam referência
+a mais de um registro. Esta forma se parece muito com a primeira forma normal e
+possivelmente já terá sido eliminada caso tenha passado pela 1FN, mas de toda
+forma vale aqui a explicação e diferenciação entre os conceitos.
+
+Basicamente a 4FN checa atributos na tabela que possuam multivalores e que estes
+valores sejam referência em outros registros ou outras tabelas no banco, gerando
+uma complexidade exagerada e desnecessária.
+
+QUINTA FORMA NORMAL (5FN)
+
+Em resumo, a quinta forma normal ocorre quando as tabelas não podem mais ser
+quebradas em entidades menores sem que haja perda de informação. É uma forma que
+acaba por gerar muitas tabelas no banco e, por consequência, requer maior poder
+de processamento.
