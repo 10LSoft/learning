@@ -1,0 +1,28 @@
+As estruturas de dados podem ser:
+
+Por disposição de memória:
+
+  - alocação estática: valores mais fáceis de implementar. Aqui você precisa
+    saber qual a quantidade de memória o processo terá e esse processo não
+    poderá variar.
+  - alocação dinâmica: mais complexo de implementar, contudo você terá como
+    resultado uma estrutura capaz de escalonar e usar mais memória conforme
+    necessário.
+
+Quanto aos tipos de algoritmos:
+
+  - iterativos: são os que compões estruturas tradicionais de laços
+  - recursivos: são algoritmos que fazem chamadas a si mesmas
+
+Quanto ao armazenamento de dados:
+
+  - heterogêneo: tipos diferentes de dados
+  - homogêneo: mesmo tipos de dados
+
+As estruturas possuem operações básicas e isto é um padrão em quase que a
+totalidade de sistemas. Estou falando no famoso CRUD.
+
+Com relação a estratégia de acesso, podemos pensar na ordenação de dados. Para
+determinados momentos, a ordenação dos dados é crucial, assim como também pode
+ser que dados devam se manter aleatórios. Mas isso depende da estrutura de dados
+que se irá usar.
