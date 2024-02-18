@@ -1,0 +1,88 @@
+Nível Básico:
+
+Introdução às Linguagens Formais:
+
+Compreensão dos conceitos básicos de linguagens formais, como alfabetos, cadeias
+e linguagens. Aprendizado sobre a importância das linguagens formais na
+modelagem de linguagens de programação e sistemas formais.
+
+Gramáticas Formais:
+
+Introdução às gramáticas formais, incluindo gramáticas regulares, livres de
+contexto, sensíveis ao contexto e irrestritas. Exploração dos diferentes tipos
+de regras de produção e sua relação com a geração de linguagens.
+
+Autômatos Finitos:
+
+Aprendizado sobre autômatos finitos determinísticos (AFDs) e autômatos finitos
+não determinísticos (AFNs). Estudo de transições de estados, reconhecimento de
+linguagens e aplicações práticas em análise léxica.
+
+Expressões Regulares:
+
+Introdução às expressões regulares e sua relação com linguagens regulares.
+Aprendizado sobre operações de concatenação, união e fechamento de Kleene.
+
+Nível Intermediário:
+
+Linguagens Regulares e Autômatos:
+
+Aprofundamento na relação entre linguagens regulares e autômatos finitos. Estudo
+de teoremas, como o teorema de Kleene e o teorema de equivalência entre
+expressões regulares e autômatos finitos.
+
+Gramáticas Livres de Contexto:
+
+Exploração das propriedades das gramáticas livres de contexto e sua relação com
+linguagens livres de contexto. Aprendizado sobre árvores de derivação e análise
+sintática.
+
+Autômatos de Pilha:
+
+Introdução aos autômatos de pilha e sua relação com linguagens livres de
+contexto. Estudo de transições de estados, reconhecimento de linguagens e
+aplicações práticas em análise sintática.
+
+Hierarquia de Chomsky:
+
+Aprendizado sobre a hierarquia de Chomsky e a relação entre diferentes classes
+de linguagens formais. Exploração das propriedades de linguagens decidíveis e
+reconhecíveis.
+
+Nível Avançado:
+
+Máquinas de Turing:
+
+Aprofundamento na teoria das máquinas de Turing e sua relação com
+computabilidade. Estudo de máquinas de Turing universais, problemas indecidíveis
+e o teorema de Church-Turing.
+
+Linguagens Sensíveis ao Contexto:
+
+Introdução às linguagens sensíveis ao contexto e sua relação com autômatos
+lineares limitados. Aprendizado sobre propriedades e aplicações em análise
+semântica e compiladores.
+
+Tópicos Avançados em Linguagens Formais:
+
+Exploração de tópicos avançados, como linguagens recursivamente enumeráveis,
+linguagens recursivas e linguagens co-recursivas. Estudo de pesquisas recentes e
+problemas em aberto na teoria das linguagens formais.
+
+Aplicações Práticas:
+
+Desenvolvimento de projetos práticos que envolvam análise léxica, análise
+sintática e análise semântica de linguagens de programação. Implementação de
+algoritmos para reconhecimento de linguagens regulares, livres de contexto e
+sensíveis ao contexto.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de linguagens formais e implementando algoritmos para
+reconhecimento de linguagens. Participe de projetos práticos que explorem
+diferentes aspectos da teoria das linguagens formais, como o desenvolvimento de
+interpretadores de linguagens de programação. Desenvolva projetos de pesquisa ou
+acadêmicos que apliquem conceitos de linguagens formais em áreas específicas de
+interesse, como compiladores, processamento de linguagem natural ou verificação
+formal.
