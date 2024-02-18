@@ -15,11 +15,11 @@ Esta parte do documento cobre os seguintes tópicos
 
 01. Variáveis e tipos de dados
 
-Javascript (ou JS) é uma linguagem com relativamente poucos tipos de dados e formas de
+Javascript é uma linguagem com relativamente poucos tipos de dados e formas de
 declarar variáveis. Basicamente temos três maneiras de declarar: const, let e
 var. Cada uma delas tem as suas particularidades e escopos.
 
-Nativamente o JS possui alguns poucos tipos de dados, sendo eles: Number,
+Nativamente o JavaScript possui alguns poucos tipos de dados, sendo eles: Number,
 String, Boolean, Null, Undefined, Object, Array, Function, Symbol e BigInt. Eis
 um pouco de informação sobre cada um deles:
 
@@ -30,7 +30,7 @@ Geralmente estão entre aspas, podendo ser simples, duplas ou um par de crases.
 
 Booleans: são usados para representação de verdadeiro ou falso (true e false).
 
-Null: em JS o tipo null representa uma variáveis propositalmente sem um
+Null: em JavaScript o tipo null representa uma variáveis propositalmente sem um
 conteúdo, mas que tenha sido declarada.
 
 Undefined: servem para descrever variáveis ou métodos de funções que não foram
@@ -45,9 +45,9 @@ que vale ser dito aqui é que os índices começam com zero, o que representa
 internamento que a estrutura é um ponteiro cuja soma de passos parte de um local
 comum, sendo o primeiro índice o valor do ponteiro + 0.
 
-Funções: as functions em JS são basicamente blocos de código reutilizáveis e que
+Funções: as functions em JavaScript são basicamente blocos de código reutilizáveis e que
 podem ser armazenadas em variáveis, nomeadas, passadas como parâmetro ou
-retornadas por outras funções. Isto torna o JS uma linguagem potencialmente
+retornadas por outras funções. Isto torna o JavaScript uma linguagem potencialmente
 funcional, mas que na verdade é multiparadigma. Por falar em paradigma, iremos
 abordar este assunto com mais profundidade em breve.
 
@@ -57,7 +57,7 @@ assegurar que tais propriedades não sejam sobrescritas. São estruturas muito
 reutilizáveis.
 
 Bigint: é basicamente um tipo de dados numérico que poderá possuir precisão
-arbitrária. Este recurso foi introduzido ao JS pelo ES2020 e serve para que você
+arbitrária. Este recurso foi introduzido ao JavaScript pelo ES2020 e serve para que você
 possa trabalhar com números realmente grandes. Funciona como uma luva para casos
 de criptografia e para ids únicos realmente grandes. O uso desse tipo se dá por
 meio da adição do sufixo n ao final do número.
@@ -68,8 +68,78 @@ exemplo BigInt.add(). O mesmo acontece para comparações por meio dos operadore
 >, <, <=, >=, !=, !==, ==, ===.
 
 Um ponto importante a notar é que os BigInts são tipos diferentes dos Numbers em
-JS, de modo que, considerando que não haverá parse automático na maioria dos
+JavaScript, de modo que, considerando que não haverá parse automático na maioria dos
 casos, deva-se tomar cuidado com os momentos em que um tipo não seja igual ao
 outro.
 
-Uma maneira de verificar o tipo de um dado em JS é por meio da expressão typeof. 
+Uma maneira de verificar o tipo de um dado em JavaScript é por meio da expressão typeof. 
+
+O JS é uma linguagem extremamente poderosa e, sendo assim, ela detém muitos
+operadores. A seguir uma lista completa deles (até o momento da escrita deste
+documento):
+
+Operadores aritméticos
+
+Os operadores artitméticos são aqueles usados para realizar operações
+matemáticas. São os seguintes:
+
+  + adição
+  - subtração
+  * multiplicação
+  / divisão
+  % módulo (resto)
+  ++ incremento
+  -- decremento
+  ** exponenciação
+
+Operadores de atribuição
+
+São aqueles usados para associar valores e um determinado suporte de retorno.
+São os seguintes:
+
+  = atribuição simples
+  += atribuição de adição
+  -= atribuição de subtração
+  *= atribuição de multiplicação
+  /= atribuição de divisão
+  %= atribuição de módulo (resto)
+  **= atribuição de exponencia
+  <<= atribuição shift left
+  >>= atribuição shift right
+  >>>= atribuição shift right sem sinal
+  &= atribuição AND bitwise
+  |= atribuição OR bitwise
+  ^= atribuição XOR bitwise
+
+Operadores de comparação
+
+Os operadores de comparação são aqueles que realizam a checagem comparativa
+entre duas expressões ou valores. Os valores produzidos na análise são
+booleanos, ou seja, true e false. Os disponíveis são os seguintes:
+
+  == igualdade com coerção de tipo
+  === igualdade extrita, sem coerção de tipo
+  != diferente com coerção de tipo
+  !== diferente sem coerção de tipo
+  > maior que
+  < menor que 
+  >= maior ou igual
+  <= menor ou igual
+
+Operadores lógicos
+
+São usados para produzir resultados booleanos, ou seja, baseados em verdadeiro
+ou falso (true e false). São os seguintes:
+
+  && AND lógico
+  || OR lógico
+  ! NOT lógico
+
+Operadores de bitwise
+
+São operadores que permitem que valores a nível de bit sejam processados no
+código. São os seguintes:
+
+  & AND bitwise
+  | OR bitwise
+  ^ XOR bitwise (ou exclusivo)
