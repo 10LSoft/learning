@@ -1,0 +1,57 @@
+Recuperando dados
+
+É possível a recuperação de colunas individuais de determinadas tabelas por meio
+de queries simples que indiquem a coluna pelo nome. Digamos que eu queira
+recuperar os nomea de países dentro de uma tabela chamada country:
+
+SELECT name FROM country
+
+Também é possível recuperar mais de uma coluna em uma busca, bastando para isto
+apenas especificar os nomes das colunas separados por vírgulas:
+
+SELECT name, region, continent, population FROM country
+
+Também é possível recuperar todas as colunas da tabela por meio do caracter
+coringa *, ficando assim:
+
+SELECT * FROM country
+
+Em uma busca também é possível obter, por exemplo, somente uma instância de
+registros repetidos. Isto é útil para o caso de quando tivermos tabelas em que
+determinada coluna possa ocorrer mais de uma vez, contudo queiramos apenas uma
+listagem simples de registros, sem estas repetições. Um exemplo:
+
+SELECT DISTINCT country_name fROM country_language
+
+No exemplo acima, por mais que existam vários países que falem a mesma língua, a
+listagem não repetirá os nomes dos mesmos na listagem.
+
+Também podemos limitar a quantidade de registros em uma busca, por exemplo,
+digamos que queiramos uma busca contendo os primeiros 5 nomes de países em nossa
+tabela country:
+
+SELECT name fROM country LIMIT 5
+
+Também é possível estabelecer ranges nos limites. Por exemplo, a seguir eu quero
+somente os nomes da sexta à décima posições:
+
+SELECT name fROM country LIMIT 5, 5
+
+Assim como em qualquer linguagem, SQL também permite o uso de comentários dentro
+das queries. Existem basicamente três tipos de comentários em SQL sendo da
+seguinte forma:
+
+# eu sou um comment de uma linha
+SELECT * FROM country -- eu sou um comment no linha com código SQL
+/*
+eu sou um comment de mais de uma linha
+*/
+
+Cláusulas de ordencação
+
+SELECT: colunas ou expressão a ser retornada
+FROM: tabela ou subquery de onde os dados vêm
+WHERE: filtro para personalizar a busca
+GROUP BY: agrupar por (especificação de grupo)
+HAVING: filtrar a nível de grupo
+ORDER BY: atributo de ordenação (colunas ou número de colunas)

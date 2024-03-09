@@ -1,0 +1,53 @@
+Roteiro para estudos - JEST
+
+Entenda os fundamentos do Jest: Leia a documentação oficial do Jest para
+entender sua estrutura e funcionalidades básicas. Experimente escrever alguns
+testes simples usando Jest para se familiarizar com sua sintaxe e conceitos
+fundamentais, como describe, test, expect, entre outros.
+
+Testes Assíncronos: Aprenda sobre testes assíncronos em Jest, incluindo como
+testar código que envolve operações assíncronas como Promises, callbacks e
+código que faz requisições à API. Pratique escrever testes assíncronos usando
+async/await ou done callback.
+
+Configuração e Estruturação: Explore as opções de configuração do Jest, como
+setupFiles, transform, moduleNameMapper, entre outros, para personalizar o
+ambiente de teste. Organize seus testes em suites lógicas usando describe e it,
+garantindo uma estrutura clara e legível.
+
+Simulação de Funções e Módulos: Aprenda a simular funções e módulos externos
+usando jest.mock e jest.fn() para isolar o código que está sendo testado.
+Pratique escrever testes para componentes ou funções que dependem de módulos
+externos, simulando esses módulos para controlar seu comportamento durante os
+testes.
+
+Testes de Componentes React: Se você trabalha com React, explore as
+funcionalidades específicas do Jest para testar componentes React, como render,
+fireEvent, screen, entre outros. Experimente escrever testes para componentes
+React, cobrindo diferentes casos de uso e cenários, incluindo testes de
+snapshots.
+
+Cobertura de Código: Aprenda a usar a funcionalidade de cobertura de código do
+Jest para identificar partes do código que não estão sendo testadas. Integre
+ferramentas como istanbul ou codecov para relatórios de cobertura de código mais
+avançados e insights sobre a qualidade dos seus testes. Testes de Integração e
+Mocking mais Avançado: Explore técnicas avançadas de mocking, como mocks
+parciais e mocks automáticos, para simplificar testes de integração e reduzir a
+complexidade. Pratique escrever testes de integração que abrangem múltiplas
+partes do seu aplicativo, usando mocks quando apropriado para isolar o código em
+teste.
+
+Plugins e Extensões: Explore plugins e extensões para Jest que podem melhorar
+sua produtividade ou adicionar funcionalidades extras, como suporte a
+TypeScript, snapshots visuais, entre outros.
+
+Boas Práticas e Padronização: Familiarize-se com as melhores práticas para
+escrever testes eficazes, incluindo nomes de teste descritivos, testes
+independentes e consistentes, entre outros. Considere a padronização do estilo
+de teste em sua equipe ou projeto para garantir que todos os desenvolvedores
+estejam escrevendo testes de forma consistente e legível.
+
+Prática e Projetos Pessoais: Aplique o que você aprendeu em projetos pessoais ou
+contribuições de código aberto. Pratique regularmente escrever testes usando
+Jest para melhorar suas habilidades e se manter atualizado com as melhores
+práticas e recursos mais recentes.

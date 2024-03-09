@@ -1,6 +1,6 @@
 /**
  * O padrão Factory tem como objetivo principal gerar um objeto correto baseado
- * no parâmetro passado para o método que o chama, de modo que dentro muitras
+ * no parâmetro passado para o método que o chama, de modo que dentre muitras
  * classes disponíveis, a Factory possa selecionar a correta e enviar o objeto
  * que corresponda ao padrão desejado. */
 
