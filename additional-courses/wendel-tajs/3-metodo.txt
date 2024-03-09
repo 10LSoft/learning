@@ -1,0 +1,9 @@
+Alguns pilares associados ao processo de desenvolvimento de software devem ser
+considerados para que uma feature ou quaisquer outros esforços sejam
+implementados no sistema são baseados em alguns pilares específicos:
+
+1. Não tocar no código até entender 100% do problema e o passo a passo para
+solução;
+2. Valide o que você entregou de forma automatizada;
+3. Prepare o setup ferramental (testes e debugging) no momento de criação do
+projeto;

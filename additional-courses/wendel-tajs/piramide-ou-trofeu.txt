@@ -1,0 +1,17 @@
+O curso demonstra algumas sugestões sobre como deveria ocorrer as distribuições
+de testes automatizados em um projeto. Alguns artigos sobre o tema podem ser
+verificados por meio dos links abaixo:
+
+https://martinfowler.com/bliki/TestPyramid.html
+https://martinfowler.com/articles/practical-test-pyramid.html
+https://testguild.com/testing-pyramid/
+https://blog.devgenius.io/toppling-the-pyramids-27ace578a7e
+https://sofy.ai/blog/the-testing-pyramid-understanding-the-pros-and-cons/
+https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications
+https://twitter.com/kentcdodds/status/960723172591992832
+https://kentcdodds.com/blog/write-tests
+https://blog.devgenius.io/toppling-the-pyramids-27ace578a7e
+https://blog.ncrunch.net/post/testing-pyramid-automated-testing.asp
+
+É interessante que se leiam os artigos. Alguns deles são inclusive do Martin
+Fowler e do Kent D. Dodds.

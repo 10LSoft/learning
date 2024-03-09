@@ -1,0 +1,119 @@
+Mocks
+
+Mocks são imitações, ou seja, quando queremos mockar algo, estamos querendo
+imitar algo. No caso do Jest, quando queremos mockar uma função, estamos
+querendo imitar o comportamento dessa função. Ela basicamente nos permite criar
+um objeto que simula o comportamento de um objeto real.
+
+const myMock = jest.fn();
+console.log(myMock());
+// > undefined
+
+myMock
+  .mockReturnValueOnce(10)
+  .mockReturnValueOnce('x')
+  .mockReturnValue(true);
+
+console.log(myMock(), myMock(), myMock(), myMock());
+// > 10, 'x', true, true
+
+### Mocks de Funções
+
+const myMock = jest.fn();
+
+// primeira instância
+const a = new myMock();
+
+// segunda instância
+const b = {};
+const bound = myMock.bind(b);
+bound();
+
+console.log(myMock.mock.instances);
+// > [ <a>, <b> ]
+
+### Mocks de Retorno
+
+const myMock = jest.fn();
+console.log(myMock());
+// > undefined
+
+// gerador de mock values
+myMock
+  .mockReturnValueOnce(10)
+  .mockReturnValueOnce('x')
+  .mockReturnValue(true);
+
+console.log(myMock(), myMock(), myMock(), myMock());
+// > 10, 'x', true, true
+
+### Mocks de Implementação
+
+const myMock = jest.fn();
+console.log(myMock());
+// > undefined
+
+myMock.mockImplementation(() => 42);
+console.log(myMock());
+// > 42
+
+myMock.mockImplementation(() => 10).mockImplementation(() => 20);
+console.log(myMock(), myMock());
+// > 10, 20
+
+### Mocks de Limpeza
+
+const myMock = jest.fn();
+console.log(myMock());
+// > undefined
+
+myMock
+  .mockReturnValueOnce(10)
+  .mockReturnValueOnce('x')
+  .mockReturnValue(true);
+
+console.log(myMock(), myMock(), myMock(), myMock());
+// > 10, 'x', true, true
+
+myMock.mockReset();
+console.log(myMock());
+// > undefined
+
+### Mocks de Retorno de Promessa
+
+const myMock = jest.fn();
+myMock.mockResolvedValueOnce(10).mockResolvedValueOnce(20);
+
+myMock().then((value) => {
+  console.log(value);
+  // > 10
+});
+
+myMock().then((value) => {
+  console.log(value);
+  // > 20
+});
+
+### Mocks de Retorno de Erro de Promessa
+
+const myMock = jest.fn();
+myMock.mockRejectedValueOnce(new Error('some error message'));
+
+myMock().catch((error) => {
+  expect(error.message).toBe('some error message');
+});
+
+### Mocks de Retorno de Promessa com Resolução Dinâmica
+
+const myMock = jest.fn();
+myMock.mockResolvedValueOnce(10).mockResolvedValueOnce(20);
+
+myMock().then((value) => {
+  console.log(value);
+  // > 10
+});
+
+myMock().then((value) => {
+  console.log(value);
+  // > 20
+});

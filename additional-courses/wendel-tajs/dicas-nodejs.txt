@@ -1,0 +1,6 @@
+Como configurar o package.json:
+
+para configurar o package.json da forma que convier, você deverá usar o npm pkg.
+Um exemplo:
+
+npm pkg set type=module engines.node=$(node -v) author=genese.lessa
