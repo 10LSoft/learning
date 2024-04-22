@@ -1,0 +1,86 @@
+Nível Básico:
+
+Introdução à Análise de Algoritmos:
+
+Conceitos básicos de algoritmos e sua importância na ciência da computação.
+Noções básicas de eficiência de algoritmos e por que é importante analisá-los.
+
+Notação Assintótica:
+
+Aprenda sobre notações como O (Big O), Ω (Big Omega) e Θ (Theta) para descrever
+a complexidade de tempo dos algoritmos. Compreenda como essas notações descrevem
+o comportamento de um algoritmo à medida que o tamanho da entrada cresce.
+
+Análise de Complexidade de Tempo:
+
+Estude os diferentes tipos de complexidade de tempo, como linear, quadrática,
+logarítmica e exponencial. Pratique a análise de algoritmos simples para
+entender como determinar sua complexidade de tempo.
+
+Análise de Complexidade de Espaço:
+
+Compreenda a complexidade de espaço de um algoritmo e como ela é diferente da
+complexidade de tempo. Explore exemplos de algoritmos que consomem diferentes
+quantidades de memória.
+
+Nível Intermediário:
+
+Métodos de Análise:
+
+Aprofunde-se em técnicas de análise de algoritmos, como análise assintótica,
+análise empírica e análise amortizada. Compare e contraste os diferentes métodos
+de análise para entender suas vantagens e limitações.
+
+Algoritmos de Ordenação:
+
+Estude algoritmos de ordenação comuns, como Bubble Sort, Selection Sort,
+Insertion Sort, Merge Sort, Quick Sort e Heap Sort. Analise a complexidade de
+tempo e espaço de cada algoritmo e compare seu desempenho em diferentes
+cenários.
+
+Algoritmos de Busca:
+
+Explore algoritmos de busca, como busca linear e busca binária. Analise a
+complexidade de tempo desses algoritmos e compreenda suas aplicações.
+
+Algoritmos de Grafos:
+
+Introdução aos algoritmos em grafos, como busca em largura (BFS), busca em
+profundidade (DFS), algoritmo de Dijkstra e algoritmo de Bellman-Ford. Estude a
+complexidade de tempo desses algoritmos e entenda como eles são aplicados em
+problemas do mundo real.
+
+Nível Avançado:
+
+Programação Dinâmica:
+
+Aprenda sobre programação dinâmica e como ela é usada para resolver problemas de
+otimização. Estude algoritmos clássicos de programação dinâmica, como o problema
+da mochila (knapsack problem) e o algoritmo de Floyd-Warshall.
+
+Algoritmos Gulosos:
+
+Compreenda a abordagem gulosa (greedy) para resolver problemas de otimização.
+Estude algoritmos gulosos clássicos, como o algoritmo de Kruskal para a árvore
+geradora mínima e o algoritmo de Prim.
+
+Algoritmos Avançados em Grafos:
+
+Aprofunde-se em algoritmos mais avançados em grafos, como algoritmos de fluxo
+máximo (Ford-Fulkerson, Edmonds-Karp) e algoritmos para encontrar componentes
+fortemente conexos (Kosaraju, Tarjan).
+
+Complexidade de Espaço e Tempo:
+
+Estude casos especiais de algoritmos e situações em que a complexidade de espaço
+é tão importante quanto a complexidade de tempo. Explore técnicas avançadas para
+analisar e otimizar a complexidade de algoritmos.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de análise de algoritmos. Participe de competições de
+programação como o Codeforces, TopCoder ou HackerRank para ganhar experiência
+prática em resolver problemas algorítmicos. Desenvolva projetos pessoais que
+envolvam a implementação e análise de algoritmos para ganhar uma compreensão
+mais profunda de como eles funcionam na prática.

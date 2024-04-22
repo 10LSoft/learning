@@ -1,0 +1,83 @@
+Nível Básico:
+
+Introdução ao Controle de Versão e Git:
+
+Compreensão dos conceitos básicos de controle de versão e a importância do Git
+no desenvolvimento de software. Aprendizado sobre os principais benefícios do
+Git, como controle de alterações, colaboração e rastreamento de histórico.
+
+Instalação e Configuração:
+
+Instalação do Git em seu sistema operacional. Configuração inicial do Git,
+incluindo definição de nome de usuário, endereço de e-mail e configurações
+globais.
+
+Comandos Básicos do Git:
+
+Aprendizado sobre os comandos básicos do Git, como init, add, commit e status.
+Prática de criar um repositório Git local, adicionar arquivos, confirmar
+alterações e verificar o status do repositório.
+
+Branches e Merging:
+
+Introdução ao conceito de branches e merging no Git. Aprendizado sobre comandos
+como branch, checkout, merge e rebase para gerenciar branches e integrar
+alterações.
+
+Nível Intermediário:
+
+Trabalho com Remotos:
+
+Aprofundamento no trabalho com repositórios remotos no Git. Aprendizado sobre
+comandos como clone, push, pull e fetch para interagir com repositórios remotos.
+
+Resolução de Conflitos:
+
+Exploração de como lidar com conflitos de merge no Git. Estudo de casos de uso e
+técnicas para resolver conflitos de forma eficaz.
+
+Reescrevendo Histórico:
+
+Introdução a técnicas de reescrita de histórico no Git. Aprendizado sobre como
+usar comandos como rebase, cherry-pick e amend para reorganizar e editar
+commits.
+
+Tags e Releases:
+
+Aprendizado sobre o uso de tags e releases no Git para marcar pontos específicos
+no histórico do repositório. Exploração de como criar e gerenciar tags, bem como
+preparar e publicar releases.
+
+Nível Avançado:
+
+Git Workflow:
+
+Aprofundamento em diferentes modelos de workflow do Git, como GitFlow, Feature
+Branch Workflow e Forking Workflow. Estudo de casos de uso e recomendações para
+escolher o modelo de workflow mais adequado para o seu projeto.
+
+Hooks e Customizações:
+
+Introdução a ganchos (hooks) do Git e customizações avançadas. Aprendizado sobre
+como usar ganchos para automatizar tarefas e integrar o Git com outros sistemas
+e ferramentas.
+
+Submódulos e Subárvores:
+
+Exploração de submódulos e subárvores no Git para gerenciar dependências
+externas. Estudo de casos de uso e melhores práticas para trabalhar com projetos
+compostos de vários repositórios.
+
+Rebase Interativo e Bisect:
+
+Aprendizado sobre técnicas avançadas de rebase interativo e bisect no Git.
+Exploração de como usar essas ferramentas para reorganizar histórico e depurar
+problemas complexos.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+trabalhando em projetos reais usando Git. Participe de projetos de código aberto
+ou desenvolva seus próprios projetos para aplicar os conceitos aprendidos.
+Colabore com outros desenvolvedores em projetos conjuntos para ganhar
+experiência com trabalho em equipe usando o Git.

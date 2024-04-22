@@ -1,0 +1,27 @@
+Na primeira aula foi feito um overview sobre algumas funções básicas em SQL
+(voltado para o caso do SGBD PostgreSQL).
+
+Antes de avançarmos, acho que seria interessante introduzir alguns assuntos
+específicos como por exemplo CTE (Common Tables Expressions), que funcionam de
+forma similar aos gerenciadores de contexto dentro do python.
+
+Eis um exemplo de gerenciadores de contexto:
+
+WITH my_context as (
+  SELECT
+    'UMA STRING GRANDE EM CAIXA ALTA' AS string_grande,
+    'uma' AS uma_value,
+    'caixa baixa' AS caixa_baixa,
+    'caixa alta' AS caixa_alta,
+    'esta eh uma' AS esta_eh_uma
+)
+
+Com este contexto no mesmo nível de determinada consulta, eu poderia acessar as
+variáveis com my_context.string_grande, por exemplo. Desde que a query que usa
+esses valores estejam passíveis de acesso.
+
+REPLACE
+
+A função replace permite atuar em um retorna alterando substrings por valores
+determinados dentro de determinado contexto. Vou dar uma exemplo que demonstra o
+encadeamento de replaces e extração de valores em um contexto:

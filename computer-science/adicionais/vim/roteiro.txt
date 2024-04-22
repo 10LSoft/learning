@@ -1,0 +1,73 @@
+Nível Básico:
+
+Instalação e Configuração:
+
+Instale o Vim e/ou o Neovim em seu sistema operacional seguindo as instruções
+específicas para o seu ambiente. Configure os arquivos de inicialização do Vim
+(vimrc) e do Neovim (init.vim ou init.lua) para personalizar o ambiente de
+edição de acordo com suas preferências iniciais.
+
+Interface e Modos de Edição:
+
+Explore a interface do Vim/Neovim e os diferentes modos de edição (Normal,
+Insert, Visual, Command). Pratique a navegação pelo arquivo usando as teclas de
+movimento (h, j, k, l) e outras combinações de teclas.
+
+Comandos Básicos:
+
+Aprenda os comandos básicos do Vim/Neovim para abrir, salvar e fechar arquivos.
+Pratique a execução de comandos básicos, como salvar (:w) e sair (:q).
+
+Configuração de Plugins:
+
+Aprenda a gerenciar plugins no Vim/Neovim usando gerenciadores de plugins como
+Vundle, vim-plug ou dein.vim. Explore diferentes plugins disponíveis para
+melhorar a funcionalidade do Vim/Neovim, como autocompletar, realce de sintaxe,
+gerenciamento de projetos, entre outros. Nível Intermediário:
+
+Personalização Avançada:
+
+Explore opções avançadas de personalização no Vim/Neovim, incluindo
+configurações de cores, temas, atalhos de teclado personalizados e funções de
+mapeamento.
+
+Trabalhando com Janelas e Abas:
+
+Aprenda a dividir a tela em janelas e abas para trabalhar com múltiplos arquivos
+simultaneamente. Pratique a navegação e o gerenciamento de janelas e abas usando
+atalhos de teclado.
+
+Integração com Ferramentas Externas:
+
+Aprenda a integrar o Vim/Neovim com ferramentas externas, como Git, Linters,
+Debuggers e Ferramentas de Compilação. Explore plugins e configurações
+específicas para aumentar a produtividade ao usar o Vim/Neovim em fluxos de
+trabalho de desenvolvimento específicos.
+
+Nível Avançado:
+
+Desenvolvimento de Plugins:
+
+Aprenda a desenvolver plugins para o Vim/Neovim usando Vimscript, Lua ou outras
+linguagens de programação compatíveis. Explore a API do Vim/Neovim e desenvolva
+plugins simples para estender sua funcionalidade.
+
+Trabalho Remoto e Colaboração:
+
+Aprenda a usar o Vim/Neovim em ambientes de trabalho remoto e colaborativo.
+Explore plugins e técnicas para compartilhar sessões do Vim/Neovim, colaborar em
+tempo real e trabalhar em projetos em equipe.
+
+Desempenho e Otimização:
+
+Explore técnicas de otimização de desempenho para tornar o Vim/Neovim mais
+rápido e responsivo. Aprenda a monitorar e diagnosticar problemas de desempenho,
+identificar gargalos e aplicar ajustes para melhorar a experiência de uso.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, pratique regularmente usando o
+Vim/Neovim para edição de código e outros textos. Participe de desafios de
+codificação e projetos de desenvolvimento usando exclusivamente o Vim/Neovim
+para ganhar fluência. Contribua para projetos de código aberto relacionados ao
+Vim/Neovim, como plugins, temas ou a própria base de código do Vim/Neovim.

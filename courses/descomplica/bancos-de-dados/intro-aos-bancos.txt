@@ -1,0 +1,60 @@
+Saber o que é dado, informação e conhecimento
+
+Dado: informação mínima! Pode não significar nada! Exemplos: 1, calça, dedos,
+verdadeira, armário, pratileira. Do contexto humano é possível usar um conjunto de dados e gerar
+uma informação, mas eles isolados não trazem para nós informação relevante.
+
+Informação: é a junção lógica dos dados. A informação sim traz um significado
+lógico para os dados e permite que cada dado em particular (de forma específica)
+acabe trazendo algo relevante. Um exemplo usando os dados acima:
+
+"chegando ao armário número 1, você deverá pegar a calça jeans molhada com tinta
+verde, mas cuidado pois você não poderá molhar os seus dedos e analisar as imagens na primeira
+pratileira, escrevendo no verso se a sentença é verdadeira ou falsa."
+
+Conhecimento: é o nosso entendimento por meio de um conjunto de informações, ou
+seja, basicamente o nosso conhecimento e se relaciona com cognição e
+aprendizado. O conhecimento não é dado inicialmente pela máauina e sim pela
+mente.
+
+Sistema baseado em arquivos
+
+Basicamente o sistema de arquivos é o predecessor dos bancos de dados modernos,
+os chamados SGBD e BD não relacionais. Reunião de dados de maneira sequencial ou
+usando uma organização específica, contém textos, tabelas, sons, imagens,
+vídeos, etc. Um arquivo contém dados e informações!
+
+Este sistema de armazenamento existe desde 1950. Os meios de armazenamento
+evoluíram muito, mas o formato dos arquivos não! Isso pode significar vantagens
+e desvantagens. Como vantagens temos a organização que pode inclusive usar um
+meio de arquivo especial chamado folder ou directory. Os sistemas de arquivos
+são concebidos para serem altamente intrínsecos e aninhados, de modo a oferecer
+modos quase ilimitados de profundidade de arquivos e diretórios.
+
+Outra possível vantagem nos sistemas de arquivos é a possibilidade de
+compactação e criptografia dos dados e informações, de modo a melhorar a
+performance e segurança no uso destas estruturas, podendo usar menos espaço do
+que o realmente necessário para tal.
+
+Como desvantagens podemos citar alguns pontos também relevantes: possibilidade
+de incompatibilidade pelos softwares que irão consumir determinado arquivo.
+Dependendo do sistema operacional, os tipos de arquivos tendem a adicionar
+informações muitas vezes repetidas, apenas para assegurar o intercâmbio destas
+informações em diferentes versões do software. Isto fere o princípio da
+atomicidade, pois temos aí a informação de que mais de uma responsabilidade está
+dentro da mesma estrutura e isto se prova ineficiente em diversos campos da
+ciência da computação. Outro ponto importante que merece ser citado aqui é a
+dificuldade para se trabalhar de forma paralela usando sistemas de arquivos.
+Pessoas que precisavam agir por meio de edição em um mesmo arquivo
+simultâneamente tinham sérios problemas, visto que os conhecidos sistemas de
+versionamento que temos hoje não eram tão comuns.
+
+Sistemas de bancos de dados
+
+Os sistemas de bancos de dados surgiram como uma alternativa às desvantagens
+citadas nos sistemas de arquivos. O primeiro sistema de banco de dados foi
+implementado pela IBM na década de 80 após um período de evoluções entre algumas
+soluções propostas: System R -> SQL/DS -> DB2.
+
+Os sistemas de bancos de dados utilizam tabelas para armazenar dados por meio de
+colunas. Os dados são tipados e organizados antes de serem gravados na base.

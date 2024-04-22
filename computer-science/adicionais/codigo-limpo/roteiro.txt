@@ -1,0 +1,84 @@
+Nível Básico:
+
+Introdução ao Clean Code:
+
+Compreensão dos princípios básicos de Clean Code e sua importância no
+desenvolvimento de software. Aprendizado sobre legibilidade, manutenibilidade e
+extensibilidade do código.
+
+Nomes Significativos:
+
+Estudo sobre a importância de escolher nomes significativos para variáveis,
+métodos e classes. Aprendizado sobre convenções de nomenclatura e práticas
+recomendadas para tornar o código mais compreensível.
+
+Funções Pequenas e Objetivos Claros:
+
+Introdução à escrita de funções pequenas e focadas em um único objetivo.
+Exploração de técnicas para refatorar funções longas e complexas em partes
+menores e mais compreensíveis.
+
+Comentários e Documentação:
+
+Aprendizado sobre quando e como utilizar comentários de forma eficaz. Estudo de
+casos de uso e boas práticas para escrever documentação clara e útil.
+
+Nível Intermediário:
+
+Princípios SOLID:
+
+Aprofundamento nos cinco princípios SOLID (Single Responsibility Principle,
+Open/Closed Principle, Liskov Substitution Principle, Interface Segregation
+Principle e Dependency Inversion Principle). Estudo de casos de uso e
+implementação prática desses princípios.
+
+Testabilidade e Testes Unitários:
+
+Introdução à testabilidade do código e sua importância na manutenção da
+qualidade do software. Aprendizado sobre escrever testes unitários eficazes e
+automatizados.
+
+Refatoração:
+
+Exploração da importância da refatoração no processo de desenvolvimento de
+software. Estudo de técnicas de refatoração para melhorar a legibilidade,
+simplicidade e eficiência do código.
+
+Gerenciamento de Erros e Exceções:
+
+Aprendizado sobre práticas recomendadas para lidar com erros e exceções de forma
+elegante e segura. Estudo de casos de uso e técnicas para evitar armadilhas
+comuns relacionadas a tratamento de erros.
+
+Nível Avançado:
+
+Design Orientado a Objetos:
+
+Aprofundamento nos princípios de design orientado a objetos e sua aplicação em
+Clean Code. Estudo de padrões de design e técnicas avançadas para criar sistemas
+flexíveis e extensíveis.
+
+Clean Architecture:
+
+Introdução à Clean Architecture e sua relação com Clean Code. Aprendizado sobre
+como projetar sistemas de software modulares, independentes e testáveis.
+
+Code Smells e Antipadrões:
+
+Exploração de code smells e antipadrões de código e como identificá-los e
+corrigi-los. Estudo de casos de uso e técnicas para evitar a acumulação de
+dívida técnica.
+
+Cultura de Clean Code:
+
+Aprendizado sobre a importância de promover uma cultura de Clean Code em equipes
+de desenvolvimento. Exploração de práticas colaborativas, revisões de código e
+técnicas de mentoring para melhorar a qualidade do código em equipe.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+escrevendo e refatorando código seguindo os princípios do Clean Code. Participe
+de projetos de código aberto ou desenvolva seus próprios projetos para aplicar
+os conceitos aprendidos. Busque feedback de colegas e especialistas na área para
+melhorar suas habilidades de escrita de código limpo e legível.

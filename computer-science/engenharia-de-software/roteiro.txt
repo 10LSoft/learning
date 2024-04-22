@@ -1,0 +1,88 @@
+Nível Básico:
+
+Introdução à Engenharia de Software:
+
+Compreensão dos conceitos básicos de engenharia de software, incluindo
+definições, princípios e objetivos. Importância da engenharia de software no
+desenvolvimento de sistemas de software confiáveis e eficientes.
+
+Processos de Desenvolvimento de Software:
+
+Estudo sobre os diferentes modelos de processo de desenvolvimento de software,
+como Cascata, Iterativo-Incremental, Agile, entre outros. Compreensão das
+características, vantagens e desvantagens de cada modelo.
+
+Gestão de Projetos de Software:
+
+Introdução aos conceitos de gestão de projetos de software, incluindo
+planejamento, execução, monitoramento e controle. Estudo de técnicas de
+estimativa de esforço, custo e prazo.
+
+Documentação de Software:
+
+Aprendizado sobre a importância da documentação de software e os tipos de
+documentos utilizados ao longo do ciclo de vida do projeto. Prática na
+elaboração de documentos como especificações de requisitos, diagramas UML e
+manuais de usuário.
+
+Nível Intermediário:
+
+Engenharia de Requisitos:
+
+Aprofundamento na elicitação, análise, especificação e validação de requisitos
+de software. Estudo de técnicas como entrevistas, brainstorming, prototipagem e
+modelagem de requisitos.
+
+Projeto de Software:
+
+Exploração dos princípios de design de software, incluindo coesão, acoplamento,
+encapsulamento e modularidade. Estudo de padrões de design comuns, como MVC
+(Model-View-Controller) e SOLID.
+
+Qualidade de Software:
+
+Compreensão dos conceitos de qualidade de software, incluindo funcionalidade,
+confiabilidade, usabilidade, eficiência e manutenibilidade. Estudo de técnicas
+de garantia de qualidade, como revisões de código, testes de software e análise
+estática.
+
+Gerenciamento de Configuração e Mudanças:
+
+Introdução aos princípios de gerenciamento de configuração e controle de
+mudanças em projetos de software. Estudo de ferramentas de controle de versão,
+como Git, e práticas de branching, merging e release management.
+
+Nível Avançado:
+
+Engenharia de Software Orientada a Serviços (SOA):
+
+Exploração dos princípios de SOA e como ele é aplicado no desenvolvimento de
+sistemas distribuídos e interoperáveis. Estudo de tecnologias como web services,
+RESTful APIs e microservices.
+
+Engenharia de Software Baseada em Componentes:
+
+Aprofundamento na engenharia de software baseada em componentes e sua aplicação
+no desenvolvimento de sistemas reutilizáveis e extensíveis. Estudo de
+tecnologias como frameworks de componentes e containers de inversão de controle.
+
+Desenvolvimento Ágil:
+
+Compreensão dos princípios e valores do desenvolvimento ágil de software,
+incluindo colaboração com o cliente, entrega incremental e adaptação à mudança.
+Estudo de metodologias ágeis populares, como Scrum, Kanban e Extreme Programming
+(XP).
+
+Engenharia de Software Emergente:
+
+Exploração de tópicos emergentes em engenharia de software, como DevOps,
+Continuous Integration/Continuous Deployment (CI/CD), e inteligência artificial
+aplicada ao desenvolvimento de software.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando projetos de software. Participe de projetos de código aberto para
+ganhar experiência prática e colaborar com a comunidade. Desenvolva projetos
+pessoais que abordem diferentes aspectos da engenharia de software, desde a
+concepção até a entrega e manutenção.

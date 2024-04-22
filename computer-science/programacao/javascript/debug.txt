@@ -1,0 +1,16 @@
+DEBUGGING Javascript
+
+Muitas pessoas não sabem, mas é possível realizar DEBUG de aplicações JS pelo
+terminal. Você pode aplicar o DEBUG no terminal por meio do seguinte comando:
+
+$ node inspect arquivo.js
+
+Isto irá permitir que você realize o debug do arquivo requerido via terminal.
+Algo muito parecido com o PDB do Python. Quando você cai no ambiente de debug, o
+node disponibiliza uma porta para tal. Por meio desta porta você pode usar o
+ambiente de debug do chrome para realizar as suas investigações.
+
+Num primeiro momento eu irei usar este recurso para a demonstração no
+terminal. O real intuito deste formato de aplicação é debugar, por exemplo,
+código em prod. Com este tipo de recurso é possível que se trace um check para
+requests e responses mesmo com o código num server já funcional.

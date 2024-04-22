@@ -1,0 +1,35 @@
+Ordenação de dados
+
+É possível realizar a ordenação dos dados de uma query por meio de uma ou mais
+colunas da tabela. Por exemplo:
+
+SELECT name, code FROM country ORDER BY name
+
+No exemplo acima, estamos selecionando duas colunas, mas ordenando apenas por
+uma delas, ou seja, name.
+
+Mas também é possível ordenar por mais de uma coluna. Exemplo:
+
+SELECT continent, region, name FROM contry ORDER BY continent, region, name
+
+No caso acima, teríamos a ordenação partindo da coluna continent (ordem
+alfabética), seguido da coluna region (que respeita a ordem da coluna continent,
+mas exibe também em ordem alfabética) e por ultimo, o mesmo processo aplicado a
+coluna name.
+
+Também é possível realizar a ordenação de itens por número da coluna. Por
+exemplo:
+
+SELECT continent, region, name FROM contry ORDER BY 2, 3
+
+No caso acima estamos nos referindo às colunas region (2) e name (3).
+
+Ainda sobre ordenação de dados, pordemos informar em que direção queremos que
+isto ocorra. Pode ser ASC para ascendente ou crescente, e DESC para decrescente.
+
+SELECT continent, region, name FROM contry ORDER BY continent DESC, region, name
+
+No caso acima, o SELECT estaria ordenando os dados de forma inversa (DESC) da
+coluna continent, seguido pelas colunas region e name ordenadas de forma ASC
+(default).
+

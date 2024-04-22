@@ -1,0 +1,85 @@
+Nível Básico:
+
+Conceitos Fundamentais:
+
+Compreensão dos conceitos básicos de matemática discreta, como conjuntos,
+relações, funções e operações sobre conjuntos. Exploração de propriedades de
+conjuntos, como união, interseção, diferença e complemento.
+
+Lógica e Prova Matemática:
+
+Introdução à lógica proposicional e lógica de predicados. Aprendizado sobre
+técnicas de prova matemática, incluindo prova direta, prova por contradição e
+prova por indução matemática.
+
+Teoria dos Números:
+
+Estudo dos números inteiros, divisibilidade, números primos e algoritmo de
+Euclides. Exploração de propriedades de congruência e aritmética modular.
+
+Combinatória e Probabilidade:
+
+Introdução à combinatória, incluindo princípios de contagem, permutações,
+combinações e arranjos. Aprendizado sobre conceitos básicos de probabilidade,
+como espaço amostral, eventos, probabilidade condicional e teorema de Bayes.
+
+Nível Intermediário:
+
+Grafos e Teoria dos Grafos:
+
+Exploração de grafos, vértices, arestas e representações de grafos. Estudo sobre
+propriedades de grafos, como conectividade, ciclos, árvores e coloração de
+vértices.
+
+Árvores de Decisão e Análise de Algoritmos:
+
+Aprendizado sobre árvores de decisão e sua aplicação na análise de algoritmos.
+Estudo de algoritmos de busca em grafos, como busca em largura e busca em
+profundidade.
+
+Teoria dos Conjuntos e Álgebra de Boole:
+
+Aprofundamento em teoria dos conjuntos, incluindo operações de conjunto
+avançadas e álgebra de Boole. Exploração de aplicações em lógica booleana e
+design de circuitos lógicos.
+
+Codificação e Criptografia:
+
+Introdução à teoria da codificação e criptografia. Estudo de técnicas de
+codificação de informações e algoritmos de criptografia, como cifra de César,
+cifra de Vigenère e RSA.
+
+Nível Avançado:
+
+Teoria dos Números Computacional:
+
+Exploração de teoria dos números computacional, incluindo algoritmos para
+fatoração de inteiros, teste de primalidade e aritmética modular eficiente.
+Estudo de aplicações em criptografia moderna e segurança de dados.
+
+Teoria da Informação e Codificação de Canal:
+
+Aprofundamento em teoria da informação, entropia, codificação de fonte e
+codificação de canal. Exploração de técnicas avançadas em compressão de dados e
+correção de erros.
+
+Teoria dos Grafos Avançada:
+
+Estudo de tópicos avançados em teoria dos grafos, como grafos dirigidos, fluxo
+em redes, emparelhamento e coloração de arestas. Exploração de algoritmos
+eficientes para resolver problemas complexos em grafos.
+
+Lógica Modal e Teoria dos Modelos:
+
+Introdução à lógica modal e teoria dos modelos. Aprendizado sobre semântica
+modal, modelos Kripke e aplicações em inteligência artificial e filosofia.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de matemática discreta e implementando algoritmos
+relacionados. Participe de competições de programação, como a International
+Olympiad in Informatics (IOI), para ganhar experiência prática e colaborar com a
+comunidade. Desenvolva projetos pessoais que envolvam a aplicação de conceitos
+de matemática discreta em áreas como redes sociais, análise de dados ou
+segurança de computadores.

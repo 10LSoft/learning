@@ -1,0 +1,86 @@
+Nível Básico:
+
+Introdução à Lógica Proposicional:
+
+Compreensão dos conceitos básicos de proposições, conectivos lógicos (AND, OR,
+NOT), e tabelas verdade. Aprendizado sobre formas normais, equivalências lógicas
+e leis da lógica proposicional.
+
+Raciocínio Dedutivo e Argumentação:
+
+Introdução ao raciocínio dedutivo e à construção de argumentos válidos.
+Exploração de técnicas de prova direta, prova por contradição e prova por
+indução matemática.
+
+Lógica de Predicados de Primeira Ordem:
+
+Aprendizado sobre quantificadores (existencial e universal), variáveis,
+predicados e funções. Estudo de interpretações, validade de argumentos e
+equivalências em lógica de predicados.
+
+Teoria dos Conjuntos:
+
+Introdução aos conceitos básicos de teoria dos conjuntos, incluindo operações de
+união, interseção e complemento. Aprendizado sobre diagramas de Venn, axiomas de
+Zermelo-Fraenkel e teoria axiomática dos conjuntos.
+
+Nível Intermediário:
+
+Equivalências e Consequências Lógicas:
+
+Aprofundamento em técnicas de prova de equivalências e consequências lógicas.
+Estudo de tabelas de verdade estendidas, tautologias e leis da lógica de
+predicados.
+
+Formalização de Problemas:
+
+Exploração da formalização de problemas do mundo real em linguagem lógica.
+Aprendizado sobre como expressar proposições e argumentos usando lógica de
+predicados.
+
+Teoria dos Modelos:
+
+Introdução à teoria dos modelos e sua relação com a lógica matemática. Estudo de
+modelos, satisfação de fórmulas e teoremas de completude e compacidade.
+
+Lógica Modal:
+
+Aprendizado sobre lógica modal e seus operadores (necessidade, possibilidade).
+Exploração de sistemas modais, modelos Kripke e aplicações em filosofia e
+ciência da computação.
+
+Nível Avançado:
+
+Teoria da Prova Automatizada:
+
+Aprofundamento em teoria da prova automatizada e sistemas de prova assistida por
+computador. Estudo de teoremas de Gödel, métodos de resolução e técnicas
+avançadas de prova.
+
+Lógica Não Clássica:
+
+Introdução a lógicas não clássicas, como lógica fuzzy, lógica difusa e lógica
+paraconsistente. Exploração de aplicações em inteligência artificial, sistemas
+especialistas e engenharia de controle.
+
+Lógica de Ordem Superior:
+
+Aprendizado sobre lógica de ordem superior e quantificação sobre predicados e
+funções. Estudo de teorias de tipos, lógica de ordem superior simples e
+aplicações em linguagens de programação funcional.
+
+Tópicos Avançados em Lógica Matemática:
+
+Exploração de tópicos avançados, como teoria da computabilidade, teoria dos
+conjuntos não bem-fundamentada e aplicações interdisciplinares. Estudo de
+pesquisas recentes e problemas em aberto na lógica matemática.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+resolvendo problemas de lógica matemática e construindo argumentos válidos.
+Participe de projetos práticos que explorem diferentes aspectos da lógica
+matemática, como formalização de sistemas formais e prova de teoremas.
+Desenvolva projetos de pesquisa ou acadêmicos que apliquem conceitos de lógica
+matemática em áreas específicas de interesse, como inteligência artificial,
+filosofia ou ciência da computação.

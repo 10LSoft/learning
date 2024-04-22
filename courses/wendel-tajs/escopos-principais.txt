@@ -1,0 +1,10 @@
+Dentre as dezenas de tipos de testes que existem, alguns são de uma relevância
+considerada. De tal forma que eles são descritos (de forma básica) na pirâmide
+de testes do Martin Fowler. Basicamente o que ele sugere é que na base da
+pirâmide estejam os testes mais rápidos e numerosos como os unitários. No meio
+da pirâmide teríamos os testes de integração e no topo, teríamos os end-to-end.
+
+Nem todos concordam com esta sugestão de distribuição de testes. Para alguns,
+isto não se aplica na prática, pois em muitos momentos os testes do tipo
+end-to-end, por exemplo são os ideais para determinado contexto e que podem nos
+dar maior confiança sobre a entrega e funcionalidade de determinado software.

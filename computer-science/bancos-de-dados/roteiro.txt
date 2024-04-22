@@ -1,0 +1,83 @@
+Nível Básico:
+
+Introdução aos Bancos de Dados e SQL:
+
+Conceitos básicos de bancos de dados, dado, informação e conhecimento. Formas
+normais de um banco de dados (1FN, 2FN, 3FN, 4FN e 5FN). O que é SQL e sua
+importância. Tipos de bancos de dados (relacionais, não relacionais, etc.).
+
+Fundamentos do SQL:
+
+Sintaxe básica do SQL (SELECT, INSERT, UPDATE, DELETE). Consultas simples com
+cláusulas WHERE, ORDER BY e LIMIT. Criação e manipulação de tabelas e bancos de
+dados.
+
+Chaves Primárias e Estrangeiras:
+
+Compreensão do conceito de chaves primárias e estrangeiras. Como definir e usar
+chaves primárias e estrangeiras em um esquema de banco de dados.
+
+Nível Intermediário:
+
+Consultas SQL Avançadas:
+
+Uso de funções agregadas (COUNT, SUM, AVG, etc.). Consultas com múltiplas
+tabelas (INNER JOIN, LEFT JOIN, RIGHT JOIN). Subconsultas (subqueries) e
+consultas aninhadas.
+
+Restrições de Integridade e Transações:
+
+Restrições de integridade referencial. Conceito de transações e controle de
+transações (BEGIN, COMMIT, ROLLBACK). Controle de concorrência e bloqueio.
+
+Normalização de Banco de Dados:
+
+Conceitos de normalização (1NF, 2NF, 3NF, etc.). Identificação e resolução de
+problemas de redundância.
+
+Índices e Otimização de Consultas:
+
+Como criar e usar índices para melhorar o desempenho das consultas. Estratégias
+de otimização de consultas.
+
+Nível Avançado:
+
+Programação com SQL:
+
+Uso de procedimentos armazenados (stored procedures) e funções. Triggers e
+eventos. Dynamic SQL.
+
+Segurança e Controle de Acesso:
+
+Gerenciamento de usuários e privilégios. Melhores práticas de segurança para
+proteger o banco de dados contra ameaças.
+
+Replicação e Alta Disponibilidade:
+
+Configuração de replicação para redundância e recuperação de desastres.
+Conceitos de alta disponibilidade e failover.
+
+Bancos de Dados NoSQL:
+
+Introdução aos bancos de dados NoSQL. Comparação entre bancos de dados
+relacionais e NoSQL. Uso prático de bancos de dados NoSQL como MongoDB,
+Cassandra, etc.
+
+Projetos Práticos:
+
+Desenvolvimento de Aplicações com Bancos de Dados:
+
+Desenvolver pequenos projetos que envolvam a criação e manipulação de banco de
+dados. Integrar o banco de dados em aplicativos usando frameworks ou bibliotecas
+relevantes.
+
+Otimização e Manutenção de Bancos de Dados:
+
+Identificação e resolução de problemas de desempenho. Backup e restauração de
+bancos de dados. Monitoramento e ajuste contínuo do desempenho do banco de
+dados.
+
+Trabalho em Equipe e Colaboração:
+
+Trabalhar em projetos de equipe que envolvam o uso de bancos de dados
+compartilhados. Versionamento de esquemas e dados.

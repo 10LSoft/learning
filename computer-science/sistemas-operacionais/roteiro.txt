@@ -1,0 +1,95 @@
+Nível Básico:
+
+Introdução aos Sistemas Operacionais:
+
+Compreensão dos conceitos básicos de sistemas operacionais, incluindo definição,
+funções e objetivos. Aprendizado sobre a evolução histórica dos sistemas
+operacionais e as diferentes categorias, como sistemas monolíticos e sistemas
+distribuídos.
+
+Processos e Threads:
+
+Introdução aos conceitos de processo e thread, incluindo gerenciamento de
+processos, contexto de execução e sincronização de threads. Exploração das
+diferenças entre processos e threads e seu papel na execução de programas.
+
+Gerenciamento de Memória:
+
+Aprendizado sobre gerenciamento de memória em sistemas operacionais, incluindo
+alocação de memória, paginação, segmentação e swap. Estudo das técnicas de
+gerenciamento de memória virtual e políticas de substituição de página.
+
+Sistemas de Arquivos:
+
+Exploração dos sistemas de arquivos em sistemas operacionais, incluindo
+organização, estrutura de diretórios, acesso a arquivos e gerenciamento de
+espaço em disco. Aprendizado sobre sistemas de arquivos populares, como FAT,
+NTFS e ext4.
+
+Nível Intermediário:
+
+Sincronização e Concorrência:
+
+Aprofundamento em técnicas de sincronização e concorrência em sistemas
+operacionais, incluindo semáforos, mutexes, monitores e barreiras de
+sincronização. Estudo de problemas clássicos de concorrência, como o problema do
+produtor-consumidor e o problema dos leitores-escritores.
+
+Gerenciamento de Processos e Escalonamento de CPU:
+
+Introdução ao gerenciamento de processos em sistemas operacionais, incluindo
+escalonamento de CPU, políticas de escalonamento e estados de processos.
+Exploração de algoritmos de escalonamento de CPU, como FCFS, SJF, Round Robin e
+Prioridade.
+
+Sistemas de Arquivos Avançados:
+
+Aprendizado sobre sistemas de arquivos distribuídos, sistemas de arquivos de
+rede e sistemas de arquivos distribuídos em nuvem. Estudo de casos de uso e
+características de sistemas de arquivos avançados, como NFS, CIFS e HDFS.
+
+Virtualização e Contêineres:
+
+Exploração de técnicas de virtualização em sistemas operacionais, incluindo
+virtualização de hardware e virtualização de software. Aprendizado sobre
+contêineres e tecnologias de contêineres, como Docker e Kubernetes.
+
+Nível Avançado:
+
+Gerenciamento de Dispositivos:
+
+Aprofundamento em gerenciamento de dispositivos em sistemas operacionais,
+incluindo drivers de dispositivo, barramentos de hardware e subsistemas de E/S.
+Estudo de técnicas de gerenciamento de dispositivos avançadas, como plug and
+play e hot swapping.
+
+Segurança em Sistemas Operacionais:
+
+Introdução aos conceitos de segurança em sistemas operacionais, incluindo
+controle de acesso, políticas de segurança e mecanismos de proteção. Exploração
+de técnicas de proteção contra ameaças de segurança, como malware, rootkits e
+ataques de negação de serviço.
+
+Desempenho e Otimização:
+
+Aprendizado sobre técnicas de otimização de desempenho em sistemas operacionais,
+incluindo monitoramento de desempenho, análise de desempenho e ajuste de
+parâmetros do sistema. Estudo de casos de uso e ferramentas de otimização de
+desempenho em sistemas operacionais.
+
+Sistemas Operacionais Distribuídos:
+
+Exploração de sistemas operacionais distribuídos, incluindo arquiteturas,
+modelos de programação e algoritmos de coordenação. Aprendizado sobre desafios e
+soluções em sistemas operacionais distribuídos, como consistência de dados,
+sincronização e tolerância a falhas.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando conceitos aprendidos em sistemas operacionais através de projetos
+práticos e exercícios. Participe de projetos de código aberto relacionados a
+sistemas operacionais e contribua para comunidades de desenvolvedores.
+Desenvolva projetos pessoais ou acadêmicos que explorem diferentes aspectos de
+sistemas operacionais, como escalonamento de CPU, gerenciamento de memória e
+segurança.

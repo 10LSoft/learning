@@ -1,0 +1,16 @@
+O VIM é considerado por muitos usuários avançados o melhor editor de textos que
+existe! Trata-se de um editor leve, extremamente funcional e de desempenho
+realmente superior.
+
+O consumo de memória pelo editor também é um ponto forte e ele se destaca por
+poupar recursos, deixando os mesmos para processamento do core das aplicações.
+Devido a isto, trata-se de um editor de alto desempenho e com grande potencial
+para ser usado como IDE, bastando personalizar da maneira que convier ao
+usuário.
+
+Programadores do planeta inteiro usam o VIM como editor principal e há um motivo
+para isto acontecer: quando você se acostuma e aprende sobre as diversas nuances
+do editor, você se torna rápido... mas muito rápido mesmo!
+
+Esta pasta foir criada para inserir dicas de aprendizado e outros recursos
+avançados sobre o VIM.

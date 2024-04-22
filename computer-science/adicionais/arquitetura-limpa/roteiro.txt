@@ -1,0 +1,86 @@
+Nível Básico:
+
+Introdução à Arquitetura Limpa:
+
+Compreensão dos princípios básicos da Clean Architecture e sua importância no
+desenvolvimento de software. Aprendizado sobre a separação de responsabilidades,
+independência de frameworks e testabilidade.
+
+Princípios SOLID:
+
+Estudo dos cinco princípios SOLID (Single Responsibility Principle, Open/Closed
+Principle, Liskov Substitution Principle, Interface Segregation Principle e
+Dependency Inversion Principle). Aprendizado sobre como esses princípios se
+aplicam à Clean Architecture e como podem ser implementados.
+
+Camadas da Clean Architecture:
+
+Introdução às camadas da Clean Architecture, como Entidades, Casos de Uso,
+Interfaces de Interface do Usuário e Infraestrutura. Exploração dos propósitos
+de cada camada e suas responsabilidades.
+
+Design Patterns:
+
+Aprendizado sobre design patterns comumente utilizados na Clean Architecture,
+como Repository Pattern, Use Case Pattern e Dependency Injection. Estudo de
+casos de uso e implementação prática desses padrões.
+
+Nível Intermediário:
+
+Testabilidade e TDD:
+
+Aprofundamento na importância da testabilidade na Clean Architecture.
+Aprendizado sobre Test-Driven Development (TDD) e sua aplicação na construção de
+software usando a Clean Architecture.
+
+Frameworks e Bibliotecas:
+
+Introdução à seleção e uso adequado de frameworks e bibliotecas em projetos de
+Clean Architecture. Exploração de boas práticas para integração de frameworks e
+a manutenção da independência da camada de negócios.
+
+Padrões Arquiteturais:
+
+Estudo de padrões arquiteturais relacionados à Clean Architecture, como
+Hexagonal Architecture (Ports and Adapters) e Onion Architecture. Aprendizado
+sobre as diferenças, semelhanças e melhores casos de uso para esses padrões.
+
+Gerenciamento de Estado:
+
+Aprofundamento no gerenciamento de estado em aplicações baseadas em Clean
+Architecture. Exploração de técnicas como Flux, Redux e padrões de observadores.
+
+Nível Avançado:
+
+Arquitetura Microservices:
+
+Estudo avançado sobre como aplicar os princípios da Clean Architecture em
+arquiteturas de microsserviços. Aprendizado sobre desafios específicos, como
+comunicação entre serviços e consistência de dados.
+
+Performance e Escalabilidade:
+
+Aprofundamento na otimização de desempenho e escalabilidade em sistemas baseados
+em Clean Architecture. Exploração de técnicas de caching, sharding de banco de
+dados e balanceamento de carga.
+
+Segurança:
+
+Introdução à segurança em aplicações desenvolvidas com Clean Architecture.
+Estudo de práticas recomendadas para proteção contra vulnerabilidades comuns,
+como injeção de SQL e ataques de negação de serviço.
+
+DevOps e Continuous Integration/Continuous Deployment (CI/CD):
+
+Aprendizado sobre como integrar práticas de DevOps e CI/CD em projetos de Clean
+Architecture. Exploração de ferramentas e técnicas para automação de testes,
+build e deploy.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+construindo projetos reais usando os princípios da Clean Architecture. Participe
+de projetos de código aberto ou desenvolva seus próprios projetos para aplicar o
+que aprendeu. Busque feedback de colegas e especialistas na área para melhorar
+suas habilidades e entender melhor os princípios da Clean Architecture na
+prática.

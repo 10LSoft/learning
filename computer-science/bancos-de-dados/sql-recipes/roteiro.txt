@@ -1,0 +1,17 @@
+Tópicos abordados
+
+1. Recuperando dados
+2. Ordenando dados
+3. Filtrando dados
+4. Campos calculados
+5. Funções de manipulação de dados
+6. Agrupando dados
+7. Trabalhando com subqueries
+8. Juntando tabelas
+9. Combinando queries
+10. Inserindo dados
+11. Atualizando e excluindo dados
+12. Campos e tipos de dados
+13. Criando tabelas
+14. Atualizando tabelas
+15. Usando views

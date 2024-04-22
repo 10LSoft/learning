@@ -1,0 +1,84 @@
+Nível Básico:
+
+Introdução à Teoria da Computação:
+
+Compreensão dos fundamentos da teoria da computação, incluindo autômatos
+finitos, gramáticas formais e linguagens formais.
+
+Conceitos Básicos de Compiladores:
+
+Entenda o que são compiladores e sua importância no processo de desenvolvimento
+de software. Aprenda sobre as fases de um compilador: análise léxica, análise
+sintática, análise semântica, geração de código e otimização.
+
+Análise Léxica e Sintática:
+
+Estudo sobre análise léxica e sintática, incluindo expressões regulares,
+autômatos finitos determinísticos (DFA) e autômatos de pilha (PDA). Pratique a
+escrita de gramáticas formais e a implementação de analisadores léxicos e
+sintáticos simples.
+
+Árvores de Sintaxe Abstrata (AST):
+
+Compreenda o conceito de árvores de sintaxe abstrata e como elas são usadas na
+representação de programas durante a compilação.
+
+Nível Intermediário:
+
+Análise Semântica:
+
+Estude análise semântica e como os compiladores verificam a correção semântica
+dos programas. Explore conceitos como tabelas de símbolos, análise de tipos e
+verificação de escopo.
+
+Geração de Código Intermediário:
+
+Aprenda sobre a geração de código intermediário e sua importância na otimização
+e na geração de código final. Estude diferentes formas de representação de
+código intermediário, como árvores de expressão e código de três endereços.
+
+Otimização de Código:
+
+Compreenda técnicas de otimização de código, como eliminação de código morto,
+propagação de constantes e otimização de laços. Estude algoritmos de otimização
+comuns e como aplicá-los durante a geração de código intermediário.
+
+Geração de Código:
+
+Explore técnicas de geração de código para diferentes arquiteturas de
+processadores. Estude sobre registradores, alocação de memória, gerenciamento de
+pilha e outras considerações ao gerar código final.
+
+Nível Avançado:
+
+Compiladores Just-in-Time (JIT):
+
+Aprofunde-se em compiladores JIT e como eles funcionam para compilar código
+durante a execução do programa. Estude sobre a arquitetura de compiladores JIT
+em linguagens como Java e .NET.
+
+Compiladores para Linguagens Específicas de Domínio (DSL):
+
+Explore o design e a implementação de compiladores para linguagens específicas
+de domínio. Estude casos de uso de compiladores DSL em áreas como processamento
+de linguagem natural, matemática computacional e design de hardware.
+
+Ferramentas e Bibliotecas de Compilação:
+
+Familiarize-se com ferramentas populares de compilação, como Lex & Yacc, Flex &
+Bison, LLVM e GCC. Estude como usar essas ferramentas para construir
+compiladores e interpretadores eficientes.
+
+Pesquisa em Compiladores:
+
+Explore tópicos avançados em pesquisa de compiladores, como análise estática de
+programas, verificação formal e técnicas de compilação avançadas.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando pequenos compiladores e interpretadores para linguagens simples.
+Desenvolva projetos pessoais que envolvam a construção de um compilador completo
+para uma linguagem de programação específica. Participe de projetos de código
+aberto relacionados a compiladores para ganhar experiência prática e colaborar
+com a comunidade de desenvolvedores de compiladores.

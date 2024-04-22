@@ -1,0 +1,86 @@
+Nível Básico:
+
+Introdução à Modelagem e Simulação:
+
+Compreensão dos conceitos básicos de modelagem e simulação. Exploração da
+importância da modelagem e simulação em diversas áreas, como ciência,
+engenharia, economia e biologia.
+
+Modelagem de Sistemas:
+
+Aprendizado sobre os princípios de modelagem de sistemas, incluindo
+identificação de componentes, relações e comportamentos. Estudo de técnicas de
+representação de sistemas, como diagramas de blocos e diagramas de fluxo.
+
+Métodos de Simulação:
+
+Introdução aos diferentes métodos de simulação, incluindo simulação discreta,
+simulação contínua e simulação baseada em agentes. Exploração de software de
+simulação básico, como Simulink, NetLogo ou AnyLogic.
+
+Validação e Verificação:
+
+Aprendizado sobre técnicas de validação e verificação de modelos de simulação.
+Estudo de métodos para garantir a precisão e a confiabilidade dos resultados da
+simulação.
+
+Nível Intermediário:
+
+Modelagem Matemática:
+
+Aprofundamento em modelagem matemática, incluindo a formulação de equações
+diferenciais e equações de estado. Estudo de técnicas de discretização, como
+diferenças finitas e elementos finitos.
+
+Ferramentas de Simulação:
+
+Exploração de software de simulação mais avançado, como MATLAB/Simulink, Arena,
+AnyLogic, COMSOL Multiphysics, entre outros. Aprendizado sobre a seleção
+adequada de ferramentas de simulação para diferentes tipos de problemas.
+
+Análise de Sensibilidade e Incerteza:
+
+Introdução à análise de sensibilidade e incerteza em modelos de simulação.
+Estudo de métodos de análise de sensibilidade global e local e técnicas de
+propagação de incerteza.
+
+Otimização de Modelos:
+
+Aprendizado sobre técnicas de otimização de modelos de simulação. Exploração de
+algoritmos de otimização, como algoritmos genéticos, algoritmos de busca
+aleatória e algoritmos de otimização de gradiente.
+
+Nível Avançado:
+
+Modelagem de Sistemas Complexos:
+
+Aprofundamento em modelagem de sistemas complexos, como sistemas adaptativos,
+sistemas multiagentes e sistemas complexos emergentes. Estudo de abordagens
+teóricas, como teoria dos sistemas dinâmicos e teoria da complexidade.
+
+Simulação de Eventos Discretos Avançada:
+
+Exploração de técnicas avançadas de simulação de eventos discretos, como
+modelagem de filas, simulação de logística e simulação de produção. Estudo de
+otimização de desempenho e paralelização de simulações de eventos discretos.
+
+Simulação em Tempo Real:
+
+Introdução à simulação em tempo real e suas aplicações em sistemas críticos em
+tempo real. Aprendizado sobre técnicas de modelagem e implementação de
+simulações em tempo real.
+
+Aplicações Avançadas em Modelagem e Simulação:
+
+Exploração de aplicações avançadas em áreas como medicina, finanças, transporte,
+energia e meio ambiente. Estudo de casos e projetos práticos para aplicar os
+conceitos aprendidos em problemas do mundo real.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+implementando modelos de simulação e analisando os resultados. Participe de
+projetos de pesquisa ou colaborativos que envolvam modelagem e simulação em sua
+área de interesse. Desenvolva projetos pessoais ou acadêmicos que utilizem
+técnicas de modelagem e simulação para resolver problemas específicos ou
+explorar fenômenos complexos.

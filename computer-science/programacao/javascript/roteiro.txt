@@ -1,0 +1,87 @@
+Nível Básico:
+
+Introdução ao JavaScript:
+
+Compreensão dos fundamentos do JavaScript, incluindo variáveis, tipos de dados,
+operadores e estruturas de controle. Aprendizado sobre a sintaxe básica e a
+organização de um programa JavaScript.
+
+Manipulação do DOM:
+
+Exploração da manipulação do Document Object Model (DOM) para interação com
+elementos HTML. Aprendizado sobre seleção de elementos, manipulação de estilos e
+manipulação de eventos.
+
+Funções e Escopo:
+
+Introdução às funções em JavaScript, incluindo declaração de funções, parâmetros
+e retorno de valores. Estudo sobre escopo de variáveis e closures.
+
+Arrays e Objetos:
+
+Aprendizado sobre arrays e objetos em JavaScript, incluindo criação, manipulação
+e iteração. Exploração de métodos úteis de array, como map(), filter() e
+reduce().
+
+Nível Intermediário:
+
+Programação Orientada a Objetos em JavaScript:
+
+Aprofundamento nos conceitos de programação orientada a objetos (POO) em
+JavaScript, incluindo classes, herança e encapsulamento. Estudo sobre
+prototipagem e o uso de prototypes em JavaScript.
+
+Trabalhando com Assíncrono:
+
+Introdução à programação assíncrona em JavaScript, incluindo callbacks, Promises
+e async/await. Exploração de técnicas para lidar com chamadas de API assíncronas
+e eventos.
+
+Manipulação de Strings e Expressões Regulares:
+
+Aprendizado sobre manipulação de strings, incluindo métodos de string e
+formatação de texto. Estudo sobre expressões regulares e seu uso para
+correspondência de padrões em strings.
+
+Gerenciamento de Erros e Depuração:
+
+Exploração de técnicas de gerenciamento de erros em JavaScript, incluindo
+try/catch e throw. Aprendizado sobre ferramentas de depuração disponíveis no
+navegador e no ambiente de desenvolvimento.
+
+Nível Avançado:
+
+Padrões de Projeto em JavaScript:
+
+Aprofundamento em padrões de projeto comuns em JavaScript, como módulo, fábrica,
+observador e singleton. Estudo sobre quando e como aplicar cada padrão de
+projeto em situações específicas.
+
+Manipulação de Eventos Avançada:
+
+Exploração de técnicas avançadas de manipulação de eventos, como delegação de
+eventos e eventos personalizados. Aprendizado sobre otimização de desempenho e
+melhores práticas para lidar com eventos em aplicações complexas.
+
+Frameworks e Bibliotecas JavaScript:
+
+Introdução aos principais frameworks e bibliotecas JavaScript, como React.js,
+AngularJS, Vue.js e jQuery. Exploração de conceitos e padrões de desenvolvimento
+específicos de cada framework.
+
+Desenvolvimento de Aplicações Web Avançadas:
+
+Aprendizado sobre tópicos avançados em desenvolvimento de aplicações web, como
+autenticação de usuários, armazenamento de dados cliente-servidor e otimização
+de desempenho. Estudo de casos e projetos práticos para aplicar os conceitos
+aprendidos em aplicações web do mundo real.
+
+Prática e Projetos:
+
+Durante todo o processo de aprendizado, é crucial praticar constantemente
+desenvolvendo pequenos projetos e resolvendo desafios de programação em
+JavaScript. Participe de comunidades de desenvolvedores online, como fóruns,
+grupos no GitHub e comunidades no Discord, para compartilhar conhecimento e
+colaborar em projetos. Desenvolva projetos pessoais ou contribua para projetos
+de código aberto para ganhar experiência prática e construir um portfólio
+sólido.
