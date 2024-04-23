@@ -14,8 +14,8 @@ vários padrões que existem.
 
 Vamos dividi-las:
 
-* Padrões comportamentais
 * Padrões criacionais
+* Padrões comportamentais
 * Padrões estruturais (ou arquiteturais)
 
 Padrões por categorias

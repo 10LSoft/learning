@@ -1,29 +1,29 @@
 /**
  * O padrão Factory tem como objetivo principal gerar um objeto correto baseado
- * no parâmetro passado para o método que o chama, de modo que dentre muitras
+ * no parâmetro passado para o método que o chama, de modo que dentre muitas
  * classes disponíveis, a Factory possa selecionar a correta e enviar o objeto
  * que corresponda ao padrão desejado. */
 
 class AbstractAnimal {
-  say () {
+  say() {
     throw new Error('Sould be implemented')
   }
 }
 
 class Dog extends AbstractAnimal {
-  say () {
+  say() {
     return 'hoof hoof'
   }
 }
 
 class Cat extends AbstractAnimal {
-  say () {
+  say() {
     return 'meawww'
   }
 }
 
 class AnimalFactory {
-  create (animal) {
+  create(animal) {
     switch (animal) {
       case "Dog":
         return new Dog()

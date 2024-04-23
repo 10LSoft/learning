@@ -5,32 +5,32 @@
  * */
 
 class AbstractAnimalFactory {
-  create () {
+  create() {
     throw new Error('Should be implemented')
   }
 }
 
 class Cat {
-  say () {
+  say() {
     return 'meow'
   }
 }
 
 class Dog {
-  say () {
+  say() {
     return 'hoof hoof'
   }
 }
 
 class CatFactory extends AbstractAnimalFactory {
-  create () {
+  create() {
     console.log('Creating a cat')
     return new Cat()
   }
 }
 
 class DogFactory extends AbstractAnimalFactory {
-  create () {
+  create() {
     console.log('Creating a dog')
     return new Dog()
   }
@@ -41,3 +41,9 @@ const dog = new DogFactory().create()
 
 console.log(cat.say())
 console.log(dog.say())
+
+/**
+ * Para este caso, basicamente temos o foco do algorítmo voltado à fábrica em vez de focado no
+ * objeto. Perceba que quem mantém aí condições de ser mais profundamente implementado é quem
+ * deriva da classe abstrata AbstractAnimalFactory.
+ * */
