@@ -2,89 +2,83 @@ Nível Básico:
 
 Introdução aos Design Patterns:
 
-Compreensão dos conceitos básicos de design patterns e sua importância no
-desenvolvimento de software. Aprendizado sobre os benefícios de usar design
-patterns e sua relação com a reutilização de código e a manutenibilidade.
+Compreensão dos conceitos básicos de design patterns e sua importância no desenvolvimento de
+software. Aprendizado sobre os benefícios de usar design patterns e sua relação com a reutilização
+de código e a manutenibilidade.
 
-Design Patterns Creacionais:
+Design Patterns creacionais:
 
-Introdução aos design patterns creacionais, como Singleton, Factory Method e
-Abstract Factory. Exploração de situações de uso e implementação prática desses
-padrões.
+Introdução aos design patterns creacionais, como Singleton, Factory Method e Abstract Factory.
+Exploração de situações de uso e implementação prática desses padrões. Além dos supra-citados,
+temos ainda: builder, prototype, monostate, object pool, lazy initialization, e multiton.
 
 Design Patterns Estruturais:
 
-Aprendizado sobre design patterns estruturais, como Adapter, Decorator e
-Composite. Estudo de casos de uso e implementação prática desses padrões para
-facilitar a composição de objetos.
+Aprendizado sobre design patterns estruturais, como Adapter, Decorator e Composite. Estudo de casos
+de uso e implementação prática desses padrões para facilitar a composição de objetos.
 
 Design Patterns Comportamentais:
 
-Introdução aos design patterns comportamentais, como Strategy, Observer e
-Command. Exploração de situações de uso e implementação prática desses padrões
-para gerenciar algoritmos, notificações e execução de comandos.
+Introdução aos design patterns comportamentais, como Strategy, Observer e Command. Exploração de
+situações de uso e implementação prática desses padrões para gerenciar algoritmos, notificações e
+execução de comandos.
 
 Nível Intermediário:
 
 Padrões de Arquitetura:
 
-Aprofundamento nos padrões de arquitetura, como MVC (Model-View-Controller),
-MVVM (Model-View-ViewModel) e MVP (Model-View-Presenter). Estudo de casos de uso
-e implementação prática desses padrões em diferentes contextos de aplicação.
+Aprofundamento nos padrões de arquitetura, como MVC (Model-View-Controller), MVVM
+(Model-View-ViewModel) e MVP (Model-View-Presenter). Estudo de casos de uso e implementação prática
+desses padrões em diferentes contextos de aplicação.
 
 Padrões de Projeto:
 
-Introdução aos padrões de projeto mais avançados, como Dependency Injection,
-Inversion of Control e Service Locator. Exploração de situações de uso e
-implementação prática desses padrões para promover a modularidade e a
-flexibilidade do código.
+Introdução aos padrões de projeto mais avançados, como Dependency Injection, Inversion of Control e
+Service Locator. Exploração de situações de uso e implementação prática desses padrões para
+promover a modularidade e a flexibilidade do código.
 
 Padrões de Concorrência:
 
-Aprendizado sobre padrões de concorrência, como Monitor Object, Thread Pool e
-Active Object. Estudo de casos de uso e implementação prática desses padrões
-para lidar com problemas de concorrência e paralelismo.
+Aprendizado sobre padrões de concorrência, como Monitor Object, Thread Pool e Active Object. Estudo
+de casos de uso e implementação prática desses padrões para lidar com problemas de concorrência e
+paralelismo.
 
 Padrões de Persistência:
 
-Introdução aos padrões de persistência de dados, como Data Mapper, Table Data
-Gateway e Identity Map. Exploração de situações de uso e implementação prática
-desses padrões para garantir a separação de preocupações entre a lógica de
-negócios e o acesso a dados.
+Introdução aos padrões de persistência de dados, como Data Mapper, Table Data Gateway e Identity
+Map. Exploração de situações de uso e implementação prática desses padrões para garantir a
+separação de preocupações entre a lógica de negócios e o acesso a dados.
 
 Nível Avançado:
 
 Padrões de Microservices:
 
-Aprofundamento nos padrões de design para arquiteturas de microsserviços, como
-Saga Pattern, CQRS (Command Query Responsibility Segregation) e Event Sourcing.
-Estudo de casos de uso e implementação prática desses padrões para desenvolver
-sistemas distribuídos escaláveis e resilientes.
+Aprofundamento nos padrões de design para arquiteturas de microsserviços, como Saga Pattern, CQRS
+(Command Query Responsibility Segregation) e Event Sourcing. Estudo de casos de uso e implementação
+prática desses padrões para desenvolver sistemas distribuídos escaláveis e resilientes.
 
 Padrões Reativos:
 
-Introdução aos padrões reativos, como Reactive Streams, Actor Model e
-Event-Driven Architecture. Exploração de situações de uso e implementação
-prática desses padrões para lidar com sistemas reativos e baseados em eventos.
+Introdução aos padrões reativos, como Reactive Streams, Actor Model e Event-Driven Architecture.
+Exploração de situações de uso e implementação prática desses padrões para lidar com sistemas
+reativos e baseados em eventos.
 
 Padrões de Segurança:
 
-Aprendizado sobre padrões de design para segurança de software, como OAuth, JWT
-(JSON Web Tokens) e TLS (Transport Layer Security). Estudo de casos de uso e
-implementação prática desses padrões para proteger sistemas contra
-vulnerabilidades e ataques.
+Aprendizado sobre padrões de design para segurança de software, como OAuth, JWT (JSON Web Tokens) e
+TLS (Transport Layer Security). Estudo de casos de uso e implementação prática desses padrões para
+proteger sistemas contra vulnerabilidades e ataques.
 
 Padrões de Machine Learning e Inteligência Artificial:
 
-Introdução aos padrões de design para desenvolvimento de sistemas baseados em
-machine learning e inteligência artificial, como Feature Engineering, Model
-Serving e Pipeline Pattern. Exploração de situações de uso e implementação
-prática desses padrões para criar sistemas inteligentes e adaptativos.
+Introdução aos padrões de design para desenvolvimento de sistemas baseados em machine learning e
+inteligência artificial, como Feature Engineering, Model Serving e Pipeline Pattern. Exploração de
+situações de uso e implementação prática desses padrões para criar sistemas inteligentes e
+adaptativos.
 
 Prática e Projetos:
 
-Durante todo o processo de aprendizado, é crucial praticar constantemente
-aplicando design patterns em projetos reais. Participe de projetos de código
-aberto ou desenvolva seus próprios projetos para aplicar os conceitos
-aprendidos. Busque feedback de colegas e especialistas na área para melhorar
+Durante todo o processo de aprendizado, é crucial praticar constantemente aplicando design patterns
+em projetos reais. Participe de projetos de código aberto ou desenvolva seus próprios projetos para
+aplicar os conceitos aprendidos. Busque feedback de colegas e especialistas na área para melhorar
 suas habilidades de design e implementação de padrões de projeto.

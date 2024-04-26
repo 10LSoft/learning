@@ -23,10 +23,13 @@ PADRÕES CRIACIONAIS
   - Factory: ✔
     - Factory method: ✔
     - Abstract factory: ✔
+    - Factory kit: ✔
+    - Static Factory Method: ✔
   - Builder: ✔
   - Prototype: ✔
   - Singleton: ✔
   - Monostate: ✔
+  - Dependency Injection Container: ✔
 
 PADRÕES COMPORTAMENTAIS
   - Chain of responsibility: ✔

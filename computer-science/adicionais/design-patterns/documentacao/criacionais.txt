@@ -1,11 +1,11 @@
-Os padrões de design criacionais estão relacionados ao processo de codificação em si. Todos eles
+Os padrões de design creacionais estão relacionados ao processo de codificação em si. Todos eles
 têm a ver com features, ou seja, a criação de recursos novos no sistema, de modo que estes precisam
 ser inseridos em momentos de adição de novas entidades de software.
 
 São considerados os mais simples, pois têm como objetivo principal gerar a solução de problemas que
 podem ainda não existir, ou seja, são frequentemente vistos como recursos preventivos.
 
-Dentre os padrões criacionais temos:
+Dentre os padrões creacionais temos:
 
   - Factory
   - Abstract factory
@@ -85,4 +85,4 @@ estado seja o objeto comum a qualquer instância da classe, permitindo assim que
 tenhamos várias instâncias do objeto, apenas um ponto de estado central seria permitido entre eles,
 tomando o lugar comportamental do singleton.
 
-Com isso nós finalizamos os padrões criacionais.
+Com isso nós finalizamos os padrões creacionais.
