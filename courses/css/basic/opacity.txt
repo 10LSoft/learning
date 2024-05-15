@@ -1,0 +1,10 @@
+Um adendo interessante sobre imagens aleatórias para uso em sistemas de forma similar ao lorem
+ipsum: o site https://picsum.photos/ oferece uma API para obtenção de imagens aleatórias.
+
+A propriedade opacity é responsável por atribuir opacidade a elementos onde ela se aplique. O que
+precisamos saber sobre isso é que itens internos a componentes com transparência são diretamente
+afetados por ela, por exemplo, se temos uma div que possui trabsparência, qualquer texto, imagem,
+botão, section ou quaisquer outros itens dentro desta div também terão a transparência aplicada.
+
+A transparência em um elemento pode variar num range de 0.0 a 1.0, sendo 0.0 totalmente
+transparente enquanto 1.0 é complatamente opaco.

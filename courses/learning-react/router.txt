@@ -1,0 +1,40 @@
+React router
+
+O react router é um pacote que não vem disponibilizado no react por padrão, visto que a camada de
+roteamento não é obrigatória e serve apenas para que tenhamos uma funcionalidade parecida com a
+multi-instanciação das SPAs.
+
+Quando fale em instância de SPA, estou me referindo a possibilidade de termos muitas SPAs dentro de
+um mesmo projeto. Imagine como seria se você pudesse ter vários App.jsx em seu sistema, de modo que
+eles fossem linkados por meio de rotas específicas? Seria massa, né não?
+
+Pois é! O react permite esse tipo de recurso facilmente por meio do react-router. O nome do pacote
+é react-router-dom, e a instalação dele é a coisa mais complexa que existe na face da terra. Se dá
+assim:
+
+npm install react-router-dom
+
+O react-router nos presenteia com alguns recursos bem úteis. Dentre eles o BrowserRouter, o Routes
+e o Route. Vou explicar brevemente cada um deles abaixo:
+
+ - BrowserRouter: aqui é a área onde a execução do processamento das rotas e componentes irá ser
+   feita. Em geral um componente com a função de rota poderá ser usado, de modo a trazer o
+   BrewserRouter e os demais itens de roteamento presentes no pacote.
+
+- Routes: é um componente do pacote que engloba as demais rotas. Dentro do routes você deverá
+  adicionar cada uma das rotas do sistema, por meio do próximo componente.
+
+- Route: este carinha é o responsável direto por realizar o match na rota e buildar no lugar o
+  componente indicado.
+
+Mas não para por aí! O pacote nos trás alguns presentes adicionais, como por exemplo o Link e
+NavLink, que são os responsáveis por buildar itens de rota, com o detalhe de que o NavLink
+identifica se o item deve ter um comportamento específico quando a rota atual corresponde ao item
+NavLink. Se isso ocorrer, ganhamos uma classe neste item chamada "active", e podemos, por exemplo,
+dar uma classe diferente para itens de menu ativos por meio desta funcionalidade.
+
+Temos ainda no pacote alguns hooks úteis. Vale à pena dar uma olhadinha na documentação do
+react-router:
+
+https://reactrouter.com/en/main/hooks/use-action-data
+

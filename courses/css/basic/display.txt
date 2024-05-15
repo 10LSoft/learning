@@ -1,0 +1,20 @@
+O elementos CSS podem ter seu espaço ocupado definido por meio do atributo display. O display
+define como um objeto irá aparecer na tela. Dentre os tipos de display temos:
+
+- block: usado para que o elemento vá de canto a canto da tela. Tags como p, hx, div, form, entre
+  outras são do tipo block, pois nativamente ocupam todo o espaço horizontal da tela.
+
+- inline: já os objetos inline são aqueles que ocupam apenas o espaço necessário para o conteúdo
+  que está sendo exibido. Tags como span, a, img, entre outras são do tipo inline.
+
+- inline-block: é uma mistura dos dois tipos anteriores. O elemento é exibido como um elemento
+  inline, mas permite que você defina largura e altura, o que não poderia acontecer no tipo inline.
+  Um detalhe sobre isso é que os inline-block se comportam como palavras e, devido às quebras dos
+  elementos, projetam um espaço entre eles. Se houver a necessidade de dividir os valores
+  espaciais, deve-se considerar esses espaços.
+
+- none: é quando não queremos que o elemento seja exibido na tela. Com este valor, o elemento não
+  irá ocupar espaço na tela, de modo que o navegador realmente irá ignorá-lo. Se você precisar que
+  o elemento apenas seja oculto, mas mantenha o seu espaço preenchido, você deverá usar o CSS
+  visibility: hidden no elemento. Isto apenas não torna o elemento visível, mas seu conteúdo estará
+  lá.

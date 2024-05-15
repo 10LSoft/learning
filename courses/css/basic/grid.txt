@@ -1,0 +1,81 @@
+O display GRID é extremamente intessante. Ele permite manipular e criar templates para os layouts
+da tela. Nele eu posso selecionar por exemplo como os filhos de um determinado item que seja
+display:grid irão se comportar com base no detalhamento de template.
+
+Por exemplo, digamos que eu queira criar um template que tenha 3 colunas com 300px cada, ficaria
+assim:
+
+<div class='grid-container'>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+  <div class='item'>Item</div>
+</div>
+
+CSS:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+  }
+
+Mas a magia mesmo ocorre quando passamos a usar a unidade fr (fraction), que permite dividir os
+espaços disponíveis no container. Mas qual o objetivo disto?
+
+Você deve concordar que no exemplo acima, um espaço excedente iria sobrar, caso o width do
+contêiner fosse de 2000px. Cada coluna teria de forma fixa 300px. A soma destas colunas seria de
+900px, o que significa que sobrariam 1100px no container. Para aproveitar isto de forma nativa no
+grid poderíamos ter feito o CSS assim:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+  }
+
+O código acima indica que a coluna um teria uma parte da tela, a coluna dois teria duas partes e a
+três teria três partes da tela. O grid já realiza essa divisão facilmente. O que por si só já é
+excelente para desenvolver templates.
+
+O grid-template-columns ajusta a largura das colunas e isto é interessante para a divisão do espaço
+em tela de forma vertical, ou seja, quantas colunas e os seus tamanhos. Mas intuitivamente você
+deve ter imaginado que também deva existir um controle de linhas. No caso eu estaria falando das
+alturas das linhas. A propriedade se chama grid-templates-rows e funciona mais ou menos como as
+grid-template-columns. Temos ainda de brinde, os layouts automáticos que fazem reverência a linhas
+ou colunas excedentes.
+
+Vamos supor que eu usei o exemplo acima para especificar altura das linhas e dividi o conteúdo em
+duas colunas de 1fr cada. Ficou assim:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    /* mas eu quero a primeira linha com 200px de altura e as demais com 300px */
+    grid-auto-rows: 300px;
+  }
+
+Pronto! O código acima estará com a quantidade de linhas (não importa quantas) com 300px de altura
+cada.
+
+O grid ainda permite trabalhar com gaps para separar as células do template. Inclusive eu posso
+especificar gaps diferentes para linhas e colunas. Por exemplo, digamos que eu precise estabelecer
+um gap de 30px para linhas e 10px para colunas. Ficaria assim:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-auto-rows: 300px;
+    row-gape: 5px;
+    column-gap: 10px;
+  }

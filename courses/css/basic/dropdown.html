@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aprendendo CSS</title>
+    <style>
+    .menu {
+      background: black;
+      color: white;
+      padding: 10px 20px;
+      position: relative;
+    }
+
+    button, .button {
+      background: black;
+      color: white;
+      border: solid 1px grey;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover, .button:hover {
+      background: red;
+      border: solid 1px red;
+    }
+
+    .dropdown.item {
+      display: block;
+      position: absolute;
+      background: black;
+      color: white;
+      padding: 10px;
+    }
+    </style>
+  </head>
+  <button>
+    <div class="menu">
+      <button class="item">item 1</button>
+      <button class="item">item 2</button>
+      <button class="item">item 3</button>
+      <button class="item">item 4</button>
+      <button class="item">
+        dropdown
+        <div class="dropdown">
+          <button class="item">item 5</button>
+          <button class="item">item 6</button>
+          <button class="item">item 7</button>
+        </div>
+      </div>
+    </button>
+  </body>
+</html>

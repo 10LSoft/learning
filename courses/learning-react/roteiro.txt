@@ -1,0 +1,51 @@
+Roteiro para estudo de ReactJS e React Native
+
+- Nível básico
+  - [ ] [ReactJS - Primeiros passos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Conceitos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Componentes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Props](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - State](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Ciclo de vida de um componente](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Eventos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Hooks](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Context API](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Redux](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Testes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+
+- Nível intermediário
+  - [ ] [ReactJS - Server Side Rendering](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Progressive Web Apps](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Performance](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+
+- Nível avançado
+  - [ ] [ReactJS - SSR com Next.js](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Testes avançados](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [ReactJS - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+
+## Roteiro para estudo de React Native
+
+- Nível básico
+  - [ ] [React Native - Primeiros passos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Conceitos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Componentes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Props](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - State](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Ciclo de vida de um componente](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Eventos](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Hooks](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Context API](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Redux](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Testes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+
+- Nível intermediário
+  - [ ] [React Native - Navigation](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Performance](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+
+- Nível avançado
+  - [ ] [React Native - Testes avançados](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+  - [ ] [React Native - Projeto prático](https://www.youtube.com/watch?v=Ke90Tje7VS0)

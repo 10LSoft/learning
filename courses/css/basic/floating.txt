@@ -1,0 +1,57 @@
+A propriedade floating é bastante interessante, pois permite que um elemento realmente seja algo
+que não está no fluxo normal do documento. Isso significa que ele pode ser colocado em qualquer
+lugar e que se comportaria como se não fizesse parte daquele escopo onde ele se encontra cabendo ao
+resto dos elementos o controle de visualização.
+
+Um exemplo clássico do uso de floating é quando queremos que uma imagem possa estar contida no meio
+de uma texto e o mesmo passaria a contornar a imagem à esquerda ou à direita. 
+
+Quando atribuímos o estilo:
+
+flotaing: left a uma imagem no meio do texto, o mesmo se comporta contornando a imagem pela
+direita, visto que a flutuação da imagem ocorre pela esquerda.
+
+O floating poderá ser combinado com o overflow, por exemplo para enquadrar o item flutuando como
+sendo parte do conteúdo de um bloco qualquer. Por exemplo, imagine que temos um bloco com bordas e
+uma imagem flutuante à direita, mas percebemos que o conteúdo textual finaliza antes da altura da
+imagem flutuante. O que ocorre é que a imagem fica por cima da borda inferior con contêiner, o que
+não é visualmente agradável. Para resolver isso, basta adicionar overflow: auto ao contêiner onde a
+imagem se encontra.
+
+Quando temos o caso da imagem flutuante e texto contornando ela, em determinadas situações,
+precisamos que um certo ponto do texto, que não tenha relação com a imagem flutuante seja impresso
+abaixo da mesma, finalizando esta conexão entre a imagem e o texto contornante. Quando queremos que
+isso ocorra, usando a propriedade clear no elemento que queremos que surja abaixo da imagem,
+iniciando outro campo de interação. Para tal poderemos adicionar style="clear: both" ao elemento
+que encerra a interação de contorno.
+
+Um exemplo interessante também seria por exemplo a criação de um menu onde temos um ou mais itens
+de menu que precisem fluturar à direita do menu. Se adicionamos floating: right em algum deles, o
+items será deslocado para a direita. Por exemplo:
+
+```html
+<style>
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu li {
+        display: inline;
+        margin-right: 10px;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: #000;
+    }
+    .menu li a:hover {
+        color: #f00;
+    }
+    .menu li a.float-right {
+        float: right;
+    }
+</style>
+```
+
+Com um pouco de criatividade, podemos diagramar o site ou sistema com um layout baseado em grid, de
+modo que cada posição do grid seja um item flutuante corretamente posicionado.

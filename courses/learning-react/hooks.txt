@@ -1,0 +1,28 @@
+Hooks em React
+
+O react possui alguns recursos importantes e que se faz muito necessário o aprendizado. São os
+hooks. Alguns deles são mais simples e outros mais complexos, mas o fato é que eles vão ajudar
+muito, bem como ensinar nuances específicas do react e sobre como selecionar as melhores abordagens
+quando o assunto for escrever código com react.
+
+## useState
+
+O useState é um hook que permite manipular estados em um componente. O react não é baseado em
+variáveis declaradas no interior de uma função, ou pelo menos não é reativo a elas. Para a lib, a
+reatividade precisa ser oriunda de um estado. Este hook retorna um array com dois elementos, sendo
+o primeiro o estado em si (que pode ser qualquer tipo de dado) e o segundo é uma função do tipo
+setter, que permite alterar o estado do primeiro valor no array.
+
+## useEffect
+
+O useEffect é um hook cujo objetivo é executar efeitos colaterais em um componente. A primeira
+vista, esta definição é um tanto estranha, mas o fato é que o react não possui um ciclo de vida
+como por exemplo o VueJS e sempre que um estado mudar, o react irá refazer o render do componente.
+Há situações em que você irá precisar abrir uma exceção na renderização pós-mudança de estado, de
+modo a impedir um loop infinito e o useEffect é perfeito para situações assim. Este hook recebe
+dois parâmetros, sendo o primeiro uma função de callback e o segundo um array de dependências. Se
+nada for informado no array de dependências, o useEffect somente será re-executado no momento de
+criação do componente, sendo necessário um update de página para que o hook rode novamente, mas
+quando informamos no array as dependências associadas ao hook, ele fará um watcher nos itens
+informados no array e sempre que uma alteração ocorrer naqueles estados, o hook irá ser
+re-executado.

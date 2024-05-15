@@ -1,0 +1,19 @@
+Overflow
+
+O método overflow é um dos mais importantes métodos em websites e sistemas web, pois ele gerencia a
+forma como dados excedentes a um contêiner sejam tratados. O padrão do overflow é visible, o que
+significa que, por exemplo, texto que exceda um contêiner seja visível fora do contêiner, como se
+estivesse estourado ou vazado. O overflow pode ser configurado de cinco formas:
+
+- visible: o conteúdo excedente é visível fora do contêiner.
+
+- hidden: o conteúdo excedente é ocultado.
+
+- scroll: o conteúdo excedente é ocultado, mas é possível rolar para visualizar o conteúdo.
+
+- auto: o conteúdo excedente é ocultado, mas é possível rolar para visualizar o conteúdo.
+
+- inherit: herda o valor overflow do elemento pai.
+
+A aplicação de overflow é o limitante entre uma estrutura autocontida e websites sem arranjo em
+termos de diagramação adequada.
