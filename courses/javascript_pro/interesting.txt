@@ -1,0 +1,14 @@
+Key overscribed
+
+Do you know ehat happens when we declare an object and then we added to him a property in an
+numeric index and then we add a new thing to this object by using the same key but as a string?
+Let's chack it out:
+
+const o = {};
+o["1"] = 'hi';
+o[1] = 'hello';
+
+console.log(o['1'])
+
+This will print the 'hello' string because all the keys are stringified before being added to the
+object.

@@ -1,0 +1,44 @@
+The main idea here is to explain all react hooks. We will pass through each hook explaining the
+main functionallity and how it can be used in your projects.
+
+Let's take a look on how to implement a custom hook and use it where it makes sense. The individual
+hooks are:
+
+- useState: as we know, this hook is used to manipulate states, which is the main bases of react
+  rendering DOM. Variables changes in react component body don't re-render the component. We need
+  to change some status to do it. The useState hook brigs us this thing! Just import it and you
+  will be able to use reactive values inside your component. To use it do as the following:
+
+  import { useState } from 'react'
+
+  const [myState, setMyState] = useState('initial_value')
+
+- useReducer: the useReducer hook have a similar functionallity of setState, but it allows that we
+  code of which way we'll change the state value. Through a function generally called dispatch, we
+  can do this change. Let's see how:
+
+  import { useReducer } from 'react'
+
+  const [myNumber, dispatch] = useReducer((state, action) => {
+      // whatever we return here will be the value of myNumber
+      return Math.random(state)
+    })
+
+  In this example, each time we call dispatch, the value inside myNumber will change. This hook has
+  a callback as a parameter and this callback accepts two parameters, conventionally called state
+  and action. The state parameter is the value that we got in declaration for the state. In upper
+  case, the value is myNumber. In fact, myNumber is state and state is myNumber.
+
+  Action is generally an object that we use for manipulate the state value based on some external
+  data. A pattern in comunity is to use a switch inside the callback due to identify what you want
+  to be done, but I'm in the opposite way and my preference is to use something more sophisticated
+  like a keymap or a beaultiful design patternt to it.
+
+- useEffect
+- useContext
+- useRef
+- useCallback
+- useMemo
+- useLayoutEffect
+- useImperativeHandle
+

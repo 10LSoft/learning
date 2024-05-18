@@ -1,0 +1,5 @@
+Interesting terms to be more familiar:
+
+Lecture 1:
+JS POJO: Plain and Old Javascript Object - they are simple objects with no diffeent behavior or no
+out of normal code associated to it.

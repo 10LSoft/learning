@@ -1,0 +1,42 @@
+CONTEXT API no React
+
+O termo context API se refere a uma técnica de compartilhamento de informações usando o react para
+tal. É interessante pois podemos envolver uma série de componentes e compartilhar entre eles
+determinada informação. Há um processo para o desenvolvimento de um contexto compartilhado. Vamos
+dar um exemplo:
+
+Um contexto precisa conter um provider, de modo que este seja usado no momento do cmopartilhamento.
+Eis abaixo um exemplo de criação de contexto e provider:
+
+import { createContext } from 'react'
+
+// o contexto em si
+export context SomeContext = createContext()
+
+// o provider
+export const SomeContextProvider = ({ children }) => {
+    const sharedValue = 'a value to be shared'
+
+    // here I use the context created upside
+    <SomeContext.Provider value={{ sharedValue }}>
+      {children}
+    </SomeContext>
+  }
+
+Agora eu posso usar este contexto, por exemplo entre os componentes que precisar compartilhar
+determinada informação. Por exemplo, eu poderia ir em uma Page ou no meu App.jsx e envolver os
+componentes com os quais eu precise compartilhar determinada informação por meio do contexto. Um
+exemplo:
+
+import NomeDoMeuContexto from 'endereço do meu contexto'
+
+<NomeDoMeuContexto>
+  <Componente1 />
+  <Componente2 />
+  <Componente3 />
+  <Componente4 />
+  <Componente5 />
+</NomeDoMeuContexto>
+
+Isso daria a esse conjunto de componentes (children) a chance de compartilhar e modificar o valor
+compartilhado por meio de value na variável acima.

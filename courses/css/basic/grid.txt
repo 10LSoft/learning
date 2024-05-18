@@ -79,3 +79,124 @@ um gap de 30px para linhas e 10px para colunas. Ficaria assim:
     row-gape: 5px;
     column-gap: 10px;
   }
+
+O CSS grid também oferece algumas situações melhores como por exemplo a possibilidade de limitar o
+tamanho mínimo e máximo da coluna (ou linha). Isso é possível por meio da palavra chave minmax. Por
+exemplo, digamos que eu precise de um grid de duas colunas, mas que a segunda coluna tenha o
+tamanho mínimo de 200px. Ficaria assim:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 1fr);
+    ...
+  }
+
+Como dito anteriormente, o mesmo se aplica para o caso de linhas, somente considerando aí que isto
+significa que teremos alterações na altura da linha em questão, de modo que quando se trata de
+colunas, estamos falando de largura e quando se trata de linhas, falamos de altura.
+
+Outro facilitador é a palavra repeat. Ela, como o nome diz, serve para realizar repetições no
+recurso de grid. Digamos que eu tenha um grid com 6 colunas e todas sejam idênticas. O que pode-se
+pensar num primeiro momento é adicionar seis vezes o 1fr depois do grid-template-columns. Mas o
+repeat vem para impedir que os programadores infartem com isso. No caso acima, bastaria usar o
+repeat(6, 1fr) para termos o ambiente com seis colunas de 1fr cada.
+
+Podemos fazer combinações e usar o minmax dentro do repeat conforme necessário. Quando temos o
+minmax dentro do repeat, podemos usar um artifício chamado auto-fit. Ele basicamente nos entrega a
+funcionalidade de criar novas colunas com o tamanho mínimo especificado. Por exemplo:
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    ...
+  }
+
+Ou seja, o auto-fit irá tentar arrumar um número automático de colunas, de modo que elas possam ter
+o mínimo de 100px mas quando ocorrer de ter apenas uma coluna na linha, ela terá 1fr de tamanho.
+
+Chegou o momento emocionante! Até agora vimos como criar containers contendo um grid de N x M
+(sendo N = colunas e M = linhas). Agora, que tal implementar um recurso que nos permita mesclar
+célular no grid, alocando assim espaço para o item que desejarmos? É com prazer que apresento-lhe
+grid-column e grid-row. Estas estruturas devem ser implementadas nos filhos diretos do container,
+de modo a dimensionar conforme adequado o seu template. Vamos supôr um template para uma div
+qualquer de 10 x 10 (dez linhas e dez colunas):
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    ...
+  }
+
+Isto irá preparar a div para comportar até 100 células que poderão ser combinadas de forma a
+oferecer espaço adequado para os vários itens, com a ressalva de que as combinações não podem ser
+em L. Elas sempre seguem no mesmo tanto para a linha ou para a coluna.
+
+Vamos considerar aqui um termo especial chamado padrão de espaçamento. Ele se refere a posição
+inicial do lado da célula em questão, sendo cima ou mais para as linhas (vertical) e esquerda ou
+direita para as colunas (horizontal). Pense num plano cartesiano! O eixo X indica o movimento das
+colunas, já o Y indica o movimento das linhas. No exemplo acima, temos 10 colunas, o que significa
+que temos possibilidade de crescimento que vai de 10 + 1 posições, de modo que se dissermos que a
+célula 1 x 1 terá seu crescimento colunar de 1 a 11, significa que ela irá ocupar todo o espaço
+disponível com relação ao eixo X, ou seja, todas as colunas disponíveis.
+
+Somente com essa informação já seria possível montar layouts completos sem problema algum! Mas
+isso ainda fica melhor! O modo de montagem de template por nomeação do CSS grid é simplesmente
+espetacular! Vamos ver o motivo disso.
+
+Primeiramente, eu posso dar nomes aos meus itens para posiciona-los de maneira mais intuitiva. Isso
+ocorre por meio da propriedade grid-area que deve ser aplicada aos itens filhos do container. Vamos
+ver um exemplo. Digamos que os itens abaixo são filhos do seguinte container:
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    ...
+  }
+
+Os itens filhos:
+
+.item-1 {
+    grid-area: topItem;
+  }
+
+.item-2 {
+    grid-area: leftContent;
+  }
+
+.item-3 {
+    grid-area: mainContent;
+  }
+
+.item-4 {
+    grid-area: footer;
+  }
+
+Agora a magia começa quando eu substituo no meu .grid-container os ... pelo seguinte:
+
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+      "topItem topItem topItem" // o .item-1 ocupa 3 colunas na primeira linha
+      "leftContent mainContent mainContent" // leftContent 1 coluna e mainContent 2 colunas
+      "footer footer footer" // footer ocupando 3 colunas
+    ;
+  }
+
+Você consegue entender o quão maravilhoso esse troço é? Essa seria outra maneira de montar o
+template do seu sistema web.
+
+Como se isso ainda não fosse o suficiente, podemos usar recursos do flex dentro do CSS grid. Por
+exemplo, podemos usar o bom e velho justify-content para alinhar toda a sua grid no sentido do eixo
+X. Se a ideia for alinhar no eixo Y, vai de align-content (isso mesmo! vou até testar isso no flex
+depois). As duas propriedades acima se relacionam com o grid inteiro, mas se você quiser realizar
+alinhamento em todos os itens do grid (ainda poderá usar os recursos a seguir com o sufixo -self
+para ajustar individualmente cada item), você deverá usar justify-items e align-items com o mesmo
+efeito do flex. É ou não é um show de bola?
+
+Somente um toque para uso eficiente: justify se refere a ajustes na horizontal (eixo x) e align, se
+refere a ajustes na vertical (eixo y).
