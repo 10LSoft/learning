@@ -1,0 +1,16 @@
+Um log por linha
+
+É possível exibir as informações de log do git de modo a ter uma listagem extremamente enxuta dos
+dados usando a flag --oneline. Seria assim:
+
+$ git log --oneline
+
+Formatando a saída do log
+
+Uma maneira de melhorar o log para os casos em que você ache que a saída está cheia de informações,
+há uma maneira de somente exibir as informações que lhe interessam. Seria por meio do seguinte
+comando:
+
+$ git log --pretty=format:'%cn'
+
+Nesse caso o git log seria feito apenas com o nome do commiter name.
