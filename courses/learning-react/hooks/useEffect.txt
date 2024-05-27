@@ -1,0 +1,36 @@
+Hook useEffect
+
+O hook useEffect é um hook que permite que algo seja executado em algumas situações especiais,
+geralmente atreladas a um array de dependências.
+
+Este hook tem como objetivo inicial substituir os antigos métodos de ciclo de vida nos componentes
+de classe. Podemos realizar a simulação de componentDidMount, componentDidUpdate e
+componentWillUnmount facilmente. Alguns exemplos de uso do useEffect são:
+
+import { useState, useEffect } from 'react'
+
+const App = () => {
+    const [count, setCount] = useState(0)
+
+    // simulando componentDidMount
+    useEffect(() => {
+        console.log('componentDidMount')
+    }, [])
+
+    // simulando componentDidUpdate
+    useEffect(() => {
+      console.log('componentDidUpdate')
+    })
+
+    // simulando componentWillUnmount
+    useEffect(() => {
+      return () => {
+          console.log('componentWillUnmount')
+      }
+    }, [])
+  }
+
+Resumindo, o useEffect pode ser usado tanto para servir de watcher para estados específicos quanto
+para o caso de algo precisar ser executado apenas uma vez ou ainda para rodar algo quando o
+componente for atualizado. Há ainda o caso onde o mesmo precisaria executar algo quando o
+componente for desmontado. O bicho é completo de tudo!
