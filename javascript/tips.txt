@@ -1,1 +1,0 @@
-Quando você quiser capturar uma ocorrência de algo no JS com NodeJS, poderá usar
