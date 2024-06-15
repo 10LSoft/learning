@@ -1,0 +1,38 @@
+GridViews são basicamente sistemas de grid onde certas configurações visuais podem ser feitas para
+melhorar o fluxo de funcionamento de um template visual. Os GridViews são estruturas ideais onde eu
+poderia, por exmeplo, criar um template como o álbum de fotos separando as imagens por dispositivos
+iconizados. Ficaria mais ou menos assim:
+
+import flet as ft
+
+
+def main(page: ft.Page):
+    grid = ft.GridView(
+        controls = [ lista de controles ],
+        # quandidade de itens que aparecem por linha
+        runs_count = 3,
+        padding = 30,
+        spacing = 20,
+        run_spacing = 20,
+        max_extent = 100,  # extenção máxima
+        expand = True,  # usar a altura máxima disponível
+        '''
+        é possível limitar a  largura e altura do grid usando os parâmetros width e height e
+        atribuir a estes valores numéricos tal qual se faz com CSS.
+        width: 200,
+        height: 400,
+        '''
+        auto_scroll = True,  # rolagem automática para o final do grid
+        '''
+        aspect_ratio é a proporção associada a determinado espaço. os GridViews permitem que seja
+        configurada a taxa de aspect ratio para cada um dos ítens que será renderizado na malha. os
+        formatos comuns de aspect ratio são os seguintes:
+
+        aspect                  value
+        9:16                    0.56
+        2:3                     0.66
+        1:1                     1.00
+        16:9                    1.77
+        '''
+        child_aspect_ratio = 0.66,  # 2:3, mas vc pode usar o número que quiser aqui
+    )

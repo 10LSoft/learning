@@ -1,0 +1,2 @@
+Para entender como as colunas funcionam, basta verificar como as rows funcionam. Os princípios são
+basicamente os mesmos, mas invertendo-se as direções dos comandos.

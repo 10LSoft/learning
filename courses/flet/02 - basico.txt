@@ -1,0 +1,10 @@
+Surgindo como um framework que permite desenvolver interfaces gráficas usando components como
+blocos de software bem construídos e altamente reaproveitáveis, o flet veio para colocar o python
+em uma posição extremamente merecida no desenvolvimento de interfaces.
+
+Para mim, que sou um desenvolvedor web, isto veio como uma mão na roda, já que planejava iniciar a
+produção de apps mobile, mas teria que usar o python apenas no backend conforme tradicionalmente
+feito. Agora o flet me permite trabalhar apenas com python na totalidade do meu dia a dia
+produtivo.
+
+

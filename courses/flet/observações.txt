@@ -1,0 +1,25 @@
+Tipod de botões no flet
+
+Personalização:
+* ElevatedButton: este é o botão com maior capacidade de configuração dentro do flet.
+
+Botões de tema:
+* FilledButton: botão com boa capacidade de customização, mas que já tem o background preenchido de
+  acordo com o tema definido no projeto.
+* FilledTonalButton: este age como se fosse um filled, mas secundário. No tema padrão ele aparece
+  num tom acinzentado, enquanto o seu irmão mais acesso, o filled, aparece num azul mais vivo.
+* OutlinedButton: aqui o tipo de botão é basicamente transparente, mas com uma borda. Serve como um
+  botão mais discreto (inclusive mais discreto do que o FilledTonalButton).
+
+Botões para ações do usuário:
+* FloatingActionButton: botão flutuante que aparece por padrão na margem inferior direita do
+  aplicativo, mas que pode ser reposicionado por meio de containeres.
+* IconButton: botão com ícone de efeito atribuído. Serve em geral para sugerir ações por meio de
+  ícones. São muito usados em sistemas mais densos e com muitos controles na tela.
+* TextButton: são os botões com, geralmente apenas texto e ícones. Eu diria que trata-se dos botões
+  mais discretos do ecossistema.
+
+Para menus:
+* PopupMenuButton: são botões que ocultam menus em cortina altamente úteis para manter a aplicação
+  enxuta e com a distribuição de espaços otimizada. Os itens são injetados neste menu por meio da
+  propriedade PopupMenuItem, de modo que um PopupMenuButton possui N PopupMenuItem.
