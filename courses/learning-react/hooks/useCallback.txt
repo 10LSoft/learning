@@ -1,0 +1,83 @@
+Hook useCallback
+
+O useCallback é utilizado para evitar que determinados trechos do componente precisem ser
+renderizados novamente. Isto é interessante especialmente quando os itens que são renderizados sem
+modificação têm um custo mais elevado de processamento.
+
+Um exemplo clássico do uso deste hook é, por exemplo, quando temos um componente que incorpora
+outro e este outro passa a ser renderizado novamente sempre que o componente pai muda. Este é
+inicialmente um comportamento adequado, pois componentes funcionais são totalmente relidos quando
+algum estado é alterado, de modo a permitir que o react, linearmente refaça todo o esquema de
+processamento da função. O problema disso é que a mudança no estado do componente pai, não
+necessariamente altera o conteúdo (ou estado) dos componentes filhos contidos nesta função.
+
+É aí que o useCallback entra com os dois pés na porta. Ele adiciona a renderização dos componentes
+cujos estados não são alterados em uma espécie de cache e um array de dependências no useCallback
+identifica se o componente filho deverá ou não ser renderizado novamente. Vamos ver um exemplo de
+useCallback:
+
+import { useState, useEffect, useCallback } from 'react'
+
+const List = ({ getItems }) => {
+    const [items, setItems] = useState([])
+
+    console.log('child running')
+
+    useEffect(() => {
+        setItems(getItems)
+      }, [])
+
+    return (
+      {items && items.map(item => (<p key={item}>{item}</p>))}
+    )
+  }
+
+const App = () => {
+    const [counter, setCounter] = useState(0)
+
+    const getItemsFromDB = () => {
+        return ['a', 'b', 'c']
+      }
+
+    return (
+      <div>
+        <h2>{counter}</h2>
+
+        <button onClick={setCounter(counter + 1)}>+</button>
+        <List getItems={getItemsFromDB} />
+      </div>
+    )
+  }
+
+export App
+
+Se o código acima for executado como está, o componente List irá renderizar novamente sempre que o
+estado counter for atualizado. Para este caso simples, o useCallback pode não parecer ter
+relevância, pois o processamento é baixo neste caso, mas para componentes maiores e de grande
+complexidade, como as coisas do mundo real costumam ser, seria interessante que o componente List
+não precisasse ser renderizado com a alteração de counter, já que uma coisa nada tem a ver com a
+outra. Com a seguinte alteração em App isso seria resolvido:
+
+
+const App = () => {
+    const [counter, setCounter] = useState(0)
+
+    const getItemsFromDB = useCallback(() => {
+        return ['a', 'b', 'c']
+      }
+    , [])
+
+    return (
+      <div>
+        <h2>{counter}</h2>
+
+        <button onClick={setCounter(counter + 1)}>+</button>
+        <List getItems={getItemsFromDB} />
+      </div>
+    )
+  }
+
+export App
+
+Neste caso o hook useCallback está assegurando que o pico de processamento em getItemsFromDB não
+seja refeito devido a renderização nova de App, colocando o mesmo numa espécie de cache
