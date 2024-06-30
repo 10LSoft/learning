@@ -1,0 +1,12 @@
+Em CSS, existe uma prioridade para resolução de itens que receberão o estilo quando eles competirem
+entre si. De modo grosseiro a hierarquia é a seguinte:
+
+Classes tem prioridade sobre tags!
+
+IDs tem prioridade sobre as classes!
+
+Estilos nas páginas tem prioridade sobre os estilos externos!
+
+Estilos inline tem prioridade sobre IDs!
+
+Estilos !important tem prioridade sobre todos os outros!

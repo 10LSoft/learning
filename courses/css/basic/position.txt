@@ -1,0 +1,36 @@
+Em CSS, o posicionamento dos elementos diz respeito a como eles se colocam na tela. Inicialmente a
+posição de elementos é estática, ou seja, static.
+
+Os tipos comuns de posicionamento são os seguintes:
+
+- static: é o valor padrão. O elemento é posicionado conforme o fluxo normal da página.
+
+- relative: o elemento é posicionado de acordo com a posição inicial do elemento na página. Ao usar
+  o posicionamento relative eu posso utilizar alguns elementos para reposicionar o elemento
+  de acordo com as minhas preferências. Com isso, posso trabalhar com os valores left, top, right e
+  bottom. Um detalhe interessante sobre este tipo de posicionamento é: se eu colocar uma div dentro
+  da outra e nessa interna eu adicionar o position relative, outras divs que estiverem dentro da
+  div pai e que possuírem o position static, ficarão abaixo da div relative se eu adicionar por
+  exemplo um left: 40px. Ela irá sobrepôr a div lateral (static), mas a propriedade margin não se
+  aplica somente à div relative. E eis aí uma diferença entre margin e left no contexto da
+  propriedade relative.
+
+  Outra vantagem trazida pelo relative é a possibilidade do uso de z-index para que eu possa
+  realizar o controle do eixo Z em minha página, de modo que o meu elemento funcione como camadas
+  em um aplicativo de edição de imagens, por exemplo.
+
+- fixed: o elemento que é posicionado com este valor irá ficar fixo na tela, independente de
+  rolagem, ou seja, para os elementos que precisem estar visíveis a todo tempo, é interessante usar
+  esse posicionamento. Ele também nos permite manipular top, left, right e bottom, bem como aceita
+  normalmente z-index e propriedades de dimensionamento.
+
+- absolute: o elemento é posicionado em relação ao elemento pai mais próximo que não seja static.
+  Se não houver nenhum elemento pai que não seja static, ele será posicionado em relação ao
+  elemento <html>. Assim como os outros posicionamentos, ele aceita top, left, right e bottom, além
+  de z-index e propriedades de dimensionamento.
+
+- sticky: o elemento é tratado como relativo até que ele atinja um determinado ponto na tela, onde
+  ele se torna fixo. Ele aceita top, left, right e bottom, além de z-index. Um comportamento
+  interessante sobre itens sticky é que eles irão respeitar o elemento pai e somente terão o
+  comportamento esperado enquando o elemento pai estiver na tela, mesmo que o posiciomanento da tag
+  pai seja static.

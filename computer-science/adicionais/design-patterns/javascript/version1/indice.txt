@@ -1,0 +1,52 @@
+Design Patterns
+
+Os padrões de projeto servem para manter uma forma de resolver problemas computacionais de maneira
+mais assertiva e inteligente. Com estes algoritmos nós tendemos a escrever código mais flúido e
+limpo.
+
+Vamos abordar aqui uma série de algoritmos que poderão facilitar a nossa vida na resolução de
+alguns determinados problemas, mas que não atuam como bala de prata para qualquer tipo de problema,
+contudo, poderá auxiliar e muito na solução de questões simples do dia a dia.
+
+Há algumas categorias de design patterns que podemos usar para organizar os vários padrões que
+existem.
+
+Vamos dividi-las:
+
+* Padrões criacionais
+* Padrões comportamentais
+* Padrões estruturais (ou arquiteturais)
+
+Padrões por categorias
+
+PADRÕES CRIACIONAIS
+  - Factory: ✔
+    - Factory method: ✔
+    - Abstract factory: ✔
+    - Factory kit: ✔
+    - Static Factory Method: ✔
+  - Builder: ✔
+  - Prototype: ✔
+  - Singleton: ✔
+  - Monostate: ✔
+  - Dependency Injection Container: ✔
+
+PADRÕES COMPORTAMENTAIS
+  - Chain of responsibility: ✔
+  - Command: ✔
+  - Iterator: ✔
+  - Mediator: ✔
+  - Memento: ✔
+  - Observer: ✔
+  - State: ✔
+  - Strategy: ✔
+  - Visitor: ✔
+
+PADRÕES ESTRUTURAIS
+  - Adapter ✔
+  - Bridge ✔
+  - Composite ✔
+  - Decorator: ✔
+  - Facade: ✔
+  - Flyweight: ✔
+  - Proxy: ✔

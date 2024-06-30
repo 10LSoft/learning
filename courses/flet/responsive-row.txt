@@ -1,0 +1,56 @@
+Como as rows, as responsive rows tem o objetivo de distribuir horizontalmente os elementos,
+contudo, estas rows irão considerar uma espécie de esquema de grid dentro da row. Por padrão a
+divisão acontece em 12 colunas. A responsividade fica por conta de medidas pré-carregadas de
+valores que consideram os tamanhos em diferentes ranges de pixels. Eis abaixo a tabela de
+responsividade.
+
+Chamamos internamente os diferentes ranges de breakpoints.
+
+breakpoints                     Dimensions
+xs                              < 576 px
+sm                              >= 576 px
+md                              >= 768 px
+lg                              >= 992 px
+xl                              >= 1200 px
+xxl                             >= 1400 px
+
+import flet as ft
+
+
+def main(page: ft.Page):
+    rrow1 = ft.ResponsiveRow(
+        # o tamanho de cada item da coluna que não tiver o col especificado
+        columns = 12,
+
+        # a ditância entre linhas
+        run_spacing = 50,
+
+        # o espaçamento entre os elementos
+        spacing = 20,
+
+        # ocupar todo o espaço vertical disponível
+        expand = True,
+
+        # os items (controls) a serem renderizados na linha
+        controls = [
+            ft.ElevatedButton(
+                # isso especifica os modos de cada control
+                col = {'sm': 4, 'md': 3, 'lg': 2, 'xl': 1},
+                text = '1',
+                bgcolor = ft.colors.AMBER,
+                color = ft.colors.WHITE
+            ),
+            ft.ElevatedButton(
+                col = {'sm': 4, 'md': 3, 'lg': 2, 'xl': 1},
+                text = '1',
+                bgcolor = ft.colors.AMBER,
+                color = ft.colors.WHITE
+            ),
+            ft.ElevatedButton(
+                col = {'sm': 4, 'md': 3, 'lg': 2, 'xl': 1},
+                text = '1',
+                bgcolor = ft.colors.AMBER,
+                color = ft.colors.WHITE
+            ),
+        ]
+    )

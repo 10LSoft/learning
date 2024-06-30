@@ -1,0 +1,33 @@
+Media Queries
+
+As media queries são um recurso que está presente no CSS relacionado a resolução dos dispositivos
+que irão apresentar o site. Funciona de forma análoga aos sistemas de grid que podemos usar em
+frameworks css populares como o Bootstrap ou Semantic-UI.
+
+A declaração de media query pode estar associada a tipos de dispositivos também, como por exemplo
+telas ou impressoras. Um exemplo de declaração de range de resolução seria:
+
+```css
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+```
+No caso acima, a cor de fundo especificada seria renderizada no body do elemento apenas para o caso
+de resolução mínima de 480px e para tela. O only é opcional, caso esteja usando o valor da
+resolução de forma genérica.
+
+Outro exemplo de uso de media query seria para impressão:
+
+```css
+@media print {
+    body {
+        font-size: 10pt;
+    }
+}
+```
+No caso acima, o tamanho da fonte seria reduzido para 10pt apenas para impressão.
+
+Obviamente você poderá usar diversos ranges para personalizar a forma como o seu site se comporta
+em termos de exibição em dispositivos variados.

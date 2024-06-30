@@ -1,0 +1,46 @@
+As rows tem um comportamento muito parecido com o display flex do CSS. Nelas os itens são
+distribuídos ao longo do espaço horizontal, como se fosse uma linha mesmo. O padrão do flet é
+distribuir os elementos em coluna, ou seja, os itens aparecem sempre um abaixo do outro.
+
+Como fundamento de layoutização, este método permite que você crie layouts responsivos, que possam
+ser usados em N dispositivos e que apresentem a estilização adequada para qualquer um deles. Um
+exemplo básico de layout usando row:
+
+import flet as ft
+
+
+def main(page: ft.Page):
+    row1 = ft.row(
+        controls = [
+            # aqui há um conjunto de elementos que irão estar na linha (row)
+            ft.ElevatedButton(text='1', bgcolor=ft.colors.RED, color=ft.colors.WHITE),
+            ft.ElevatedButton(text='2', bgcolor=ft.colors.RED, color=ft.colors.WHITE),
+            ft.ElevatedButton(text='3', bgcolor=ft.colors.RED, color=ft.colors.WHITE),
+        ],
+
+        alignment = ft.MainAxisAlignment.SPACE_AROUND  # isso parece muito com css flex
+
+        # espaçamento entre os componentes da linha para o caso do mesmo não estar sendo definido
+        # pela propriedade alignment, exemplo: ft.MainAxisAlignment.START.
+        spacing = 5,  # neste caso são 5 pixels entre os elementos
+
+        # há também o parâmetro wrap que eu não preciso explicar... :)
+        wrap = True,
+
+        # o próximo parâmetro controla o espaçamento entre linhas
+        run_spacing = 20,
+
+        # abaixo temos o alinhamento vertical, mas ele não funciona para o caso onde o wrap está
+        # ativado
+        vertical_alignment = ft.CrossAxisAlignment.CENTER,
+
+        # O parâmetro acima só irá funcionar se a linha estiver verticalmente expandida, o que
+        # seria o equivalente a height dela em 100vh. Para isto, usa-se o parâmetro abaixo:
+        expand = True,
+
+        # para habilitar scroll em colunas usa-se o seguinte:
+        scroll = ft.scrollMode.AUTO,
+
+        # o seguinte parâmetro rola a coluna para o final do scroll
+        auto_scroll = True,
+    )

@@ -1,0 +1,80 @@
+Hook useState
+
+Este importante hook serve para realizar a gestão de estados no react. Importante falar sobre
+estados ou como mais conhecido, state. O state é uma maneira de armazenar informações reativas
+dentro do componente, de modo que se alterarmos o valor do state, temos uma apresentação reativa
+instantânea. O react se encarrega de proceder com o update do virtual DOM e nos mostrar o resultado
+como sendo o DOM real.
+
+O useState é o mecanismo que o react nos fornece para modificar os estados nos componentes e
+termos, com isso, a reatividade que desejamos. Interfaces construídas com estes mecanismos tendem a
+oferecer mais interatividade com os usuários e uma melhor experiiencia de uso.
+
+A sintaxe do useState é simples. No momento do import, você poderá trazer o estado, dando um nome a
+ele e segue uma função capaz de modificar o estado. Um exemplo simples:
+
+import { useState } from 'react'
+
+const App = () => {
+    const [count, setCount] = useState[0]
+
+    return (
+      <div>
+        <p>{count}</p>
+        <button onClick={() => setCount(count + 1)}>Increment</button>
+      <div>
+    )
+  }
+
+Percebe-se pelo caso acima sobre a simplicidade do useState. A função useState retorna um array com
+duas posições. A primeira posição é o estado em si e a segunda posição é uma função que permite a
+atualização do estado. No exemplo acima, o estado é um número e a função de atualização é capaz de
+modificar este número. Um ponto importante é que a função de atualização pode ter como argumento
+uma função que retorna o novo estado atualizado. Isso é importante pois o processo de atualização
+do estado pode ser assíncrono e processamentos posteriores ao use do setCount poderiam realizar o
+  objetivo considerando o estado desatualizado.
+
+Vamos supôr mais um exemplo:
+
+const App = () => {
+    const [count, setCount] = useState[0]
+
+    const handleIncrement = () => {
+        setCount(count + 1)
+        console.log(count)
+      }
+
+    return (
+      <div>
+        <p>{count}</p>
+        <button onClick={handleIncrement}>Increment</button>
+      <div>
+    )
+  }
+
+Ao executar o código acima, você poderá ser surpreendido com o valor exibido pelo console.log.
+Aparecer com o valor anterior ao incremento. Isso ocorre justamente pelo assincronismo da função,
+pois para que o estado seja alterado o react realiza diversas ações por baixo dos panos, de modo
+que a sequência do processamento dentro da função handleIncrement chega ao console.log antes de
+finalizar a alteração do estado. Felizmente, como na gigantesca maioria das boas implementações do
+Javascript, é possível usar um callback para realizar as ações que dependam do estado já
+atualizado. Vamos ver isso no exemplo acima:
+
+const App = () => {
+    const [count, setCount] = useState[0]
+
+    const handleIncrement = () => {
+      setCount((prevState) => {
+        const newState = prevState + 1
+        console.log(newState)
+        return newState
+      })
+    }
+
+    return (
+      <div>
+        <p>{count}</p>
+        <button onClick={handleIncrement}>Increment</button>
+      <div>
+    )
+  }

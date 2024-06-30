@@ -1,0 +1,28 @@
+Containeres são estruturas capazes de organizar ainda mais os layouts, contudo eles nos levam a um
+novo nível de capacidade de personalização, pois permitem cor ou imagem de fundo, sombras, bordas
+entre outras parametrizações. Eis um exemplo de container:
+
+import flet as ft
+
+
+def main(page: ft.Page):
+    container = ft.Container(
+        # height = 120,  # altura em pixels
+        # width = 200,  # largura em pixels
+        image_src = 'image_url.jpg',  # pode ser URL ou uma imagem nos statics
+        expand = True,  # usar todo o espaço disponível
+        margin = ft.margin.all(10),  # adiciona margens às laterais do container
+        border = ft.border.all(20),  # pode ser only, all ou symetric
+        """
+        quando se trabalha com bordas individuais, deve-se especificar os valores por meio da
+        propriedade ft.BorderSide para cada uma das bordas. Exemplo:
+
+        border = ft.border.only(
+            left = ft.BorderSide(width=15, color=ft.colors.BLUE),
+            right = ft.BorderSide(width=15, color=ft.colors.BLUE),
+            top = ft.BorderSide(width=15, color=ft.colors.BLUE),
+            botttom = ft.BorderSide(width=15, color=ft.colors.BLUE),
+        )
+        """
+        bgcolor = ft.colors.WHITE,
+    )

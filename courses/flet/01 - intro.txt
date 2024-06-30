@@ -1,0 +1,21 @@
+Finalmente temos um ambiente de produção de interfaces com um nível realmente alto e completamente
+volta ao uso do Python. Isto nos coloca numa situação em que o desenvolvimento de software vai a
+outro patamar.
+
+Python é conhecida como uma linguagem altamente produtiva, de sintaxe limpa e riquíssima em termos
+de funcionalidades. Mas nunca foi forte com relação ao desenvolvimento de aplicações mobile ou
+criação de interfaces web, salvo backend com o django dando show com relação ao desenvolvimento de
+sistemas web.
+
+Mas agora isso mudou! E foi de vez!
+
+O flutter sempre foi fote no desenvolvimento de interfaces, mas precisava sempre do apoio de
+sistemas de backend para compôr aplicações completas.
+
+Recentemente uma nova tecnologia surgiu e portou a capacidade de produzir sistemas por meio do
+flutter através do Python. Trata-se do tal do flet.
+
+O interessante é que a mesma interface gráfica, produzida nesta tecnologia, pode ser portada para
+web, mobile e desktop. Sem a necessidade de mudar código!
+
+Chegou a hora do desbanque total. Vamos de Python!

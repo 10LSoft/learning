@@ -1,0 +1,9 @@
+One thing that we can use to make really good tests in react world is testing-library! This is a
+very usefull lib to make react tests run with plenty full of potential. This is the documentation
+for this lib:
+
+https://testing-library.com/docs/react-testing-library/intro/
+
+Here we can found things like debuger, which is a function that render in screen the component
+content and is util for do some internal component structure tests with a visual approach of a
+rendered component. Something like the inspector of browser.
