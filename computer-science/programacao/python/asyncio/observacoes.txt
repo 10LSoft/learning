@@ -1,0 +1,90 @@
+Introdução ao asyncio
+
+asyncio é um módulo da biblioteca padrão do Python que fornece uma estrutura para escrever código
+concorrente usando a sintaxe async/await. Ele foi introduzido na versão 3.4 do Python e tornou-se
+uma maneira poderosa e eficiente de lidar com operações de I/O assíncronas, permitindo que os
+programas realizem múltiplas tarefas simultaneamente sem a necessidade de múltiplas threads ou
+processos.
+
+Principais Componentes do asyncio
+Eventos e Loops de Eventos (Event Loop):
+
+O loop de eventos é o núcleo do asyncio. Ele coordena a execução de tarefas, callbacks, e manipula
+eventos de I/O. Você pode obter o loop de eventos atual usando asyncio.get_event_loop() e iniciar o
+loop com loop.run_forever() ou loop.run_until_complete().
+
+Corotinas (Coroutines):
+
+São funções definidas com async def e que utilizam await para pausar sua execução até que a
+operação assíncrona aguardada seja concluída.
+
+Exemplo:
+
+async def main():
+    print("Hello")
+    await asyncio.sleep(1)
+    print("World")
+
+Tarefas (Tasks):
+
+Representam uma unidade de trabalho a ser executada pelo loop de eventos.
+Você pode criar tarefas a partir de corotinas usando asyncio.create_task() ou loop.create_task().
+
+Exemplo:
+
+async def main():
+    task = asyncio.create_task(some_coroutine())
+    await task
+
+Futuros (Futures):
+
+Representam um resultado eventual de uma operação assíncrona. As tarefas são uma subclassificação
+dos futuros. Você pode criar futuros diretamente ou obtê-los a partir de tarefas e outras operações
+assíncronas.
+
+Sincronizadores de Concorrência (Concurrency Synchronizers):
+
+asyncio fornece primitivas como semáforos (Semaphore), locks (Lock), eventos (Event) e barreiras
+(Barrier), que ajudam a coordenar a execução de várias corotinas.
+
+Exemplo Prático
+
+Aqui está um exemplo simples que demonstra o uso de asyncio para realizar múltiplas tarefas
+assíncronas:
+
+import asyncio
+
+async def say_after(delay, what):
+    await asyncio.sleep(delay)
+    print(what)
+
+async def main():
+    task1 = asyncio.create_task(say_after(1, 'hello'))
+    task2 = asyncio.create_task(say_after(2, 'world'))
+
+    print(f"started at {time.strftime('%X')}")
+
+    await task1
+    await task2
+
+    print(f"finished at {time.strftime('%X')}")
+
+asyncio.run(main())
+
+Vantagens do asyncio
+
+Desempenho:
+asyncio é ideal para aplicações que fazem muitas operações de I/O, como servidores web, bots,
+clientes de rede, etc. Ele pode melhorar significativamente o desempenho, pois evita o bloqueio
+enquanto espera operações de I/O serem concluídas.
+
+Simplicidade:
+A sintaxe async/await torna o código assíncrono mais fácil de escrever e entender, comparado a
+callbacks ou geradores.
+
+Considerações Finais
+
+Embora asyncio seja uma ferramenta poderosa, ele pode não ser a melhor escolha para todas as
+aplicações. Em particular, para operações que exigem muita CPU, threads ou processos podem ser mais
+adequados. No entanto, para operações intensivas de I/O, asyncio oferece uma maneira eficiente e
+elegante de lidar com concorrência.
