@@ -1,0 +1,28 @@
+Python is not a very long language, in fact, we have some small set of words that describe the
+language in a very complete way. One very important stuff to be inside the python knowledge is to
+pay attentions on the python main types.
+
+Basically we have the follow amount of types:
+
+* Numbers
+  - integral: integers and booleans
+  - Non-integral: floats, complex, decimals, fractions.
+
+* Collections
+  - Mutable: lists, sets
+  - Immutable: tuples, strings, frozen sets
+  - Mappings: dictionaries
+
+* Callables
+  - User-defined functions
+  - Generators
+  - Classes
+  - Instance methods
+  - Class instances (__call__())
+  - Built-in functions (e.g. len(), open())
+  - Builtin-methods (e.g. mylist.append(x))
+
+* Singletons
+  - None
+  - NotImplemented
+  - Ellipsis (...)

@@ -7,6 +7,7 @@ programas realizem múltiplas tarefas simultaneamente sem a necessidade de múlt
 processos.
 
 Principais Componentes do asyncio
+
 Eventos e Loops de Eventos (Event Loop):
 
 O loop de eventos é o núcleo do asyncio. Ele coordena a execução de tarefas, callbacks, e manipula

@@ -1,0 +1,73 @@
+Olá, boa tarde! Tudo bem, e com você? Claro, posso te ajudar com isso. Named tuples são uma
+extensão das tuplas do Python que permitem acessar seus elementos por nome, além de por índice.
+Isso as torna mais legíveis e fáceis de usar em muitas situações.
+
+Aqui está uma visão geral sobre named tuples e como usá-las:
+
+## O que são named tuples?
+
+Named tuples são uma subclasse da classe `tuple` do Python. Elas são úteis quando você precisa
+armazenar uma coleção de itens e quer poder acessar esses itens por nome, como se fossem atributos
+de um objeto, além de poder acessá-los por índice.
+
+## Criando uma named tuple
+
+Para criar uma named tuple, você usa a função `namedtuple` do módulo `collections`. Aqui está um
+exemplo básico:
+
+```python
+from collections import namedtuple
+
+# Definindo uma named tuple chamada 'Pessoa' com os campos 'nome', 'idade' e 'profissao'
+Pessoa = namedtuple('Pessoa', ['nome', 'idade', 'profissao'])
+
+# poderia ser declarado assim:
+# Pessoa = namedtuple('Pessoa', 'nome idade profissao')
+
+# Criando uma instância de 'Pessoa'
+pessoa1 = Pessoa(nome='João', idade=30, profissao='Engenheiro')
+
+# Acessando os valores pelos nomes dos campos
+print(pessoa1.nome)       # Saída: João
+print(pessoa1.idade)      # Saída: 30
+print(pessoa1.profissao)  # Saída: Engenheiro
+```
+
+## Vantagens de usar named tuples
+
+1. **Legibilidade**: Os campos têm nomes, o que torna o código mais fácil de entender.
+2. **Imutabilidade**: Como as tuplas normais, named tuples são imutáveis, o que pode ajudar a
+evitar bugs causados por mudanças não intencionais.
+3. **Desempenho**: São mais eficientes em termos de memória e velocidade do que objetos
+tradicionais do Python (`class`).
+
+## Métodos úteis
+
+Além dos métodos padrão de uma tupla, named tuples vêm com alguns métodos adicionais:
+
+- `._replace(**kwargs)`: Cria uma cópia da named tuple com alguns valores substituídos.
+- `._asdict()`: Retorna os valores da named tuple como um dicionário.
+- `._fields`: Retorna uma tupla com os nomes dos campos.
+
+### Exemplos:
+
+```python
+# Usando _replace para criar uma nova instância com um campo alterado
+pessoa2 = pessoa1._replace(idade=31)
+print(pessoa2)  # Saída: Pessoa(nome='João', idade=31, profissao='Engenheiro')
+
+# Convertendo a named tuple para um dicionário
+pessoa_dict = pessoa1._asdict()
+print(pessoa_dict)  # Saída: {'nome': 'João', 'idade': 30, 'profissao': 'Engenheiro'}
+
+# Obtendo os nomes dos campos
+print(pessoa1._fields)  # Saída: ('nome', 'idade', 'profissao')
+```
+
+## Usos comuns
+
+Named tuples são frequentemente usadas para:
+
+- Retornar múltiplos valores de uma função de forma clara e organizada.
+- Substituir pequenos objetos de classes que só têm campos de dados.
+- Armazenar registros de dados de forma eficiente.

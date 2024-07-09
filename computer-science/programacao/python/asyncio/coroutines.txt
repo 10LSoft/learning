@@ -1,0 +1,106 @@
+Coroutines em Python são uma forma de construir funções que podem ser suspensas e retomadas,
+permitindo a execução de código de maneira assíncrona. Elas são uma parte fundamental da
+programação assíncrona em Python e são especialmente úteis para lidar com operações de I/O que
+podem bloquear a execução de um programa, como leitura e escrita de arquivos ou comunicação de
+rede.
+
+Conceitos Básicos
+
+Funções Assíncronas (async def):
+
+São declaradas com async def e retornam um objeto coroutine.
+Podem conter a palavra-chave await para pausar a execução até que uma operação assíncrona seja
+concluída.
+
+Awaiting:
+
+A palavra-chave await é usada dentro de uma função assíncrona para esperar pela conclusão de uma
+coroutine ou outra operação assíncrona. Só pode ser usada dentro de funções declaradas com async
+def.
+
+Event Loop:
+
+O laço de eventos (event loop) é o mecanismo que gerencia a execução das coroutines, agendando-as e
+trocando entre elas conforme necessário. O módulo asyncio do Python fornece um laço de eventos e
+várias ferramentas para trabalhar com código assíncrono.
+
+Exemplo Básico
+
+Aqui está um exemplo simples de uma coroutine em Python:
+
+import asyncio
+
+async def say_hello():
+    print("Hello")
+    await asyncio.sleep(1)
+    print("World")
+
+# Executando a coroutine
+asyncio.run(say_hello())
+
+Neste exemplo:
+
+A função say_hello é uma coroutine que imprime "Hello", aguarda 1 segundo e depois imprime "World".
+await asyncio.sleep(1) suspende a execução da coroutine por 1 segundo, permitindo que o event loop
+execute outras tarefas.
+
+Manipulação de Coroutines
+
+Criar e Executar Coroutines:
+
+As coroutines são criadas usando async def e executadas usando await ou asyncio.run.
+asyncio.run é uma função conveniente para iniciar o laço de eventos e executar uma coroutine até a
+conclusão.
+
+Agrupamento de Coroutines:
+
+asyncio.gather pode ser usado para executar várias coroutines simultaneamente.
+asyncio.wait permite aguardar a conclusão de várias coroutines, com mais controle sobre como os
+resultados são tratados.
+
+Tarefas (asyncio.Task):
+
+Coroutines podem ser convertidas em tarefas usando asyncio.create_task, permitindo que sejam
+agendadas e executadas pelo event loop. Isso é útil para iniciar uma coroutine e permitir que
+outras coroutines continuem a ser executadas.
+
+Exemplo de Uso Avançado
+
+Vamos ver um exemplo que usa várias coroutines e tarefas:
+
+import asyncio
+
+async def fetch_data(delay, data):
+    await asyncio.sleep(delay)
+    return data
+
+async def main():
+    task1 = asyncio.create_task(fetch_data(2, "Data 1"))
+    task2 = asyncio.create_task(fetch_data(1, "Data 2"))
+
+    print("Waiting for data...")
+    result1 = await task1
+    result2 = await task2
+
+    print(f"Result 1: {result1}")
+    print(f"Result 2: {result2}")
+
+asyncio.run(main())
+
+Neste exemplo:
+
+fetch_data é uma coroutine que simula a obtenção de dados com um atraso.
+main cria duas tarefas, task1 e task2, que são executadas simultaneamente.
+await task1 e await task2 aguardam a conclusão das tarefas.
+
+Considerações
+
+Exceções: As coroutines podem lançar exceções, que devem ser tratadas adequadamente usando blocos
+try/except. Cancelamento: Tarefas podem ser canceladas usando task.cancel(), e o cancelamento deve
+ser tratado dentro da coroutine usando asyncio.CancelledError.
+
+Sincronização: Ferramentas como asyncio.Lock e asyncio.Queue são fornecidas para ajudar a
+sincronizar coroutines e compartilhar dados de forma segura. Coroutines são uma ferramenta poderosa
+para construir programas assíncronos eficientes em Python. Compreender como usá-las e manipulá-las
+é essencial para desenvolver aplicações que dependem de operações I/O não bloqueantes e alta
+concorrência.

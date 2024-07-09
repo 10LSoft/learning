@@ -1,0 +1,13 @@
+Em um projeto FastAPI uma maneira rápida de realizar o setup inicial para uma conexão via
+sqlalchemy é usando o seguinte esquema:
+
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+
+engine = create_engine(DB_URL, pool_pre_ping=True)
+Session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
+
+No caso acima, sessionmaker retorna a classe que, ao ser instanciada, gera as sessões com o banco
+de dados. Nós utilizamos isso para sempre que formos usar uma sessão, implementarmos com Session().

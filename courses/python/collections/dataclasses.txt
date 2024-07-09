@@ -1,0 +1,106 @@
+Os `dataclasses` foram introduzidos no Python 3.7 como uma maneira conveniente de definir classes
+que são principalmente usadas para armazenar dados. Vamos ver como usar `@dataclass` e `field`.
+
+## `@dataclass`
+
+O decorator `@dataclass` é usado para simplificar a criação de classes que têm um foco principal em
+armazenar dados. Ele automaticamente gera métodos especiais como `__init__()`, `__repr__()`,
+`__eq__()`, entre outros.
+
+Exemplo básico:
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Pessoa:
+    nome: str
+    idade: int
+    cidade: str
+```
+
+Aqui, `@dataclass` gera automaticamente um construtor (`__init__`), um método de representação
+(`__repr__`), e métodos de igualdade (`__eq__`) baseados nos atributos fornecidos.
+
+## `dataclasses.field`
+
+O `field` é usado para fornecer parâmetros adicionais para os atributos de uma dataclass. Ele pode
+ser utilizado para definir valores padrão, valores padrão baseados em uma função, ou para excluir
+certos campos de certos métodos como `__repr__` ou `__eq__`.
+
+Exemplos:
+
+### Valores padrão
+
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Pessoa:
+    nome: str
+    idade: int
+    cidade: str = 'São Paulo'
+```
+
+### Valores padrão baseados em uma função
+
+```python
+from dataclasses import dataclass, field
+from typing import List
+
+def lista_vazia():
+    return []
+
+@dataclass
+class Pessoa:
+    nome: str
+    idade: int
+    hobbies: List[str] = field(default_factory=lista_vazia)
+```
+
+### Excluindo campos de métodos
+
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Pessoa:
+    nome: str
+    idade: int
+    cidade: str = field(repr=False)
+```
+
+Nesse caso, o campo `cidade` não será incluído na representação de string gerada pelo `__repr__`.
+
+## Exemplo Completo
+
+Vamos juntar tudo em um exemplo mais completo:
+
+```python
+from dataclasses import dataclass, field
+from typing import List
+
+def lista_vazia():
+    return []
+
+@dataclass
+class Pessoa:
+    nome: str
+    idade: int
+    cidade: str = 'São Paulo'
+    hobbies: List[str] = field(default_factory=lista_vazia)
+    senha: str = field(repr=False)
+
+pessoa = Pessoa(nome="João", idade=30, senha="1234")
+print(pessoa)
+```
+
+Resultado:
+
+```
+Pessoa(nome='João', idade=30, cidade='São Paulo', hobbies=[])
+```
+
+Neste exemplo, a senha não aparece na saída do `print(pessoa)` devido ao `repr=False`.
+
+Se precisar de mais alguma coisa ou tiver dúvidas específicas, estou aqui para ajudar!

@@ -1,0 +1,46 @@
+Como criar macros no Vim ou NeoVim
+
+Macros são uma funcionalidade muito legal presente nos VIMs da vida. Com eles
+você pode automatizar a repetição de determinadas tarefas e associar a execução
+deste "script" a uma tecla. Por exemplo, considere o conteúdo abaixo:
+
+Algumas guloseimas para festa
+
+- Brigadeiro
+- Jujubas
+- Bolo
+- Balas
+- Caramelo
+- Chocolates
+- Pirulitos
+- Chiclete
+
+Vamos supôr que neste lista eu tenha a intenção de automatizar a inserção de um
+[ ] logo após os sinais de - nos itens acima. Normalmente um usuário de
+editores comuns de texto iriam adicionar o que precisa ser adicionado,
+selecionar o que foi adicionado, copiar o conteúdo e sairia linha a linha
+colando o conteúdo nos devidos lugares. Mas com macros esse tipo de coisa é
+proibido! No Vim o procedimento seria mais ou menos o seguinte:
+
+1. Iria ao início da primeira linha
+2. Pressionaria q + uma tecla, por exemplo w (isso inicia a gravação do macro)
+3. Pressionaria i para começar a digitar algo e inseriria o que é preciso
+seguindo para a linha seguinte bem no começo (conforme passo 1)
+4. Pressionaria q novamente para encerrar a gravação da macro. Isso finaliza a
+gravação e associa a tarefa à tecla definida. Em nosso caso, a w
+5. Na linha onde estou, basta pressionar a combinação de 7@w (repita 7 vezes o
+feito em w)
+6. Pronto! Todas as linhas estão atualizadas assim:
+
+- [ ] Brigadeiro
+- [ ] Jujubas
+- [ ] Bolo
+- [ ] Balas
+- [ ] Caramelo
+- [ ] Chocolates
+- [ ] Pirulitos
+- [ ] Chiclete
+
+Este é um exemplo bem simples, mas imagine a possibilidade de repetir e
+associar padrões avançados de filtros e recursos a uma tecla e poder refazer os
+passes apenas acionando esta tecla com um @w (ou tecla associada)?
