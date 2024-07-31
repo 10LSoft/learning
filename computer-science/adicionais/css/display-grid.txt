@@ -1,0 +1,101 @@
+O display grid é uma maneira bidirecional para o desenvolvimento de layouts de
+grids específicos para alinhar itens de um aplicativo web. Legal é que estas
+mesmas estrururas também funcionam para uso em aplicativos mobile.
+
+Você poderá usar, por exemplo, um vuejs com a mesma estrutura em um projeto
+ionic para gerar um aplicativo hibrido tal qual ocorreria com react e react
+native.
+
+O funcionamento básico do display grid é algo mais ou menos assim:
+
+.container {
+  border: 5px cyan solid;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr), minmax(200px, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+Em um ambiente onde eu queira ter um layout responsivo mas com um número de
+colunas específicos, eu poderei usar o recurso de repeat + auto-fit + minmax.
+Por exemplo:
+
+.container {
+  ...
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+Diferenças entre auto-fit e auto-fill
+
+auto-fit: o espaço disponível será reatribuído para as células existentes, ou
+seja, apenas duas colunas estarão na jogada sempre!
+
+auto-fill: o tamanho estipulado para a célula no minmax, será preservado e o
+grid irá preencher os espaços excedentes com aréas onde outras células poderiam
+ser renderizadas. Isto é interessante para uso, por exemplo com páginação
+dinâmica, onde outros conteúdo iriam sendo renderizados conforme o espaço fosse
+ampliado.
+
+Outro aspecto interessante do grid é a possibilidade de expansão de células. Em
+um layout onde hajam, digamos, 12 células, divididas em 3 colunas e 4 linhas,
+eu posso atuar ampliando o espaço de ocupação de determinada célula tanto para
+colunas adjacentes quanto para linhas adjacentes. Digamos que eu queira
+reposicionar a célula 2 (das 12 que eu tenho):
+
+.item-2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+Neste caso, a célula .item-2 estará sendo reposicionada de sua coluna original
+2 para a ultima coluna 4 e das linhas 1 a 3. O que significa que a célula 2
+terá o tamanho horizontal de duas células e o vertical de duas células.
+
+O código acima poderá ser simplificado assim:
+
+.item-2 {
+  grid-row: 1 / 3;
+  grid-column: 2 / 4;
+}
+
+Templates nomeados
+
+O grid permite criar templates nomeados e permite também disposição automática
+de itens baseado num set de strings relacionados. Vamos supor um exemplo:
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "i1 i1"
+    "i2 i3"
+    "i4 i4"
+  ;
+  // um modo de definir tamanhos para os itens do template são os seguintes
+  grid-template-columns: 1fr 200px;
+  // aqui eu tô falando do dimensionamento associado as colunas, perceba que eu
+  tenho dois valores, sendo um para cada "largura" de coluna
+
+  grid-template-rows: 80px 1fr 60px;
+  // mesma coisa, só que aqui eu possuo as "alturas" de cada linha.
+}
+
+.item-1 {
+ grid-area: i1;
+ ...
+}
+.item-2 {
+ grid-area: i2;
+ ...
+}
+.item-3 {
+ grid-area: i3;
+ ...
+}
+.item-4 {
+ grid-area: i4;
+ ...
+}
