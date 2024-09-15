@@ -1,0 +1,13 @@
+O que viria a ser um cluster de algo?
+
+Basicamente, um cluster é uma rede de computadores composta por nós cujo
+objetivo é o mesmo. Imagine assim: digamos que você possua uma aplicação
+rodando e esta tenha uma alta demanda e exija alta disponibilidade. Pode ser
+que, dependendo da natureza arquitetural de sua aplicação, a demanda acabe
+sendo comprometida por limitações de processamento, contudo, se houverem dois
+workers (nós com o mesmo objetivo na rede), há a chance de termos a capacidade
+de processamento bastante aumentada devido a possibilidade de loadbalancers
+agirem dividindo a demanda entre os workers.
+
+Deste modo, temos a ideia de cluster, onde uma demanda alta na verdade passa a
+ser parte desta demanda para da um dos nós da rede.

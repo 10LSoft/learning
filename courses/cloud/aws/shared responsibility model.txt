@@ -1,0 +1,10 @@
+O modelo de responsabilidade compartilhada da AWS está relacionado com as
+responsabilidades de segurança associadas a aplicação. Basicamente temos aí um
+ambiente em que os usuários precisam assegurar a segurança de suas próprias
+plataformas. A AWS não se responsabiliza por ambientes desenvolvidos sem
+preocupação com segurança e nem dos que foram feitos com essa preocupação.
+
+A AWS é responsável por manter a segurança física da infra de modo que, por
+exemplo, subir num EC2 uma aplicação insegura abre as portas de atacantes em
+cima de sua aplicação. Portanto, é de responsabilidade do usuário manter
+aplicações seguras.

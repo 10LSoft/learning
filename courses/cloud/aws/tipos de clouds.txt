@@ -1,0 +1,66 @@
+Tipos de serviços ofereceidos pela nuvem. Atualmente os tipos estão
+categorizados em alguns tópicos. Abaixo irei descrever eles:
+
+* IaaS: Infra as a Service
+* PaaS: Platform as a Service
+* SaaS: Software as a Service
+
+Principais camadas de uma aplicação:
+
+* Networking
+* Storage
+* Servers
+* Virtualization
+* OS
+* Middleware
+* Runtime
+* Data
+* Applications
+
+Quando você contrata um plano na AWS para algum formato, a distribuição de
+resposnabilidades que a Amazon assume é a seguinte:
+
+# IaaS:
+  * Networking
+  * Storage
+  * Servers
+  * Virtualization
+
+# PaaS:
+  * Networking
+  * Storage
+  * Servers
+  * Virtualization
+  * OS
+  * Middleware
+  * Runtime
+
+# SaaS:
+  * Networking
+  * Storage
+  * Servers
+  * Virtualization
+  * OS
+  * Middleware
+  * Runtime
+  * Data
+  * Applications
+
+As nuvens também podem ser definidas como sendo públicas, privadas e mistas.
+Isso significa que:
+
+Públicas: são aquelas redes que hospedam serviços de domínio público, mas que o
+provedor é quem realiza as definições de uso ou escopo de acesso (ambientes
+compartilhados. Em geral, há uma camada considerável de qualidade em um serviço
+assim. Alguns exemplos: gmail, google-docs, google-photos, etc. Possuem um
+custo muito baixo, visto que o isolamente de escopo para ajustes por parte dos
+usuários permite que as clouds forneçam o serviço como acharem coerente.
+
+Privadas: aqui os dados ficam em um ambiente completamente isolado, separando a
+infra de um contratante deste nível de outros ambientes. É basicamente uma
+cloud dedicada. Ela possui um custo muito maior, mas assegura que os dados
+estejam melhor protegidos.
+
+Híbridas: estas clouds misturam o melhor dos dois mundos, permitindo que
+usuários possam atuar com parte de suas aplicações num ambiente de baixo custo
+e outra parte mais sensível em uma ambiente isolado.

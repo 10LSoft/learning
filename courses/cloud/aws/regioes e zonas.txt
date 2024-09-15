@@ -1,0 +1,31 @@
+As regiões da AWS são áreas onde os serviços estarão habilitados. É importante
+entender sobre as regiões pois isto revela determinados serviços relacionados a
+posição estratégica global da aws onde os serviços que você usa estão
+habilitados.
+
+Os nomes das regiões sempre possuem uma especificação que detalha a área de
+atuação da AWS baseado num quadrante global específico. Por exemplo:
+
+US-East-1, US-East-2, SA-East-1, MO-South-1, etc.
+
+O formato do nome constitui em XX-Position-Instance, sendo:
+
+XX - Região global em sigla
+Position - North, South, East e West
+Instance - Número referente a instance da região
+
+Dentro das regiões, temos ainda as zonas de disponibilidade (AZ ou Availability
+Zones). As AZs nada mais são do que datacenteres dentro das regiões. Quando há
+mais de uma AZs dentro de uma região os nomes são definitivamente organizados
+da seguinte maneira:
+
+Vamos supor a região US-East-2. Se esta região possuísse 3 AZs, os nomes
+seriam:
+
+us-east-2a, us-east-2b e us-east-2c.
+
+Uma informação importante sobre as AZs é que elas estão sempre a, no máximo,
+100 km de distância entre si, pois o objetivo das AZs é que uma sirva de backup
+para a outra. As AZs são conectadas entre si por links em fibra de altíssimo
+desempenho, e tudo relacionado a estes datacenteres são de altíssima velocidade
+e redundância.

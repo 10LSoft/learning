@@ -1,0 +1,18 @@
+Alguns dos benefícios básicos da cloud computing:
+
+1. Velocidade: tanto em termos de desempenho (performance) quanto em termos de
+produtividade, visto que a parte de infra já estaria pronta e configurada.
+
+2. Updates: é possível realizar updates nas estruturas de software sem que os
+serviços sejam interrompidos. Você também poderá integrar outras soluções em
+seu ambiente rapidamente ainda sem interrupções de serviços.
+
+3. Custo: no caso da AWS, os valores são cobrados em segundos, de modo que você
+literalmente só paga as contratações pelo tempo de uso.
+
+4. Data security: backups estão pre-incorporados em praticamente todos os
+serviços oferecidos pela AWS.
+
+5. Escalabilidade: aumentar recusos num ambiente em nuvem poderá ser feito de
+forma automática, se vc preferir. Caso não, é possível realizar o ajuste fino
+que precisar nos recursos: CPU, memória, banda, disco, etc.

@@ -1,0 +1,13 @@
+Temos algumas formas de interagir com os serviços da AWS, contudo, eu prefiro
+usar sempre linha de comando em meus recursos, portanto focarei em estar por
+dentro da AWS-cli e AWS-cloudshell.
+
+AWS-cli é um pack que você poderá instalar em seu ambiente local para realizar
+o acesso usando o seu gestor de shell preferido. Eu uso muito o editor Vim e
+por isso gosto de CLI (command line interface).
+
+O AWS-cloudshell é basicamente uma instância de shell em seu ambiente browser
+AWS. Basta logar em sua conta e clicar no ícone de shell no menu superior.
+
+Pela AWS mesmo é possível baixar a documentação completa do AWS-cli, mas iremos
+abordar aqui ao longo do tempo as suas funcionalidades.

@@ -1,0 +1,20 @@
+Escalar significa, em termos de computação, aumentar acapacidade de
+equipamentos. Quando se fala em escalar um ambiente computacional, geralmente
+está se falando em aumento de capacidade de processamento de dados.
+
+Escalonamento vertical
+
+Escalar verticalmente significa estar aumentando a capacidade do hardware usado
+no processamento, ou seja, aqui estamos falando em upgrade. Os principais
+problemas do escalonamento vertical está no fato de termos um poder de
+escalonamento limitado e normalmente pequeno. Outro problema de escalonamento é
+a necessidade de parar a aplicação para a inserção do upgrade.
+
+Escalonamento horizontal
+
+Aqui estamos basicamente nos referindo ao crescimento por meio de inserção de
+novos equipamentos de processamento. Já houviu falar em escalonamento elástico?
+Pois é! Neste caso temos um crescimento por adição de novos equipamentos de
+processamento. Tecnologias como virtualização, por exemplo, nos dão o poder de
+instanciar novos servidores em tempo de execução de uma determinada aplicação.
+O que nos remete a pensar em um poder de escalonamento quase que ilimitado.
