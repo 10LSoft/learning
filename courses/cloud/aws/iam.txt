@@ -1,0 +1,19 @@
+Usuários na AWS
+
+A primeira coisa a saber na aws é que usando a gestão de usuários via IAM
+(Identity and Access Management), será possível realizar ajustes finos para
+acesso dos usuários mas, ao ser criado, eles iniciam o processo com TODOS os
+privilégios zerados, de modo que você irá precisar modificar isso para que ele
+tenha acesso aos serviços disponíveis.
+
+Você poderá dar permissões de acesso a este usuário de forma individual ou
+adicionando ele a um determinado grupo. Estas permissões funcionam de forma
+parecida com as de sistemas operacionais baseados em UNIX. Mas é importante
+frisar que um usuários recém criado, não possui nenhum privilégio de acesso.
+
+O schema para criação de users é o seguinte:
+
+1. O cadastro de uma entidade como usuário válido
+2. O cadastro do usuário a um grupo específico ou
+3. Gestão de roles (associadas aos serviços) ou ainda
+4. Policies (ou regras), que serão vinculadas a usuários ou grupos

@@ -1,0 +1,7 @@
+User data é o termo atribuído ao comando ou conjunto de comandos associados a
+uma instância EC2 para que, quando a instância for iniciada pela primeira vez,
+este start ocorra associado a execução dos tais comandos.
+
+Funciona como um batch (ou powershell) no windows ou um /etc/rc.local em
+sistemas linux, com a diferença de que estes scripts somente serão executados
+na primeira vez que a instância EC2 iniciar.

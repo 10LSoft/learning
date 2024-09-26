@@ -29,3 +29,33 @@ Uma informação importante sobre as AZs é que elas estão sempre a, no máximo
 para a outra. As AZs são conectadas entre si por links em fibra de altíssimo
 desempenho, e tudo relacionado a estes datacenteres são de altíssima velocidade
 e redundância.
+
+Além das zonas de disponibilidade, a aws ainda provê as zonas locais, que são
+um maneira inteligente de diminuir a latencia entre conexões de dados. Digamos
+que você esteja a 50km de uma zona de disponibilidade. Vamos supor ainda que o
+seu objetivo é o de rodar um serviço de games online. Por termos uma distância
+de 50km da AZ mais próxima, a latência para tal seria considerada alta. Tendo
+isso em mente, a aws constrói alguns datacenteres menores e que estão
+fortemente conectados com as AZs conhecidos como LZ ou local zones.
+
+Com as LZs funcionando, os usuários poderão fazer a requisição à AZ mais
+próxima de onde ele estiver e esta cuidará do envio em altíssima velocidade à
+AZ, diminuindo assim a latência para serviços de streaming ou que precisem de
+up em tempo real.
+
+AWS wavelength
+
+Este é uma solução fantástica para quem usa aparelhos celulares que fazem
+requisições de serviços na AWS. Imagine que você está jogando online e a sua
+operadora é a TIM, por exemplo. O caminho natural que a sua requisição faria
+seria: sair do celular, ir para a central da tim, utilizar o meio de conexão da
+tim para seguir para a AZ onde o serviço está hospedado e fazer o caminho de
+volta até o seu celular.
+
+Qual o problema nisso?
+
+Basicamente a conexão entre a provedora e a aws não é tão rápida quanto
+deveria. O que isso causa? Aumento de latência! AWS wavelenght é basicamente a
+alocação de equipamentos da amazon dentro da central da tim e, toda requisição
+para um serviço amazon utiliza esse equipamento aws na tim com altíssima
+velocidade.

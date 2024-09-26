@@ -1,0 +1,43 @@
+Virtualização
+
+A Amazon Web Services (AWS) utiliza o Xen e o KVM (Kernel-based Virtual
+Machine) como tecnologias de virtualização para criar instâncias EC2.
+
+ • Xen: Foi a tecnologia de virtualização original utilizada pela AWS para
+ instâncias EC2. Ela é usada principalmente em instâncias mais antigas ou tipos
+ de instâncias específicos.
+
+ • KVM: AWS começou a usar KVM mais recentemente, como parte de uma mudança
+ para oferecer melhor desempenho e eficiência. Ele é utilizado especialmente
+ nas instâncias que utilizam o Nitro System, um conjunto de componentes de
+ hardware e software que oferece maior segurança e desempenho, suportando
+ instâncias de alto desempenho como as da série C5, M5, R5, entre outras.
+
+Essas tecnologias de virtualização permitem à AWS isolar e gerenciar instâncias
+de maneira eficiente, permitindo que vários sistemas operacionais rodem em um
+único servidor físico.
+
+EC2 - Elastic Computing Cloud
+
+Instâncias EC2 são basicamente máquina com uma configuração X para atender uma
+demanda Y. Basicamente estamos falando aqui de virtualização de alta
+performance, ou seja, falamos em um ambiente virtualizado que oferece um
+desempenho que será adequado para a sua aplicação. Seja ela qual for!
+
+Vantagens de uso da EC2
+
+• controle
+• segurança
+• compatibilidade com todos os serviços da aws
+• low-cost (pague apenas o que usar)
+• sem complicação (muito simples de usar)
+
+Criação de instâncias EC2
+
+Para criar instâncias, há muitas opções! Contudo, se você estiver no modo
+free-tier, que é aquele em que você terá 12 meses de acesso gratuito aos
+serviços que se enquadrem, deverá selecionar opções de acordo com esta
+modalidade.
+
+A criação de instâncias é muito parecida com a forma que você faz isso por meio
+de um sistema de hosting compartilhado como por exemplo a hostinger.
