@@ -1,0 +1,105 @@
+Os Design Patterns (padrões de projeto) comportamentais são soluções comuns e
+reutilizáveis para problemas recorrentes no design de software, focando
+especificamente na interação e comunicação entre os objetos e classes. Eles se
+concentram em como os objetos colaboram e trocam informações de maneira
+flexível e eficiente. Existem vários padrões comportamentais que foram
+documentados, e cada um resolve um tipo específico de problema de comunicação
+ou responsabilidade entre objetos.
+
+Aqui estão os principais padrões comportamentais:
+
+1. Chain of Responsibility (Cadeia de Responsabilidade)
+
+  • Objetivo: Evita o acoplamento direto entre o remetente de uma solicitação e
+  seu receptor, permitindo que mais de um objeto tenha a chance de processar a
+  solicitação. • Exemplo: Uma requisição de autenticação que passa por várias
+  camadas (verificação de senha, token, permissões, etc.) até ser validada.
+
+2. Command (Comando)
+
+  • Objetivo: Encapsula uma solicitação como um objeto, permitindo parametrizar
+  clientes com diferentes requisições, enfileirar ou fazer registro de
+  solicitações e dar suporte a operações reversíveis. • Exemplo: Um sistema de
+  “desfazer” (undo) e “refazer” (redo), onde cada operação é encapsulada como
+  um comando.
+
+3. Interpreter (Interpretador)
+
+  • Objetivo: Dado um conjunto de regras de gramática, esse padrão define uma
+  representação para a gramática e um interpretador que usa essa representação
+  para interpretar frases nessa gramática. • Exemplo: Um sistema que processa
+  e interpreta comandos em linguagem específica de domínio (DSL).
+
+4. Iterator (Iterador)
+
+  • Objetivo: Fornece uma maneira de acessar sequencialmente os elementos de um
+  objeto agregado (coleção) sem expor sua representação subjacente. • Exemplo:
+  Iterar sobre elementos de uma lista ou conjunto sem saber a estrutura exata.
+
+5. Mediator (Mediador)
+
+  • Objetivo: Define um objeto que encapsula a maneira como um conjunto de
+  objetos interage, promovendo o baixo acoplamento, pois os objetos se
+  comunicam indiretamente por meio do mediador. • Exemplo: Um sistema de
+  bate-papo onde cada usuário não se comunica diretamente com os outros, mas
+  através de um servidor central que coordena as mensagens.
+
+6. Memento (Memento)
+
+  • Objetivo: Captura e externaliza o estado interno de um objeto sem violar o
+  encapsulamento, permitindo que o objeto seja restaurado ao estado anterior. •
+  Exemplo: Sistemas de controle de versão ou “desfazer”, que restauram o estado
+  anterior de um documento.
+
+7. Observer (Observador)
+
+  • Objetivo: Define uma dependência um-para-muitos entre objetos, de modo que
+  quando um objeto muda de estado, todos os seus dependentes são notificados e
+  atualizados automaticamente. • Exemplo: Um sistema de notificação, onde
+  quando um dado é atualizado, todas as interfaces gráficas conectadas a ele
+  também são atualizadas automaticamente.
+
+8. State (Estado)
+
+  • Objetivo: Permite que um objeto altere seu comportamento quando seu estado
+  interno muda, parecendo alterar sua classe. • Exemplo: Um pedido de venda que
+  pode estar em diferentes estados (processando, enviado, entregue), e seu
+  comportamento muda com base em seu estado atual.
+
+9. Strategy (Estratégia)
+
+  • Objetivo: Define uma família de algoritmos, encapsula cada um deles e
+  torna-os intercambiáveis, permitindo que o algoritmo mude independentemente
+  dos clientes que o utilizam. • Exemplo: Diferentes métodos de ordenação
+  (como ordenação rápida, ordenação por bolha) que podem ser escolhidos de
+  acordo com a situação.
+
+10. Template Method (Método Template)
+
+  • Objetivo: Define o esqueleto de um algoritmo em uma operação, postergando a
+  definição de alguns passos para as subclasses, permitindo que subclasses
+  redefinam certas partes de um algoritmo sem alterar sua estrutura. •
+  Exemplo: Um processo de pagamento online onde os passos gerais (autenticação,
+  verificação de fundos, cobrança) são definidos, mas cada tipo de pagamento
+  (cartão, PayPal, criptomoedas) pode ter sua implementação específica.
+
+11. Visitor (Visitante)
+
+  • Objetivo: Representa uma operação a ser executada em elementos de uma
+  estrutura de objetos, permitindo que novas operações sejam definidas sem
+  alterar as classes dos elementos em que opera. • Exemplo: Um sistema de
+  exportação de dados onde cada tipo de elemento (relatório, gráfico, tabela)
+  pode ser exportado para diferentes formatos (PDF, CSV) sem alterar os
+  próprios elementos.
+
+Vantagens dos Padrões Comportamentais:
+
+  • Flexibilidade: Facilitam a modificação da comunicação entre objetos sem
+  alterar suas classes. • Desacoplamento: Reduzem o acoplamento entre objetos,
+  permitindo maior independência entre eles. • Manutenibilidade: Tornam o
+  sistema mais fácil de manter e estender, pois as responsabilidades de cada
+  objeto ficam mais claras.
+
+Esses padrões são amplamente usados em desenvolvimento de software para tornar
+os sistemas mais robustos e adaptáveis às mudanças, facilitando a manutenção e
+a evolução do código.

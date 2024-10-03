@@ -1,0 +1,105 @@
+Os Design Patterns estruturais (padrões de projeto estruturais) são focados na
+composição de classes e objetos, facilitando a criação de estruturas maiores e
+mais complexas, promovendo o uso eficiente da herança e da composição para
+garantir flexibilidade e reutilização de código. Eles ajudam a definir como as
+classes e objetos se relacionam para formar estruturas maiores, além de
+garantir que essas estruturas sejam organizadas e flexíveis para futuras
+modificações.
+
+Aqui estão os principais padrões de projeto estruturais:
+
+1. Adapter (Adaptador)
+
+  • Objetivo: Converte a interface de uma classe em outra interface que o
+  cliente espera. Ele permite que classes com interfaces incompatíveis
+  trabalhem juntas. • Exemplo: Um adaptador para permitir que um sistema antigo
+  de processamento de pagamentos funcione com uma nova API de pagamentos. • Uso
+  comum: Quando você tem uma classe existente que precisa se comunicar com
+  outra, mas suas interfaces são incompatíveis.
+
+2. Bridge (Ponte)
+
+  • Objetivo: Desacopla uma abstração da sua implementação, permitindo que
+  ambas variem independentemente. É utilizado para dividir grandes classes ou
+  um conjunto de classes relacionadas em hierarquias separadas. • Exemplo: Um
+  sistema gráfico onde você tem diferentes formas (círculo, quadrado) e
+  diferentes maneiras de renderizá-las (2D, 3D). A ponte separa a interface de
+  desenho da implementação de renderização. • Uso comum: Quando você tem várias
+  dimensões de variação, por exemplo, objetos com diferentes formas e cores.
+
+3. Composite (Composto)
+
+  • Objetivo: Compõe objetos em estruturas de árvore para representar
+  hierarquias parte-todo, permitindo que clientes tratem objetos individuais e
+  composições de objetos de maneira uniforme. • Exemplo: Um sistema de
+  arquivos, onde arquivos e pastas são tratados da mesma forma (pasta pode
+  conter arquivos ou outras pastas). • Uso comum: Quando você deseja que os
+  objetos individuais e as coleções de objetos sejam tratados de maneira
+  similar.
+
+4. Decorator (Decorador)
+
+  • Objetivo: Adiciona dinamicamente responsabilidades a um objeto, sem
+  modificar sua classe. Fornece uma alternativa flexível à subclasse para
+  estender funcionalidade. • Exemplo: Adicionar funcionalidade extra a uma
+  janela de interface gráfica, como bordas, barras de rolagem ou minimização,
+  sem modificar a classe base da janela. • Uso comum: Quando você precisa
+  estender a funcionalidade de classes existentes de forma flexível e
+  incremental, sem usar herança.
+
+5. Facade (Fachada)
+
+  • Objetivo: Fornece uma interface simplificada para um subsistema complexo. O
+  Facade oculta a complexidade de várias classes que trabalham em conjunto por
+  trás de uma interface simples. • Exemplo: Uma interface de API que
+  simplifica o acesso a um conjunto complexo de bibliotecas, como bibliotecas
+  gráficas ou APIs de banco de dados. • Uso comum: Quando você deseja fornecer
+  uma interface simples para um sistema complexo ou legado.
+
+6. Flyweight (Peso-Mosca)
+
+  • Objetivo: Utiliza o compartilhamento para suportar eficientemente grandes
+  quantidades de objetos semelhantes, economizando recursos ao compartilhar
+  partes do estado entre objetos. • Exemplo: Em um editor de texto, onde cada
+  letra é representada por um objeto, o Flyweight permite que letras idênticas
+  compartilhem representações, reduzindo o consumo de memória. • Uso comum:
+  Quando você tem muitos objetos semelhantes e deseja economizar memória,
+  compartilhando o estado entre eles.
+
+7. Proxy (Procurador ou Proxy)
+
+  • Objetivo: Fornece um substituto ou marcador para controlar o acesso a outro
+  objeto. O Proxy pode ser usado para adiar ou controlar o acesso a um objeto
+  caro ou sensível. • Exemplo: Um proxy de segurança que verifica as permissões
+  antes de permitir o acesso a um serviço ou recurso remoto. • Uso comum:
+  Quando você deseja controlar o acesso a um objeto, como em cenários de
+  controle de acesso, carregamento preguiçoso (lazy loading) ou proxies
+  remotos.
+
+Vantagens dos Padrões Estruturais:
+
+  • Reutilização de código: Promovem a reutilização de código ao estruturar
+  classes e objetos de forma que possam ser facilmente compostos e estendidos.
+  • Flexibilidade: Facilitam a criação de estruturas complexas de objetos, que
+  podem ser modificadas ou estendidas sem alterar diretamente as classes
+  subjacentes. • Baixo acoplamento: Promovem o desacoplamento entre classes e
+  objetos, facilitando a manutenção e a evolução do sistema.
+
+Comparação entre os padrões estruturais
+
+  • Adapter vs. Bridge: Ambos visam a flexibilidade ao trabalhar com
+  interfaces, mas o Adapter é usado quando você tem uma interface existente que
+  não pode ser modificada e precisa adaptá-la. O Bridge, por outro lado, é
+  usado para desenvolver novas abstrações e implementações que precisam variar
+  independentemente. • Composite vs. Decorator: Ambos permitem tratar objetos
+  de maneira uniforme. O Composite trata objetos individuais e coleções de
+  objetos de maneira uniforme, enquanto o Decorator adiciona dinamicamente
+  responsabilidades a objetos individuais sem modificar sua classe. • Facade
+  vs. Proxy: Ambos fornecem uma interface para um sistema subjacente, mas o
+  Facade visa simplificar o sistema, enquanto o Proxy controla o acesso ao
+  objeto subjacente, podendo adicionar lógica adicional, como controle de
+  acesso ou cache.
+
+Esses padrões estruturais ajudam os desenvolvedores a lidar com a complexidade
+crescente dos sistemas, fornecendo maneiras de organizar e estruturar classes e
+objetos de maneira eficiente e sustentável.

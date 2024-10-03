@@ -1,88 +1,105 @@
-Os padrões de design creacionais estão relacionados ao processo de codificação em si. Todos eles
-têm a ver com features, ou seja, a criação de recursos novos no sistema, de modo que estes precisam
-ser inseridos em momentos de adição de novas entidades de software.
+Os Design Patterns criacionais (padrões de projeto criacionais) são focados na
+criação de objetos, fornecendo soluções para controlar o processo de
+instânciação de objetos em sistemas de software. Em vez de criar objetos
+diretamente usando o operador new, esses padrões propõem técnicas para abstrair
+e gerenciar a criação de objetos, visando aumentar a flexibilidade e a
+reutilização.
 
-São considerados os mais simples, pois têm como objetivo principal gerar a solução de problemas que
-podem ainda não existir, ou seja, são frequentemente vistos como recursos preventivos.
+Aqui estão os principais padrões de design criacionais:
 
-Dentre os padrões creacionais temos:
+1. Factory Method (Método Fábrica)
 
-  - Factory
-  - Abstract factory
-  - Factory method
-  - Builder
-  - Prototype
-  - Singleton
-  - Monostate
+  • Objetivo: Define uma interface para criar um objeto, mas permite que as
+  subclasses decidam qual classe instanciar. O Factory Method adia para as
+  subclasses a decisão sobre qual objeto concreto criar. • Exemplo: Em uma
+  aplicação de entrega, dependendo do tipo de veículo (carro, moto, bicicleta),
+  um método fábrica decide qual objeto correspondente será instanciado. • Uso
+  comum: Quando as classes não podem antecipar quais objetos devem ser criados
+  ou quando a criação de objetos precisa ser delegada a subclasses.
 
-FACTORY
+2. Abstract Factory (Fábrica Abstrata)
 
-Dentre as fábricas, este é o considerado mais simples de entender. Quando temos em questão uma
-factory, basicamente temos uma classe que irá retornar um objeto (ou outra classe em alguns casos)
-que seja especializado em uma tarefa concisa com o pedido.
+  • Objetivo: Fornece uma interface para criar famílias de objetos relacionados
+  ou dependentes sem especificar suas classes concretas. Ele cria fábricas que,
+  por sua vez, criam os objetos. • Exemplo: Um sistema de interface gráfica
+  que deve suportar múltiplos temas (Windows, macOS, Linux), onde cada tema tem
+  um conjunto de widgets (botões, caixas de seleção) específicos. • Uso comum:
+  Quando você precisa criar grupos ou famílias de objetos relacionados, e
+  deseja garantir que os objetos sejam compatíveis uns com os outros.
 
-Geralmente uma factory implementa o método create e passa um parâmetro. Este parâmetro será julgado
-em uma estrutura como o switch (ou uma sequência de condicionais, ou um dicionário...) e isto irá
-retornar um objeto que esteja relacionado ao parâmetro passado em create.
+3. Builder (Construtor)
 
-FACTORY METHOD
+  • Objetivo: Separa a construção de um objeto complexo da sua representação,
+  permitindo que o mesmo processo de construção crie diferentes representações.
+  • Exemplo: Construção de diferentes tipos de casas (simples, luxuosa) ou
+  carros (básico, esportivo) onde os mesmos passos (construir fundação,
+  levantar paredes) são usados, mas os detalhes variam. • Uso comum: Quando a
+  criação de um objeto envolve muitos passos e você deseja controlar ou
+  personalizar o processo de construção de forma mais detalhada.
 
-As factory methods são derivações das factories, mas a diferença aqui é que basicamente as classes
-filhas de uma interface que descreve a factory são especialistas em gerar determinado tipo de
-objeto. Isso acaba sendo bastante vantajoso quando se pretende ter fábricas que gerem objetos
-específicos para comportamentos específicos.
+4. Prototype (Protótipo)
 
-As vantagens que existem em ter factory methods é que a criação singular de objetos de determinada
-classe poderá ter apoio de outros métodos internos da classe, de modo que estes possam trazer
-alguma vantagem à criação de determinado objeto somando a ele a execução de alguma lógica em
-particular.
+  • Objetivo: Cria novos objetos copiando um protótipo existente, em vez de
+  criar uma nova instância do zero. Esse padrão permite criar novos objetos de
+  maneira eficiente ao reutilizar um objeto inicial como base. • Exemplo: Em
+  um editor de gráficos, ao duplicar um elemento gráfico (como um círculo ou
+  quadrado), o Prototype permite copiar o objeto existente para criar um novo.
+  • Uso comum: Quando a criação de um objeto é custosa ou complexa, e a
+  clonagem pode oferecer um desempenho melhor ao reutilizar um objeto existente
+  como ponto de partida.
 
-ABSTRACT FACTORY
+5. Singleton (Singleton)
 
-As abstract factories possuem um comportamento parecido com as method factories, contudo o objetivo
-nas abstracts é que a factory seja capaz de gerar famílias inteiras de objetos relacionados.
+  • Objetivo: Garante que uma classe tenha apenas uma única instância e fornece
+  um ponto global de acesso a essa instância. Isso evita a criação de várias
+  instâncias desnecessárias de uma mesma classe. • Exemplo: Um sistema de log
+  que deve garantir que apenas um único objeto de log exista durante a execução
+  da aplicação, para centralizar a gravação de mensagens. • Uso comum: Quando
+  você deseja ter exatamente uma instância de uma classe em todo o ciclo de
+  vida da aplicação, como em gerenciamento de conexões de banco de dados,
+  cache, ou classes de configuração.
 
-O comum é que estas factories se especializem em determinado grupo de objetos e possam gerar (por
-meio de creates individuais), os objetos a qual se destinam.
+Vantagens dos Padrões Criacionais:
 
-BUILDER
+  • Flexibilidade na criação de objetos: Eles ajudam a abstrair a lógica de
+  criação de objetos, permitindo maior flexibilidade no que se refere à maneira
+  como as instâncias são criadas e gerenciadas. • Desacoplamento: Reduzem o
+  acoplamento entre o código que cria os objetos e as classes concretas,
+  permitindo que você mude facilmente a classe de um objeto sem precisar
+  alterar o código em várias partes do sistema. • Reutilização de código:
+  Facilitam a reutilização de padrões de criação de objetos, especialmente em
+  situações onde os objetos têm construções complexas ou variáveis.
 
-O padrão builder existe para permitir que objetos complexos sejam constituídos por meio de camadas
-separadas e que possam realizar o build das partes individuais de maneira isolada.
+Comparação entre os Padrões Criacionais:
 
-Isto permite que tarefas complexas possam ser, em tempo de código, quebradas em partes menores e
-estas partes menores executem bem uma determinada tarefa específica.
+  • Factory Method vs Abstract Factory: Ambos envolvem a criação de objetos,
+  mas o Factory Method lida com a criação de um único produto, enquanto a
+  Abstract Factory cria uma família de produtos relacionados. O Factory Method
+  é frequentemente usado para permitir que subclasses decidam qual classe de
+  produto instanciar, enquanto a Abstract Factory é mais apropriada quando se
+  trata de criar produtos compatíveis entre si. • Builder vs Prototype: O
+  Builder é usado para construir objetos complexos passo a passo, e o foco é na
+  flexibilidade de montagem, enquanto o Prototype é usado para criar novos
+  objetos clonando um protótipo existente, o foco é na eficiência de criação. •
+  Singleton vs Outros Padrões Criacionais: O Singleton é específico para
+  garantir que apenas uma instância de uma classe exista, enquanto os outros
+  padrões (como Factory Method e Builder) se concentram em como criar várias
+  instâncias, controlando o processo de criação.
 
-PROTOTYPE
+Cenários de Uso:
 
-O padrão prototype serve para que quando você precise operar determinados objetos, o faça por meio
-de clones de objetos criados impedindo que o processo cause alguma inconsistência. Outro motivo
-para se usar prototype seria, por exemplo, para registrar estados temporais de determinados
-objetos, permitindo assim que você possa reaproveitar estados temporais dos objetos.
+  • Factory Method: Quando você precisa criar objetos, mas as classes concretas
+  não são conhecidas até o momento da execução. • Abstract Factory: Quando você
+  precisa criar famílias de objetos ou quando a criação de objetos precisa ser
+  organizada em temas ou grupos. • Builder: Quando o processo de criação de
+  objetos é complexo, com várias etapas e variações. • Prototype: Quando a
+  criação de novos objetos a partir do zero é custosa ou quando deseja-se
+  evitar o uso do operador new diretamente. • Singleton: Quando é necessário
+  garantir que uma única instância de uma classe exista e seja acessível de
+  qualquer parte da aplicação.
 
-Isto é particularmente para informações individuais e possibilidade de se realizar setups de dados
-baseado em objetos em locais estratégicos como o localStorage, por exemplo ou em um banco de dados
-orientado a documentos, caso você deseja fixar o estado deste objeto.
-
-SINGLETON
-
-O padrão singleton é usado quando você precisa que uma determinada instância de uma classe não
-ocorra mais de uma vez! Garantindo assim que realmente haja somente um ponto de acesso àquele
-recurso.
-
-O padrão singleton tem um rival que alguns consideram mais moderno. Trata-se do padrão singleton
-monostate (ou somente monostate.
-
-MONOSTATE
-
-O padrão monostate é uma variação do singleton. Mas a diferença estratégica aqui é que, para
-alguns, uma classe não deveria impedir que mais de uma instãncia fosse iniciada, pois isto fere um
-dos recursos mais importantes na POO, que é o de instânciar novos objetos com base em uma classe.
-
-Para resolver este problema, foi sugerido um padrão levemente alterado do singleton, mas que não
-impede novos objetos de serem criados, desde que haja um estado compartilhado entre eles e que esse
-estado seja o objeto comum a qualquer instância da classe, permitindo assim que, por mais que
-tenhamos várias instâncias do objeto, apenas um ponto de estado central seria permitido entre eles,
-tomando o lugar comportamental do singleton.
-
-Com isso nós finalizamos os padrões creacionais.
+Esses padrões criacionais ajudam a lidar com a complexidade associada à criação
+de objetos em sistemas, permitindo maior controle sobre como, quando e onde os
+objetos são instanciados. Eles também ajudam a garantir que o código seja mais
+flexível e fácil de manter, ao isolar as responsabilidades de criação de
+objetos.
