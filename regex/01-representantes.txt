@@ -1,0 +1,28 @@
+CARACTERES REPRESENTANTES
+
+Quando o assunto é regex, é interessante falar em caracteres representantes
+pois, em essência, cada um destes caras basicamente tem como objetivo a busca
+por alguns padrões no texto. Temos alguns caracteres voltados a este fim,
+contudo é importante saber que cada um deles casa com apenas um caractere.
+Vamos começar a listar e detalhar cada um deles:
+
+O desesperado .
+
+O caractere ponto (.) é conhecido como sendo o desesperado, pois permite que a
+expressão case com qualquer caractere. O que quer que venha, ele traça.
+
+Por exemplo, se você buscar algo assim n.o como regex, qualquer coisa que
+esteja entra as letras n e o serão considerados válidos e irão casar com a
+expressão: (não, nao, neo, n3o, nuo, n o, n.o, etc).
+
+Listas exigentes [...]
+
+Ao contrário do carinha acima, que está disposto a pegar qualquer um que
+apareça, as listas exigentes casam apenas com os caracteres que elas conhecem.
+No caso acima, o ponto permitia que qualquer coisa que aparecesse entre os
+caracteres n e o fossem padrões válidos, as listas exigentes somente irão
+permitir os caracteres que estejam expostos na lista. Por exemplo, se
+quiséssemos apenas buscar os valores de não e nao (para usar um exemplo
+parecido com o acima), bastaria que mudássemos a nossa regex para n[aã]o. Com
+isto, apenas não e nao serão considerados válidos no padrão e casarão com o
+texto analisado.
