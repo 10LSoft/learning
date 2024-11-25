@@ -21,7 +21,8 @@ class VehicleFactory:
         produced_car = dictionary.get(vehicle_type, False)
 
         if not produced_car:
-            raise ValueError(f"Cannot produce {vehicle_type}")
+            # raise ValueError(f"Cannot produce {vehicle_type}")
+            print(f"Vehicle {vehicle_type} cannot be created!")
 
         return produced_car
 
