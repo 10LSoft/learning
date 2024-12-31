@@ -1,0 +1,7 @@
+O Vim possui um recurso bastante interessante que é a possibilidadde de
+visualizar as alterações realizadas em um determinado arquivo. Para isso, basta
+usar o comando :changes
+
+O comando :changes exibe uma lista de todas as alterações realizadas no arquivo
+e permite navegar entre elas. Para isso, basta usar as teclas j e k para baixo
+e cima, respectivamente.
