@@ -23,11 +23,15 @@ class Connection:
     def open(self) -> None:
         if self._is_open:
             raise Exception("Connection already open")
+
+        print("Opening connection...")
         self._is_open = True
 
     def close(self) -> None:
         if not self._is_open:
             raise Exception("Connection already closed")
+
+        print("Closing connection...")
         self._is_open = False
 
 
@@ -40,11 +44,17 @@ class ConnectionPool:
     def get_connection(self) -> "Connection":
         if not self._free_connections:
             raise Exception("No free connections available")
-        return self._free_connections.pop()
+
+        conn = self._free_connections.pop()
+        conn.open()
+
+        return conn
 
     def release_connection(self, connection: "Connection") -> None:
         if connection not in self._connections:
             raise Exception("Connection does not belong to this pool")
+
+        connection.close()
         self._free_connections.append(connection)
 
 
