@@ -48,6 +48,8 @@ class ConnectionPool:
         conn = self._free_connections.pop()
         conn.open()
 
+        print("Connection acquired")
+
         return conn
 
     def release_connection(self, connection: "Connection") -> None:
@@ -56,6 +58,7 @@ class ConnectionPool:
 
         connection.close()
         self._free_connections.append(connection)
+        print("Connection released")
 
 
 pool = ConnectionPool(5)
@@ -65,10 +68,9 @@ conn2 = pool.get_connection()
 conn3 = pool.get_connection()
 
 pool.release_connection(conn2)
+pool.release_connection(conn1)
+pool.release_connection(conn3)
 
 conn4 = pool.get_connection()
 
-print(conn1)
-print(conn2)
-print(conn3)
-print(conn4)
+pool.release_connection(conn4)
