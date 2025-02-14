@@ -6,9 +6,9 @@ Compreensão dos conceitos básicos de design patterns e sua importância no
 desenvolvimento de software. Aprendizado sobre os benefícios de usar design
 patterns e sua relação com a reutilização de código e a manutenibilidade.
 
-Design Patterns creacionais:
+Design Patterns criacionais:
 
-Introdução aos design patterns creacionais, como Singleton, Factory Method e
+Introdução aos design patterns criacionais, como Singleton, Factory Method e
 Abstract Factory. Exploração de situações de uso e implementação prática desses
 padrões. Além dos supra-citados, temos ainda: builder, prototype, monostate,
 object pool, lazy initialization, e multiton.
