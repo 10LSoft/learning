@@ -6,6 +6,7 @@ eficiente.
 1. Usando `enumerate` para obter índices e valores de uma lista
 
     names = ['Alice', 'Bob', 'Charlie', 'David']
+
     for index, name in enumerate(names):
         print(f'{index}: {name}')
 
@@ -191,4 +192,50 @@ lista
 
     print(squared)
 
+    # Output:
+    # [1, 4, 9, 16, 25]
+
+14. Usando `functools.partial` para criar funções com argumentos predefinidos
+
+    from functools import partial
+
+    def power(base, exponent):
+        return base ** exponent
+
+    square = partial(power, exponent=2)
+    cube = partial(power, exponent=3)
+
+    print(square(2))
+    print(cube(2))
+
+    # Output:
+    # 4
+    # 8
+
+15. Usando `*args` e `**kwargs` para aceitar um número variável de argumentos
+em funções
+
+    def variable_args(*args, **kwargs):
+        print('args:', args)
+        print('kwargs:', kwargs)
+
+    variable_args(1, 2, 3, a=4, b=5)
+
+    # Output:
+    # args: (1, 2, 3)
+    # kwargs: {'a': 4, 'b': 5}
+
+16. Usando `collections.deque` para uma fila eficiente
+
+    from collections import deque
+
+    queue = deque()
+
+    queue.append(1)
+    front = queue.popleft()
+
+    print(front)
+
+    # Output:
+    # 1
 """
