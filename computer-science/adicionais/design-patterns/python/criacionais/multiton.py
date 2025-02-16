@@ -29,7 +29,7 @@ if __name__ == "__main__":
     print(m1.instances)
 
 
-def muliton(cls):
+def multiton_decorator(cls):
     instances = {}
 
     def get_instance(key):
@@ -41,7 +41,7 @@ def muliton(cls):
     return get_instance
 
 
-@muliton
+@multiton_decorator
 class Multiton2:
     def __init__(self, key):
         self.key = key
