@@ -17,8 +17,15 @@ Connection para reutilizar conexões já criadas.
 
 
 class Connection:
-    def __init__(self):
+    def __init__(self, name: str = "default"):
         self._is_open = False
+        self.name = name
+
+    def __setattr__(self, name, value):
+        if name not in ["_is_open", "name"]:
+            print(f"Setting {name} to {value} in {self.name}")
+
+        super().__setattr__(name, value)
 
     def open(self) -> None:
         if self._is_open:
@@ -38,7 +45,11 @@ class Connection:
 class ConnectionPool:
     def __init__(self, size: int):
         self._size = size
-        self._connections = [Connection() for _ in range(size)]
+        self._connections = [
+            Connection(f"connection_{i}")
+            for i in range(self._size)
+        ]
+
         self._free_connections = self._connections.copy()
 
     def get_connection(self) -> "Connection":
