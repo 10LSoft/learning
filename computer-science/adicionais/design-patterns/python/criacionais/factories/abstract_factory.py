@@ -1,3 +1,13 @@
+"""
+O design pattern Abstract Factory tem como objetivo principal estabelecer a
+criação de famílias de objetos, de modo que as fábricas úteis de objetos sejam
+relacionados a uma categoria específica, ou seja, um grupo ou família de
+determinado objeto.
+
+No exemplo abaixo você poderá verificar que para diversos veículos (carro ou
+moto) existem fábricas especializadas na criação de veículos de luxo ou
+econômicos.
+"""
 from abc import ABC, abstractmethod
 
 
