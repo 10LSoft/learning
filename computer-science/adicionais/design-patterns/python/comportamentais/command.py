@@ -10,12 +10,16 @@ Os componentes do padrão são:
 
 1. Command Interface: é a estrutura que define como os comandos devem ser
 implementados
+
 2. Command: é a classe que implementa a interface e direciona a execução da
 operação para o receiver
+
 3. Receiver (ou Receptor): é a classe que contém a operação a ser executada),
 ou seja, a lógica real da operação a ser executada
+
 4. Invoker (ou Emissor): é a classe que invoca o comando, mas não sabe nada
 sobre a operação a ser executada
+
 5. Client: é a classe que cria o comando e o invoca
 
 Vamos ver um exemplo de implementação do padrão Command em Python para um
@@ -68,7 +72,7 @@ serem executadas.
 """
 
 
-class Order:
+class OrderReceiver:
     def create_order(self, order):
         # lógica de criação de pedido
         print(f"Pedido {order} criado")
@@ -92,7 +96,7 @@ enfileirar operações.
 """
 
 
-class OrderManager:
+class OrderInvoker:
     def __init__(self):
         self.commands = []
 
@@ -107,11 +111,11 @@ class OrderManager:
 
 # cliente: cria os comandos e os executa
 if __name__ == "__main__":
-    order = Order()
-    order_manager = OrderManager()
+    order_receiver = OrderReceiver()
+    order_invoker = OrderInvoker()
 
-    order_manager.add_command(CreateOrder(order, 1))
-    order_manager.add_command(CreateOrder(order, 2))
-    order_manager.add_command(DeleteOrder(order, 1))
+    order_invoker.add_command(CreateOrder(order_receiver, 1))
+    order_invoker.add_command(CreateOrder(order_receiver, 2))
+    order_invoker.add_command(DeleteOrder(order_receiver, 1))
 
-    order_manager.execute_commands()
+    order_invoker.execute_commands()
