@@ -11,7 +11,8 @@ Design Patterns criacionais:
 Introdução aos design patterns criacionais, como Singleton, Factory Method e
 Abstract Factory. Exploração de situações de uso e implementação prática desses
 padrões. Além dos supra-citados, temos ainda: builder, prototype, monostate,
-object pool, lazy initialization, e multiton.
+object pool, lazy initialization, multiton, dependency injection, factory kit e
+static factory.
 
 Design Patterns Estruturais:
 
@@ -19,11 +20,16 @@ Aprendizado sobre design patterns estruturais, como Adapter, Decorator e
 Composite. Estudo de casos de uso e implementação prática desses padrões para
 facilitar a composição de objetos.
 
+Além dos padrões citados, temos ainda: bridge, facade, flyweight, proxy, e
+registry. Outros estruturais menos conhecidos são o module, e o mixin.
+
 Design Patterns Comportamentais:
 
 Introdução aos design patterns comportamentais, como Strategy, Observer e
 Command. Exploração de situações de uso e implementação prática desses padrões
 para gerenciar algoritmos, notificações e execução de comandos.
+
+Além dos descritos acima, temos ainda: chain of responsibility, mediator, memento, state, template method, visitor, interpreter, iterator, null object, e specification.
 
 Nível Intermediário:
 
