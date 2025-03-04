@@ -1,0 +1,232 @@
+1. Python
+    1.1. Python Básico
+        1.1.1. Variáveis
+        1.1.2. Operadores
+        1.1.3. Estruturas de Controle
+        1.1.4. Funções
+        1.1.5. Classes
+        1.1.6. Módulos
+        1.1.7. Tratamento de Exceções
+        1.1.8. Manipulação de Arquivos
+        1.1.9. Testes Unitários
+        1.1.10. Programação Funcional
+    1.2. Python Intermediário
+        1.2.1. Decorators
+        1.2.2. Generators
+        1.2.3. Iterators
+        1.2.4. Collections
+        1.2.5. Manipulação de Strings
+        1.2.6. Manipulação de Datas
+        1.2.7. Programação Orientada a Eventos
+        1.2.8. Programação Orientada a Objetos
+        1.2.9. Programação Orientada a Aspectos
+        1.2.10. Programação Orientada a Serviços
+    1.3. Python Avançado
+        1.3.1. Metaclasses
+        1.3.2. Descriptors
+        1.3.3. Type Annotations
+        1.3.4. Type Hints
+        1.3.5. Dataclasses
+        1.3.6. Namedtuples
+        1.3.7. Enums
+        1.3.8. Coroutines
+        1.3.9. Async/Await
+        1.3.10. Design Patterns
+    1.4. Python na Web
+        1.4.1. Web Scraping
+        1.4.2. Web Crawling
+        1.4.3. Web APIs
+        1.4.4. RESTful APIs
+        1.4.5. GraphQL
+        1.4.6. Websockets
+        1.4.7. Servidores Web
+        1.4.8. Servidores de Aplicações
+        1.4.9. Servidores de Dados
+        1.4.10. Servidores de Cache
+    1.5. Python em Sistemas
+        1.5.1. Sistemas Operacionais
+        1.5.2. Sistemas de Arquivos
+        1.5.3. Sistemas de Rede
+        1.5.4. Sistemas de Segurança
+        1.5.5. Sistemas de Monitoramento
+        1.5.6. Sistemas de Logs
+        1.5.7. Sistemas de Backup
+        1.5.8. Sistemas de Recuperação
+        1.5.9. Sistemas de Escalabilidade
+        1.5.10. Sistemas de Tolerância a Falhas
+    1.6. Python em Ciência de Dados
+        1.6.1. Numpy
+        1.6.2. Pandas
+        1.6.3. Matplotlib
+        1.6.4. Seaborn
+        1.6.5. Scipy
+        1.6.6. Scikit-learn
+        1.6.7. Statsmodels
+        1.6.8. TensorFlow
+        1.6.9. Keras
+        1.6.10. PyTorch
+    1.7. Python em Machine Learning
+        1.7.1. Regressão
+        1.7.2. Classificação
+        1.7.3. Clustering
+        1.7.4. Redes Neurais
+        1.7.5. SVM
+        1.7.6. Árvores de Decisão
+        1.7.7. Random Forest
+        1.7.8. Gradient Boosting
+        1.7.9. XGBoost
+        1.7.10. LightGBM
+    1.8. Python em Deep Learning
+        1.8.1. Redes Neurais Convolucionais
+        1.8.2. Redes Neurais Recorrentes
+        1.8.3. Redes Neurais Profundas
+        1.8.4. Redes Neurais Auto-Encoder
+        1.8.5. Redes Neurais Generativas
+        1.8.6. Redes Neurais Adversariais
+        1.8.7. Redes Neurais Siamesas
+        1.8.8. Redes Neurais Recursivas
+        1.8.9. Redes Neurais Modulares
+        1.8.10. Redes Neurais Híbridas
+    1.9. Python em Visão Computacional
+        1.9.1. OpenCV
+        1.9.2. Dlib
+        1.9.3. PIL
+        1.9.4. Scikit-image
+        1.9.5. SimpleCV
+        1.9.6. Mahotas
+        1.9.7. ImageAI
+        1.9.8. ImageJ
+        1.9.9. ImageMagick
+        1.9.10. ImageProcessing
+    1.10. Python em Processamento de Linguagem Natural
+        1.10.1. NLTK
+        1.10.2. Spacy
+        1.10.3. Gensim
+        1.10.4. TextBlob
+        1.10.5. Pattern
+        1.10.6. Polyglot
+        1.10.7. StanfordNLP
+        1.10.8. OpenNLP
+        1.10.9. ApacheNLP
+        1.10.10. GoogleNLP
+
+2. Javascript
+    2.1. Javascript Básico
+        2.1.1. Variáveis
+        2.1.2. Operadores
+        2.1.3. Estruturas de Controle
+        2.1.4. Funções
+        2.1.5. Classes
+        2.1.6. Módulos
+        2.1.7. Tratamento de Exceções
+        2.1.8. Manipulação de Arquivos
+        2.1.9. Testes Unitários
+        2.1.10. Programação Funcional
+    2.2. Javascript Intermediário
+        2.2.1. Decorators
+        2.2.2. Generators
+        2.2.3. Iterators
+        2.2.4. Collections
+        2.2.5. Manipulação de Strings
+        2.2.6. Manipulação de Datas
+        2.2.7. Programação Orientada a Eventos
+        2.2.8. Programação Orientada a Objetos
+        2.2.9. Programação Orientada a Aspectos
+        2.2.10. Programação Orientada a Serviços
+    2.3. Javascript Avançado
+        2.3.1. Metaclasses
+        2.3.2. Descriptors
+        2.3.3. Type Annotations
+        2.3.4. Type Hints
+        2.3.5. Dataclasses
+        2.3.6. Namedtuples
+        2.3.7. Enums
+        2.3.8. Coroutines
+        2.3.9. Async/Await
+        2.3.10. Design Patterns
+    2.4. Javascript na Web
+        2.4.1. Web Scraping
+        2.4.2. Web Crawling
+        2.4.3. Web APIs
+        2.4.4. RESTful APIs
+        2.4.5. GraphQL
+        2.4.6. Websockets
+        2.4.7. Servidores Web
+        2.4.8. Servidores de Aplicações
+        2.4.9. Servidores de Dados
+        2.4.10. Servidores de Cache
+    2.5. Javascript em Sistemas
+        2.5.1. Sistemas Operacionais
+        2.5.2. Sistemas de Arquivos
+        2.5.3. Sistemas de Rede
+        2.5.4. Sistemas de Segurança
+        2.5.5. Sistemas de Monitoramento
+        2.5.6. Sistemas de Logs
+        2.5.7. Sistemas de Backup
+        2.5.8. Sistemas de Recuperação
+        2.5.9. Sistemas de Escalabilidade
+        2.5.10. Sistemas de Tolerância a Falhas
+    2.6. Javascript no desenvolvimento mobile
+        2.6.1. React Native
+        2.6.2. Ionic
+        2.6.3. NativeScript
+        2.6.4. PhoneGap
+        2.6.5. Apache Cordova
+        2.6.6. Xamarin
+        2.6.7. Flutter
+        2.6.8. Appcelerator
+        2.6.9. Sencha
+        2.6.10. jQuery Mobile
+    2.7. Javascript em Realidade Aumentada
+        2.7.1. AR.js
+        2.7.2. A-Frame
+        2.7.3. ARCore
+        2.7.4. ARKit
+        2.7.5. Vuforia
+        2.7.6. Wikitude
+        2.7.7. EasyAR
+        2.7.8. Maxst
+        2.7.9. Kudan
+        2.7.10. DroidAR
+    2.8. Javascript em Realidade Virtual
+        2.8.1. WebVR
+        2.8.2. A-Frame
+        2.8.3. Babylon.js
+        2.8.4. PlayCanvas
+        2.8.5. Three.js
+        2.8.6. Vizor
+        2.8.7. Sketchfab
+        2.8.8. JanusVR
+        2.8.9. High Fidelity
+        2.8.10. Mozilla Hubs
+    2.9. Javascript em Jogos
+        2.9.1. Phaser
+        2.9.2. Babylon.js
+        2.9.3. PlayCanvas
+        2.9.4. Three.js
+        2.9.5. Vizor
+        2.9.6. Sketchfab
+        2.9.7. JanusVR
+        2.9.8. High Fidelity
+        2.9.9. Mozilla Hubs
+        2.9.10. Unity
+    2.10. Javascript em Inteligência Artificial
+        2.10.1. TensorFlow.js
+        2.10.2. Brain.js
+        2.10.3. Synaptic
+        2.10.4. ConvNetJS
+        2.10.5. Keras.js
+        2.10.6. WebDNN
+        2.10.7. WebGazer
+        2.10.8. WebSpeech
+        2.10.9. WebVR
+        2.10.10. WebAR
+
+3. Conclusão
+    3.1. Conclusão Python
+    3.2. Conclusão Javascript
+    3.3. Conclusão Geral
+    3.4. Próximos Passos
+    3.5. Referências
+    3.6. Agradecimentos
+    3.7. Contato

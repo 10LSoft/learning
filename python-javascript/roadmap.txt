@@ -1,0 +1,128 @@
+Este roadmap tem como objetivo printipal o estudo aprofundado de Python e
+Javascript, de modo a não considerar o uso de frameworks, bibliotecas ou outros
+recursos não oriundos das linguagens em sua forma pura. Aqui iremos apenas
+abordar conceitos de uso das tecnologias e entender profundamente o que ocorre
+em baixo dos panos nas stacks quando usamos os frameworks.
+
+**Roadmap Progressivo para JavaScript e Python**
+
+## **Módulo 1: Fundamentos Sólidos (4 semanas)**
+### **Objetivo:** Construir uma base forte em ambas as linguagens.
+
+### **Semana 1 - Sintaxe e Estruturas Básicas**
+📌 **Teoria**  
+- JavaScript: Tipos de dados primitivos, operadores, fluxo de controle (if,
+  switch, loops).
+- Python: Tipos de dados primitivos, operadores, estruturas condicionais e
+  loops.
+
+📝 **Prática**  
+- Exercícios de manipulação de strings, números e listas/arrays.
+- Construir um pequeno script que recebe entrada do usuário e processa dados
+  simples.
+
+💻 **Projeto**  
+- Criar uma calculadora básica em ambas as linguagens.
+
+---
+
+### **Semana 2 - Funções e Estruturas de Dados**
+📌 **Teoria**  
+- JavaScript: Declaração de funções, escopo, closures.
+- Python: Funções, parâmetros, escopo de variáveis.
+- Estruturas de dados: Arrays, listas, dicionários, objetos.
+
+📝 **Prática**  
+- Exercícios de manipulação de arrays/listas e dicionários/objetos.
+- Criar funções reutilizáveis para operações matemáticas.
+
+💻 **Projeto**  
+- Criar um gerenciador de tarefas simples com adição, remoção e listagem.
+
+---
+
+### **Semana 3 - Programação Funcional e Modularização**
+📌 **Teoria**  
+- JavaScript: Higher-order functions (map, filter, reduce).
+- Python: List comprehensions, funções lambda, map/filter/reduce.
+- Modularização e reutilização de código.
+
+📝 **Prática**  
+- Refatoração de código para modularização.
+- Implementação de pequenos scripts utilizando programação funcional.
+
+💻 **Projeto**  
+- Criar um gerador de senhas aleatórias e organizador de arquivos.
+
+---
+
+### **Semana 4 - Manipulação de Arquivos e Introdução ao Assincronismo**
+📌 **Teoria**  
+- JavaScript: Promises, async/await, manipulação de arquivos com Node.js.
+- Python: Leitura e escrita de arquivos, manipulação de JSON.
+
+📝 **Prática**  
+- Criar scripts que leem e escrevem arquivos JSON/CSV.
+- Trabalhar com promises e async/await em JavaScript.
+
+💻 **Projeto**  
+- Criar um leitor de logs que processa arquivos e extrai informações
+  relevantes.
+
+---
+
+## **Módulo 2: Algoritmos e Estruturas de Dados (4 semanas)**
+### **Objetivo:** Desenvolver pensamento lógico e eficiência no código.
+
+📌 **Tópicos abordados:**  
+- Estruturas de dados fundamentais (pilhas, filas, árvores, grafos).
+- Algoritmos de busca e ordenação.
+- Complexidade de tempo e espaço (Big-O Notation).
+
+📝 **Prática e Projetos:**  
+- Implementação de algoritmos clássicos como Bubble Sort, Quick Sort e
+  Dijkstra.
+- Construção de um sistema de autocomplete com árvore trie.
+
+---
+
+## **Módulo 3: Programação Orientada a Objetos e Design Patterns (4 semanas)**
+### **Objetivo:** Entender OOP em profundidade e aplicar padrões de design.
+
+📌 **Tópicos abordados:**  
+- Classes, objetos, herança, polimorfismo.
+- Padrões de projeto como Singleton, Factory, Observer.
+- Comparação entre OOP em JavaScript (Prototypes, Classes) e Python.
+
+📝 **Prática e Projetos:**  
+- Criar um sistema de gestão de usuários usando OOP.
+- Implementação de padrões de projeto aplicados a problemas reais.
+
+---
+
+## **Módulo 4: Desenvolvimento de Aplicações do Zero (4 semanas)**
+### **Objetivo:** Criar aplicações completas sem frameworks.
+
+📌 **Tópicos abordados:**  
+- Construção de um servidor HTTP básico com JavaScript e Python.
+- Manipulação de bancos de dados (SQLite, PostgreSQL) sem ORMs.
+- Autenticação e segurança de aplicações.
+
+📝 **Prática e Projetos:**  
+- Criar um sistema de blog com persistência de dados.
+- Desenvolver uma API RESTful sem frameworks.
+
+---
+
+## **Módulo 5: Performance, Escalabilidade e Sistemas Distribuídos (4
+semanas)**
+### **Objetivo:** Aprofundar otimizações e arquitetura de software.
+
+📌 **Tópicos abordados:**  
+- Performance e profiling de código.
+- Multi-threading e processamento assíncrono.
+- Arquitetura de microsserviços e filas de mensagens.
+
+📝 **Prática e Projetos:**  
+- Criar um sistema de filas assíncronas com RabbitMQ ou Redis.
+- Construir um mini-sistema distribuído para processamento paralelo.
