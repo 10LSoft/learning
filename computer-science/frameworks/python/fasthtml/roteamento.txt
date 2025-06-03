@@ -1,0 +1,107 @@
+ROTEAMENTO
+
+O comportamento de aplicações FastHTML é definido por meio de rotas. A sintaxe
+é muito parecida com a do FastAPI (que deve ser o que você usa para criar
+serviços JSON, FastHTML foi criado fundamentalmente para criar páginas HTML, e
+não APIs web).
+
+Não finalizado: ainda não finalizamos totalmente a parte da documentação que
+trata sobre rotas. O melhor local, por hora, para se verificar o funcionamento
+delas é por meio dos testes em https://fastht.ml/docs/api/core.html#tests
+
+Note que você precisa incluir os tipos dos seus parâmetros e o FastHTML saberá
+o que passar para as suas funções. Mas aqui, basicamente esperamos uma string:
+
+from fasthtml.common import *  # não é uma boa prática
+
+app = FastHTML()
+
+@app.get('/opa/{name}')
+def hello(name: str):
+    return f'Olá, {name}!'
+
+Normalmente isso seria salvo num arquivo chamado main.py e você poderia
+executar usando o uvicorn usando:
+
+  uvicorn main:app
+
+Contudo, para testes, nós usamos o TestClient do Starlette:
+
+from starlette.testclient import TestClient
+client = TestClient(app)
+
+r = client.get('/opa/John')
+
+O TestClient usa httpx por baixo dos panos, então temos aqui como retorno um
+httx.Response, que contém um atributo de texto com o corpo de sua resposta:
+
+r.text
+'Olá, John!'
+
+No exemplo anterior, a o nome da função é hello, mas isso não importa. Você
+poderia chamar a função de _, vista que ela nunca é chamada diretamente. Ela é
+sempre executada via HTTP, e de fato nós chamamos a nossa função _ quando
+usamos este estilo de rota, o que comprova que a última coisa que precisamos
+nos preocupar é com o nome da função, contudo, as boas práticas dizem que nomes
+de unidades computacionais devem ser significativos, então, usemos bons nomes.
+
+Uma alternativa para criar rotas é usar o app.route. Nesse caso o nome da
+função seria o método http que você quer usar. Considerando que este é um
+padrão comum, nós passamos a usar convencionalmente rt para o nome do
+app.route. Assim:
+
+rt = app.route
+
+@rt('/')
+def post():
+    return 'Bem-vindo!'
+
+client.post('/').text
+'Bem-vindo!'
+
+Funcionalidade específica das rotas
+
+FastHTML superta decoradores personalizados para dar funcionalidades às rotas.
+Isto permite que você implemente autenticação, permissionamento, middlewares ou
+quaisquer outros comportamentos individuais para aplicar às suas rotas.
+
+Abaixo um exemplo básico de um decorador para autenticação:
+
+from functools import wraps
+from fasthtml import common as cm
+
+app = cm.FastHTML()
+
+
+def basic_auth(function):
+    @wraps(function)
+    def decorated_function(request, *args, **kwargs):
+        token = request.headers.get('Authorization')
+        if not token or token != 'real_secret_token':
+            return 'Unauthorized', 401  # or some other response
+
+        return function(request, *args, **kwargs)
+
+    return decorated_function
+
+
+@app.get('/protected')
+@basic_auth
+def protected_route(request):
+    return 'This is a protected route!'
+
+response = client.get('/protected').text
+'Unauthorized'
+
+response = client.get('/protected', headers={'Authorization'}).text
+'This is a protected route
+
+O decorador intercepta a requisição antes de chamar a função original. Se o
+decorador permitir a execução, ele libera a execução da função original
+passando quaisquer argumentos que esta peça. Funciona de forma similar a um
+middleware, mas é aplicado apenas à rota.
+
+Uma das maiores vantagens de usar decoradores desta forma é que você pode
+aplicar comportamentos diferentes a rotas difererntes e assegurar que o seu
+sistema não fique engessado com itens que deveriam ter comportamentos distintos
+para rotas específicas.

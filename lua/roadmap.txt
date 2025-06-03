@@ -1,0 +1,93 @@
+Eis abaixo um roadmap voltado para o aprendizado de Lua e uso no NeoVim.
+
+🧠 Etapa 1 – Fundamentos da linguagem Lua (1 dia ou menos)
+
+Aprenda só o essencial da linguagem para poder entender e escrever configurações.
+
+Conceitos-chave:
+• Variáveis e tipos (number, string, table, boolean, function)
+• Operadores básicos e comparação
+• if, elseif, else
+• for e while
+• Funções (simples e com parâmetros)
+• Tabelas (o tipo mais importante!)
+• Módulos (require, return)
+
+📘 Recursos:
+• Learn X in Y minutes – Lua
+https://learnxinyminutes.com/docs/lua/
+
+• Lua Quick Guide
+https://riptutorial.com/lua
+
+🔍 Dica: Pratique no Repl.it – Lua
+
+⚙️ Etapa 2 – Estrutura modular para configurar seu nvim (1 dia)
+
+Comece a migrar seus .vimrc ou init.vim para Lua de forma organizada.
+
+Estrutura sugerida:
+
+-- ~/.config/nvim/init.lua
+require('core.options')
+require('core.keymaps')
+require('core.plugins')
+
+E crie:
+• ~/.config/nvim/lua/core/options.lua
+• ~/.config/nvim/lua/core/keymaps.lua
+• ~/.config/nvim/lua/core/plugins.lua
+
+📘 Referência:
+• kickstart.nvim – config mínima, moderna e explicada em Lua.
+https://github.com/nvim-lua/kickstart.nvim
+
+🧩 Etapa 3 – Gerenciador de plugins com Lua (1–2 dias)
+
+Aprenda a usar o lazy.nvim ou o packer.nvim para organizar seus plugins com performance.
+
+Exemplo (com lazy.nvim):
+
+-- plugins.lua
+require("lazy").setup({
+  { "nvim-telescope/telescope.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
+  { "nvim-lualine/lualine.nvim" },
+  { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+})
+
+📘 Recursos:
+• lazy.nvim docs
+https://github.com/folke/lazy.nvim
+
+• packer.nvim docs
+https://github.com/wbthomason/packer.nvim
+
+🧠 Etapa 4 – Domine os conceitos avançados úteis no Neovim (3–5 dias)
+
+Aprenda:
+• Autocommands com Lua (vim.api.nvim_create_autocmd)
+• Keybindings (vim.keymap.set)
+• Configuração de LSP com nvim-lspconfig
+• Uso de vim.opt, vim.g, vim.api.nvim_set_*
+• Criação de comandos personalizados (vim.api.nvim_create_user_command)
+• Lazy loading de plugins
+
+📘 Recurso recomendado:
+• LunarVim Docs – mesmo se não for usar, tem ótima referência de Lua para Neovim
+https://www.lunarvim.org/docs/
+
+
+🧑‍🔬 Etapa 5 – Personalização e produtividade (ilimitado 😄)
+
+Explore:
+• Criar seus próprios plugins em Lua
+• Criar atalhos dinâmicos e menus interativos
+• Automatizar tarefas com Lua no Neovim (ex: formatar, compilar, executar projetos)
+• Integrar com terminal (vim.fn.jobstart, vim.fn.system)
+
+💡 Dica bônus: faça testes direto no Neovim!
+
+Use o comando :lua para testar qualquer código Lua diretamente:
+
+:lua print("Olá, Neovim!")
+:lua vim.cmd('set number')
