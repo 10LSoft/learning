@@ -1,0 +1,37 @@
+Large scale architecture
+
+arquiteturas de larga escala estão em geral relacionadas a sistemas que
+precisam lidar com grandes volumes de dados, alta disponibilidade e
+escalabilidade. Elas são projetadas para suportar enormer quantidades de
+requisições e oferecer respostas rápidas, mesmo sob carga intensa. Essas
+arquiteturas geralmente utilizam técnicas como sharding (divisão de dados),
+replicação e balanceamento de carga para garantir que o sistema possa crescer e
+se manter funcional de forma eficiente.
+
+over engineering
+
+é comum nesse tipo de arquitetura, que haja a seleção de várias tecnologias e
+insumos que podem ser desnecessários para o problema em questão, levando a uma
+pegada mais complexa e difícil de manter. A escolha de tecnologias deve ser
+algo feito com cautila, considerando as necessidades reais do sistema e
+evitando seleções que venham a ser excessivas ou complicadas.
+
+divide and conquer
+
+um termo bastante utilizado em arquiteturas de larga escala é "dividir para
+conquistar". Isso significa que o sistema é dividido em componentes menores e
+mais gerenciáveis, que podem ser desenvolvidos, testados e implantados.
+
+
+Complex architecture
+
+já a arquitetura complexa é aquela que envolve uma série de componentes e a
+interações entre eles são complexas. Isso pode incluir sistemas que utilizam
+recursos como microserviços, filas de mensagens, bancos de dados distribuídos
+entre outros.
+
+A complexidade pode surgir da necessidade de integrar diferentes tecnologias
+também ou ainda pela necessidade de transformar regras de negócio complexas em
+software.
+
+over thinking

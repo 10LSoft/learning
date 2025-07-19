@@ -1,0 +1,31 @@
+Dados X Informação X Conhecimento
+
+Dados são fatos isolados, sem contexto, que não possuem significado por si só.
+Exemplo: "10", "azul", "2023".
+
+Informação é o resultado da organização e interpretação dos dados, dando a eles
+significado e contexto. Exemplo: "A temperatura é de 10 graus Celsius".
+Basicamente temos que a informação seria o resultado de alguma operação em cima
+de dados brutos.
+
+Conhecimento é a compreensão e a aplicação da informação em um contexto mais
+amplo. Geralmente envolve a capacidade de tomar decisões informadas com base na
+análise da informação. Exemplo: "Com base na temperatura de 10 graus Celsius,
+podemos concluir que é um dia frio e devemos vestir roupas quentes".
+
+Sistema de arquivos
+
+Trata-se de um sistema que organiza e armazena arquivos em um dispositivo de
+armazenamento, como um disco rígido ou SSD. Ele define como os dados são
+armazenados, acessados e gerenciados.
+
+O sistema de arquivos é responsável por:
+
+- Organizar os arquivos em diretórios ou pastas.
+- Controlar o acesso aos arquivos, garantindo que apenas usuários autorizados
+  possam ler, escrever ou modificar os dados.
+- Manter a integridade dos dados, evitando corrupção ou perda de informações.
+- Fornecer uma estrutura hierárquica para facilitar a localização e o
+  gerenciamento dos arquivos.
+- Permitir a recuperação de arquivos excluídos ou perdidos, dependendo do
+  sistema de arquivos utilizado.

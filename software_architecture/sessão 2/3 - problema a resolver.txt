@@ -1,0 +1,45 @@
+Um lance importante no tocante a arquitetura de software é identificar
+exatamente qual o problema a resolver. Muitas vezes a solução do problema mais
+tem a ver com a dor que se sente do que com o problema em si. É importante
+identificar o impacto do problema e, de forma imparcial, entender o que precisa
+ser implementado para resolução do mesmo.
+
+Mas em teoria isto é óbvio! Mas é muito comum que as pessoas passem do limite
+do que vem a ser necessário para solução do problema. Isto é importante porque
+permite que se tenha visão claro do que tem que ser atacado e o que não precisa
+necessariamente consumir energia do time de desenvolvimento. Em outras
+palavras, se faz necessário focar.
+
+Alguns pontos a considerar:
+
+1. O problema real que está impactando o negócio:
+é importante validar do ponto de visto do negócio o que é o problema e que isso
+possa ser descrito de forma clara e objetiva, para que o time de
+desenvolvimento em parceira com o profissional de negócio realize o correto
+levantamento dos requisitos necessários para a solução, focando na dor real do
+cliente.
+
+2. devo refatorar algo que não irá agregar nada relacionado ao problema?
+depende! o que se deve medir para a criação de um determinado refactory é o
+quanto isto impacta no tocante à solução do problema. Se o refactory realmente
+tiver um impacto positivo, então deve ser feito. Mas se não tiver (no escopo
+daquela solução), talvez precise ficar para outro oportunidade.
+
+3. ser racional em busca de data points e não emocional:
+a busca pelo item que irá resolver a dor do negócio precisa ser parcial e
+focada! neste âmbito, em geral o uso de emoções e preferências poderá não
+fazer muito sentido. a solução deve ser priorizada sobre todo o resto!
+
+4. tenha alinhamento com o negócio sobre a arquitetura a ser usada:
+é importante que todos no time estejam sempre na mesma página! com isso em
+mente você descarta a possibilidade de erro por seleção e mantém a
+produtividade dentro do que foi planejado desde o princípio do projeto.
+
+5. a mudança de arquitetura é algo que leva meses, o que você quer resolver
+primeiro?
+a mudança de arquitetura geralmente referencia um nível de esforço elevado
+dentro do projeto. alterar uma arquitetura poderá refletir em muitas outras
+partes do sistema, de modo que isso pode transformar uma feature de troca de
+arquitetura em algo muito mais complexo, a menos que design patters tenham sido
+implementados a fim de manter um nível alto de desacoplamento no sistema,
+permitindo substituição de partes de forma prática.
